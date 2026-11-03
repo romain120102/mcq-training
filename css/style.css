@@ -87,7 +87,7 @@ table.hist th { color: var(--muted); font-weight: 600; font-size: .8rem; }
 .choices { display: grid; gap: .6rem; }
 .choice { display: flex; align-items: flex-start; gap: .8rem; padding: .85rem .9rem; min-height: 58px; border: 2px solid var(--line); border-radius: 12px; background: var(--card); cursor: pointer; position: relative; }
 .choice input { width: 22px; height: 22px; margin: .1rem 0 0; accent-color: var(--accent); flex: none; }
-.choice .letter { font-weight: 700; color: var(--muted); width: 1.2rem; flex: none; }
+.choice .letter { font-weight: 700; color: var(--muted); min-width: 1.6rem; flex: none; }
 .choice .txt { flex: 1; }
 .choice:has(input:checked) { border-color: var(--accent); background: var(--accent-soft); }
 .choice .badge { font-size: .75rem; font-weight: 700; white-space: nowrap; align-self: center; }

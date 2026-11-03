@@ -44,8 +44,7 @@
    "Lost the business",
    "In trouble, but in control",
    "Comfort",
-   "Lost control",
-   "Concern"
+   "Lost control"
   ],
   "answer": [
    0,
@@ -100,8 +99,7 @@
    "The operational turnaround occurs in parallel to the financial restructuring",
    "The plan integrates both the operational turnaround and the financial restructuring",
    "The financial restructuring only starts once the operational turnaround is completed",
-   "The two are separate plans that never need to be integrated",
-   "The operational turnaround stops during the Negotiation step"
+   "The two are separate plans that never need to be integrated"
   ],
   "answer": [
    0,
@@ -118,16 +116,14 @@
   "question": "Which THREE of the following are listed as triggers of an intervention?",
   "choices": [
    "Successful renewal of all credit lines",
-   "Early repayment of debt ahead of schedule",
    "Credit downgrade",
-   "Increase in the share price",
    "Covenant breach",
    "Fraud"
   ],
   "answer": [
+   1,
    2,
-   4,
-   5
+   3
   ],
   "explanation": "The trigger list includes request for new monies, facilities exceeded, interest/amortisation not met, covenant breach, credit downgrade, audit issues/going concern and fraud.",
   "reference": "Module 4 – slide 9 (Intervention – Triggers)",
@@ -137,20 +133,17 @@
   "id": "m4-009",
   "module": 4,
   "type": "multiple",
-  "question": "Select the FOUR dimensions of the Diagnosis step.",
+  "question": "Which THREE of the following are dimensions of the Diagnosis step?",
   "choices": [
    "Legal",
    "Operational",
    "Commercial",
-   "Financial",
-   "Environmental",
-   "Structural"
+   "Financial"
   ],
   "answer": [
    0,
    1,
-   3,
-   5
+   3
   ],
   "explanation": "The Diagnosis slide presents four dimensions: Financial, Operational, Structural and Legal.",
   "reference": "Module 4 – slide 10 (Diagnosis)",
@@ -199,15 +192,14 @@
   "question": "Which THREE of the following are listed as NON-court implementation routes?",
   "choices": [
    "Pre-pack receivership",
-   "Administration",
    "Consensual refinancing",
    "Insolvency proceedings",
    "CVA"
   ],
   "answer": [
    0,
-   2,
-   4
+   1,
+   3
   ],
   "explanation": "The non-court branch contains consensual refinancing, CVA and pre-pack receivership. The court branch contains pre-insolvency or insolvency proceedings and administration.",
   "reference": "Module 4 – slide 13 (Implementation)",
@@ -274,16 +266,14 @@
   "question": "Which THREE of the following are things that BANKS like?",
   "choices": [
    "Surprises / last-minute changes",
-   "Equity-type investments",
    "Tight covenants",
    "Security",
-   "Consensual deals",
-   "Debt write-offs"
+   "Consensual deals"
   ],
   "answer": [
+   1,
    2,
-   3,
-   4
+   3
   ],
   "explanation": "Banks like control/influence, performing debt, security, fees, simplicity, tight covenants, consensual deals and stable relationships. The other three are on their dislike list.",
   "reference": "Module 4 – slide 16 (Banks: likes / dislikes)",
@@ -296,16 +286,14 @@
   "question": "Which THREE of the following are things that BANKS dislike?",
   "choices": [
    "Performing debt",
-   "Simplicity",
    "US-based approaches in European deals",
-   "Stable relationships",
    "Surprises / last-minute changes",
    "Non-performing debt"
   ],
   "answer": [
+   1,
    2,
-   4,
-   5
+   3
   ],
   "explanation": "Banks' dislikes include bondholders/vulture funds, non-performing debt, equity-type investments, debt write-offs, surprises/last-minute changes and US-based approaches in European deals.",
   "reference": "Module 4 – slide 16 (Banks: likes / dislikes)",
@@ -338,13 +326,12 @@
    "Dilution to a minimal stake",
    "Rollover / maturity extension",
    "Exercise security",
-   "Warrants / rights issue",
    "Covenant waiver"
   ],
   "answer": [
    1,
    2,
-   4
+   3
   ],
   "explanation": "Banks' options: covenant waiver, reduction of headroom/avoid drawdown, rollover/maturity extension, debt/equity swap, exercise security, write-off of debt. Warrants/rights issue and dilution to a minimal stake are listed for shareholders.",
   "reference": "Module 4 – slide 20 (Key stakeholders – Options)",
@@ -431,8 +418,7 @@
    "Secured debt instruments with underlying security of value",
    "'Secured' debt instruments with security of little value",
    "Unsecured debt instruments",
-   "Debt instruments convertible by law into equity",
-   "Debt instruments guaranteed by the state"
+   "Debt instruments convertible by law into equity"
   ],
   "answer": [
    0,
@@ -470,14 +456,12 @@
    "Their loan is secured, even if it is effectively unsecured in reality",
    "Their loan is long term, so it must be repaid last",
    "Their loan is small, so it should simply be paid off",
-   "Their loan is subordinated, so it must be repaid first",
-   "Their loan is unsecured, so it cannot be restructured",
    "Their loan is short term and cannot be restructured over the long term"
   ],
   "answer": [
    0,
    2,
-   5
+   3
   ],
   "explanation": "Creditors argue that their loan is short term, small or secured (despite being de facto unsecured).",
   "reference": "Module 4 – slide 29 (Implications in a restructuring)",
@@ -618,14 +602,12 @@
    "Amortisation assumptions, including grace period",
    "The number of employees",
    "Short-term cash requirements (e.g. overdue suppliers, one-time restructuring)",
-   "The brand awareness of the company",
-   "Refinance-ability at the end of the term (residual asset values)",
-   "The level of dividends paid in previous years"
+   "Refinance-ability at the end of the term (residual asset values)"
   ],
   "answer": [
    0,
    2,
-   4
+   3
   ],
   "explanation": "Factors: short-term cash requirements, short-to-medium term projected cash flow, interest rate assumptions, amortisation (incl. grace period), term, refinance-ability, ending cash on hand.",
   "reference": "Module 4 – slide 34 (What is sustainable debt?)",
@@ -657,15 +639,13 @@
   "choices": [
    "To decide whether the long-term relationship is still applicable",
    "To increase the liquidity held on their balance sheet",
-   "To make a provision against the loan",
    "To enhance their credit position so as to be better off if the restructuring is unsuccessful",
-   "To fix the problem for good (two restructurings of the same company over a short timeframe are undesirable)",
-   "To see their position deteriorate during the process"
+   "To fix the problem for good (two restructurings of the same company over a short timeframe are undesirable)"
   ],
   "answer": [
    0,
-   3,
-   4
+   2,
+   3
   ],
   "explanation": "Lenders want to enhance their credit position, decide on the long-term relationship and fix the possible. They do not want a provision, higher liquidity requirements (Basel III) or a deterioration of their position.",
   "reference": "Module 4 – slide 43 (Lenders requirements)",
@@ -680,8 +660,7 @@
    "To make a reserve (provision) against a loan",
    "To decide whether the long-term relationship is still applicable",
    "Their position to deteriorate during the process",
-   "To fix the problem so that a second restructuring is avoided",
-   "To enhance their credit position"
+   "To fix the problem so that a second restructuring is avoided"
   ],
   "answer": [
    0,
@@ -698,16 +677,14 @@
   "question": "Which THREE are FAVOURABLE attributes of a restructuring from a lender's perspective?",
   "choices": [
    "Collateral",
-   "Interest grace periods",
    "Excess cash flow sweeps",
    "Terms longer than 7 years",
-   "No amortizations",
    "Capital injection by shareholders"
   ],
   "answer": [
    0,
-   2,
-   5
+   1,
+   3
   ],
   "explanation": "Favourable: capital injection by shareholders, sale of assets, excess cash flow sweeps, collateral, achievable projections, prepayment in inverse order of maturity. The other three are undesirable.",
   "reference": "Module 4 – slide 44 (Lenders requirements – key buttons)",
@@ -721,15 +698,13 @@
   "choices": [
    "Achievable projections",
    "Below-market interest rates",
-   "Sale of assets",
    "Terms longer than 7 years",
-   "'Unrealistic projections'",
-   "Prepayment in inverse order of maturity"
+   "'Unrealistic projections'"
   ],
   "answer": [
    1,
-   3,
-   4
+   2,
+   3
   ],
   "explanation": "Undesirable: no amortizations, below-market interest rates, interest grace periods, no collateral, unrealistic projections, terms longer than 7 years, deteriorating position.",
   "reference": "Module 4 – slide 44 (Lenders requirements – key buttons)",
@@ -741,17 +716,15 @@
   "type": "multiple",
   "question": "Which statements about the unsustainable element of debt are supported by the course? Select THREE.",
   "choices": [
-   "It is always fully repaid in cash by the shareholders",
    "It never leads to dilution of existing shareholders",
    "It often involves a disproportionate amount of time to negotiate relative to value",
    "Some form of debt to equity swap is usually involved",
-   "It is ignored in negotiations because it is not sustainable",
    "Its treatment is a major issue in a restructuring"
   ],
   "answer": [
+   1,
    2,
-   3,
-   5
+   3
   ],
   "explanation": "Slide 46: treatment of the unsustainable debt is a major issue; it often takes a disproportionate amount of time; a debt-to-equity swap is usually involved; the extent of dilution varies.",
   "reference": "Module 4 – slide 46 (Stakeholders issues)",
@@ -763,17 +736,15 @@
   "type": "multiple",
   "question": "Which THREE are listed as financial needs of MARKET REPOSITIONING actions?",
   "choices": [
-   "Advisory fees for the sale of a branch",
-   "Lease early termination",
    "R&D investment to develop new products",
    "Marketing / advertising investments to boost awareness",
    "Lay-off costs",
    "Sales structure to develop new products"
   ],
   "answer": [
-   2,
-   3,
-   5
+   0,
+   1,
+   3
   ],
   "explanation": "Market repositioning: R&D investment, sales structure, marketing/advertising. Lay-off costs and lease termination are cost rightsizing; advisory fees relate to M&A.",
   "reference": "Module 4 – slide 49 (Financial needs driven by operational turnaround)",
@@ -787,15 +758,13 @@
   "choices": [
    "Lease early termination",
    "R&D investment to develop new products",
-   "Interim management fees",
    "Risks of litigation with suppliers",
-   "Lay-off costs",
-   "Marketing / advertising investments"
+   "Lay-off costs"
   ],
   "answer": [
    0,
-   3,
-   4
+   2,
+   3
   ],
   "explanation": "Cost rightsizing: lay-off costs, lease early termination, other contracts early termination, risks of litigation with suppliers.",
   "reference": "Module 4 – slide 49 (Financial needs driven by operational turnaround)",
@@ -810,15 +779,12 @@
    "The seller alone sets the proceeds, which are always paid in full in cash at closing",
    "Part of the proceeds may be structured as a vendor loan (paid progressively)",
    "A business may be acquired to reposition the group",
-   "Part of the proceeds may be structured as an earn-out based on the future performance of the acquired branch",
-   "Selling a loss-making branch is free of any advisory costs",
-   "Selling a loss-making branch takes time and requires advisory fees"
+   "Part of the proceeds may be structured as an earn-out based on the future performance of the acquired branch"
   ],
   "answer": [
    1,
    2,
-   3,
-   5
+   3
   ],
   "explanation": "Slide 50 lists time and advisory fees, vendor loan, earn-out (negotiated by the buyer) and acquisitions to reposition the group.",
   "reference": "Module 4 – slide 50 (Financial needs: M&A transactions)",
@@ -1103,16 +1069,14 @@
    "Debt to EBITDA is 5.0x.",
    "The interest coverage ratio is 2.5x.",
    "The debt is already below the 4.0x requirement.",
-   "With a constant EBITDA, the debt must fall to €80m to reach 4.0x.",
-   "With a constant debt, the EBITDA must reach €25m to reach 4.0x."
+   "With a constant EBITDA, the debt must fall to €80m to reach 4.0x."
   ],
   "answer": [
    0,
    1,
-   3,
-   4
+   3
   ],
-  "explanation": "100 / 20 = 5.0x (above 4.0x, so the third statement is false). Coverage = 20 / 8 = 2.5x. Debt at 4.0x with EBITDA 20 = €80m. EBITDA at 4.0x with debt 100 = €25m.",
+  "explanation": "100 / 20 = 5.0x (above 4.0x, so the third statement is false). Coverage = 20 / 8 = 2.5x. Debt at 4.0x with EBITDA 20 = €80m.",
   "reference": "Module 4 – Sustainable debt (Galapagos method, slides 36-40)",
   "difficulty": 2
  },

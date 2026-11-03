@@ -61,15 +61,13 @@
   "choices": [
    "Management is closer to the business, so should perceive the symptoms earlier",
    "Outsiders generally rely on public information",
-   "Non-financial information is always easy to access",
    "Outsiders see the symptoms earlier than management because they are more objective",
-   "Financial scoring models have proven highly reliable",
    "Financial information can suffer delays before it is received"
   ],
   "answer": [
    0,
    1,
-   5
+   3
   ],
   "explanation": "Slide 13: management is closer so should perceive earlier; outsiders generally rely on public information; financial information can suffer delays; non-financial information can give early warning but may be difficult to access.",
   "reference": "Module 1 – slide 13 (Crisis symptoms versus causes/drivers)",
@@ -120,14 +118,12 @@
    "Payment delays",
    "Audit qualifications",
    "Too high a premium paid",
-   "Misdirected advertising",
-   "Cultural differences",
    "Staff fear"
   ],
   "answer": [
    0,
    1,
-   5
+   3
   ],
   "explanation": "Payment delays, audit qualifications and staff fear are symptoms (slides 15-17). Too high a premium paid, misdirected advertising and cultural differences are primary causes (slides 24 and 26).",
   "reference": "Module 1 – slides 15-17, 24, 26 (Symptoms vs primary causes)",
@@ -140,17 +136,14 @@
   "question": "Which of the following are listed in the course as primary CAUSES of decline (not as symptoms)? Select ALL that apply.",
   "choices": [
    "Cultural differences",
-   "Over-capacity",
    "Lack of market knowledge",
    "Inappropriate covenants",
-   "Declining morale",
-   "Creative accounting"
+   "Declining morale"
   ],
   "answer": [
    0,
    1,
-   2,
-   3
+   2
   ],
   "explanation": "Over-capacity (slide 24), lack of market knowledge (24), inappropriate covenants (25) and cultural differences (26) are causes. Creative accounting and declining morale are symptoms (15-16).",
   "reference": "Module 1 – slides 15-16, 24-26 (Symptoms vs primary causes)",
@@ -182,14 +175,13 @@
   "choices": [
    "All causes of decline are external and outside management's control",
    "One should distinguish internal causes from external causes",
-   "Apportioning blame is the main purpose of the causes analysis",
    "Causes of decline are generally traceable to poor management",
    "The idea \"good management = good luck, poor management = bad luck\" is not so simple, as it is used as a means to apportion blame"
   ],
   "answer": [
    1,
-   3,
-   4
+   2,
+   3
   ],
   "explanation": "Slide 20: causes are generally traceable to poor management; the luck reasoning is used to apportion blame (not so simple); focus should be on causal factor and effect; internal versus external causes.",
   "reference": "Module 1 – slide 20 (Causes – General considerations)",
@@ -220,17 +212,14 @@
   "question": "Which of the following are classified as EXTERNAL drivers of decline? Select ALL that apply.",
   "choices": [
    "Changes in market demand",
-   "Loss of competitiveness",
    "Over expansion",
-   "Capital structure",
    "World events",
    "Economic cycles"
   ],
   "answer": [
    0,
-   1,
-   4,
-   5
+   2,
+   3
   ],
   "explanation": "Slide 21 lists economic cycles and world events (macro), changes in market demand and loss of competitiveness (micro). Over expansion and capital structure are internal drivers (slide 22).",
   "reference": "Module 1 – slides 21-22 (External vs internal drivers)",
@@ -243,17 +232,14 @@
   "question": "Which of the following are classified as INTERNAL drivers of decline? Select ALL that apply.",
   "choices": [
    "Cost base",
-   "Systems",
    "Commodity prices",
    "Gearing",
-   "Culture",
-   "Economic cycles"
+   "Culture"
   ],
   "answer": [
    0,
-   1,
-   3,
-   4
+   2,
+   3
   ],
   "explanation": "Slide 22 lists systems and culture (structural), gearing (financial) and cost base (operational) as internal drivers; economic cycles and commodity prices are external (slide 21).",
   "reference": "Module 1 – slides 21-22 (External vs internal drivers)",
@@ -268,14 +254,12 @@
    "Operational",
    "Micro",
    "Structural",
-   "Cyclical",
-   "Financial",
-   "Macro"
+   "Financial"
   ],
   "answer": [
    0,
    2,
-   4
+   3
   ],
   "explanation": "Slide 22 groups internal drivers into Structural, Financial and Operational. Macro and micro are the levels of external drivers.",
   "reference": "Module 1 – slide 22 (Internal drivers of decline)",
@@ -307,16 +291,13 @@
   "choices": [
    "Poor management",
    "Excessive government regulation",
-   "Low employee wages",
    "Strategic & operational deficiencies",
-   "Financing structure & associated costs",
-   "Inadequate information (lack of financial control)"
+   "Financing structure & associated costs"
   ],
   "answer": [
    0,
-   3,
-   4,
-   5
+   2,
+   3
   ],
   "explanation": "Slide 23 (poor management; inadequate information), slide 24 (strategic & operational deficiencies) and slide 25 (financing structure) are primary causes. The other two are not listed.",
   "reference": "Module 1 – slides 23-26 (Primary causes of decline)",
@@ -347,16 +328,14 @@
   "question": "Which of the following statements appear in the summary of causes and symptoms? Select ALL that apply.",
   "choices": [
    "It is key to have proper monitoring tools to identify symptoms as soon as possible",
-   "A single cause usually explains a crisis",
-   "A detailed identification of causes is unnecessary in order to fix the crisis",
    "Symptoms are usually clearly visible far in advance, for those who want to see them",
    "Symptoms are rarely visible before the crisis breaks out",
    "It is key to have the right management team in place to identify and implement action plans addressing the roots of underperformance"
   ],
   "answer": [
    0,
-   3,
-   5
+   1,
+   3
   ],
   "explanation": "Slide 27 states the three correct points; it also says causes are usually a mix and must be identified in detail to understand the crisis and fix it.",
   "reference": "Module 1 – slide 27 (Causes & Symptoms – In summary)",
@@ -405,15 +384,14 @@
   "question": "According to the summary slide, monitoring tools to identify symptoms as soon as possible should include which of the following? Select ALL that apply.",
   "choices": [
    "Rating agency opinions only",
-   "Annual press releases only",
    "Adequate reportings",
    "Timely reportings",
    "Forecasts"
   ],
   "answer": [
+   1,
    2,
-   3,
-   4
+   3
   ],
   "explanation": "Slide 27: key to have proper monitoring tools, including adequate & timely reportings and forecasts.",
   "reference": "Module 1 – slide 27 (Causes & Symptoms – In summary)",
@@ -428,9 +406,7 @@
    "Inadequate product portfolio",
    "Need for new money",
    "Oversized cost structure",
-   "Loss making activities",
-   "Cash crisis",
-   "Unsustainable debt level"
+   "Loss making activities"
   ],
   "answer": [
    0,
@@ -468,8 +444,7 @@
    "A cash crisis is anticipated (or faced)",
    "Loss making activities must be closed",
    "Sufficient financing (including new money) must be secured to finance the turnaround plan",
-   "The balance sheet must be restructured to get to a viable debt",
-   "The cost structure must be downsized"
+   "The balance sheet must be restructured to get to a viable debt"
   ],
   "answer": [
    0,
@@ -524,14 +499,13 @@
   "choices": [
    "A successful restructuring covers both dimensions",
    "Operational turnaround is optional once new money has been obtained",
-   "Financial restructuring alone ensures long-lasting sustainability",
    "Operational restructuring is too often postponed",
    "Financial restructuring has two main objectives"
   ],
   "answer": [
    0,
-   3,
-   4
+   2,
+   3
   ],
   "explanation": "Slide 33 makes the three correct points and concludes that both dimensions are needed.",
   "reference": "Module 1 – slide 33 (Operational turnaround vs financial restructuring)",
@@ -546,15 +520,12 @@
    "Employees",
    "Customers",
    "Competitors",
-   "Government",
-   "Judge",
-   "Credit rating agencies"
+   "Government"
   ],
   "answer": [
    0,
    1,
-   3,
-   4
+   3
   ],
   "explanation": "Slide 35 lists management, employees, equity, secured debt, suppliers, unsecured debt, customers, Administrateur judiciaire / trustee, judge and government, with advisors assisting some or most of the parties.",
   "reference": "Module 1 – slide 35 (Several parties to manage)",

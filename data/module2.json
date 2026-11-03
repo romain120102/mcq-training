@@ -26,8 +26,7 @@
    "Underperformance is usually due to a mix of several causes",
    "It may be performed by management, with or without the help of third-party advisors",
    "It is usually traced back to one single root cause",
-   "It may sometimes be performed at the request of other stakeholders such as lenders or shareholders",
-   "It must always be performed exclusively by third-party advisors"
+   "It may sometimes be performed at the request of other stakeholders such as lenders or shareholders"
   ],
   "answer": [
    0,
@@ -65,8 +64,7 @@
    "Maintain bank confidence and maintain the existing financing lines",
    "Obtain the cancellation of all bank debt",
    "Gain sufficient time to implement the turnaround plan",
-   "Obtain the necessary financing to support the implementation of the turnaround plan",
-   "Force the shareholder to sell the company immediately"
+   "Obtain the necessary financing to support the implementation of the turnaround plan"
   ],
   "answer": [
    0,
@@ -86,8 +84,7 @@
    "It appears sufficient to maintain positive liquidity over FY23-FY25",
    "Available liquidity is limited and there are potential execution risks",
    "It does not enable dividend distribution to the holding and the family-owned real estate company to repay their debt",
-   "It generates enough surplus cash to remove any need for new equity",
-   "It requires no negotiation with SoBio"
+   "It generates enough surplus cash to remove any need for new equity"
   ],
   "answer": [
    0,
@@ -159,18 +156,15 @@
   "type": "multiple",
   "question": "Which of the following are phases of the turnaround lifecycle framework? Select ALL that apply.",
   "choices": [
-   "Underperformance",
    "Rapid Decline",
    "Expansion",
    "Recovery",
-   "Liquidation",
    "Renewal"
   ],
   "answer": [
    0,
-   1,
-   3,
-   5
+   2,
+   3
   ],
   "explanation": "Slide 17: I. Underperformance, II. Rapid Decline, III. Recovery, IV. Renewal.",
   "reference": "Module 2 – slide 17 (The turnaround lifecycle)",
@@ -203,8 +197,7 @@
    "The steps are: overcome denial, diagnose, design, execute, communicate the results",
    "Design comes after diagnose",
    "Communicating the results is the last step",
-   "The process is linear, with no iteration",
-   "Execution takes place before the design of the plan"
+   "The process is linear, with no iteration"
   ],
   "answer": [
    0,
@@ -260,8 +253,7 @@
    "Limited cash",
    "Teams' exhaustion",
    "Outside stakeholders' doubts (bankers, clients, suppliers...)",
-   "Excess of liquidity in the bank accounts",
-   "Pressure from shareholders to increase dividends"
+   "Excess of liquidity in the bank accounts"
   ],
   "answer": [
    0,
@@ -281,8 +273,7 @@
    "Extending the time window available by mobilizing all available cash resources",
    "Addressing internal and external stakeholder issues and getting their support for the plan",
    "Identifying the causes at the origin of the situation and correcting them",
-   "Launching long-term growth projects first, financed by new debt",
-   "Waiting for the market to recover before acting"
+   "Launching long-term growth projects first, financed by new debt"
   ],
   "answer": [
    0,
@@ -302,8 +293,7 @@
    "Operations: make the change of course credible and fix the underperforming parts for good, i.e. turn the company around",
    "Finances: solve the cash/debt problem to have time for action and ensure a viable debt structure, i.e. proper restructuring",
    "Finances: finance the turnaround actions",
-   "Operations: solve the debt instalment problem",
-   "Finances: fix the underperforming parts of the business for good"
+   "Operations: solve the debt instalment problem"
   ],
   "answer": [
    0,
@@ -323,15 +313,12 @@
    "Part of the business is not competitive enough",
    "A key process is underperforming (money-losing business, loss-making products)",
    "The cost structure is too costly (disorganized or bloated support functions)",
-   "The service level offered to clients by the Supply Chain is not at par with industry standards",
-   "Equity is too small compared to total debts",
-   "Cash problem to honor debt instalments"
+   "Equity is too small compared to total debts"
   ],
   "answer": [
    0,
    1,
-   2,
-   3
+   2
   ],
   "explanation": "Slide 23 (operations side) lists these four causes. 'Equity too small' and 'cash problem to honor debt instalments' belong to the finances side.",
   "reference": "Module 2 – slide 23 (A two-dimensional project)",
@@ -382,14 +369,12 @@
    "Rapid diagnostic to identify problems",
    "Obtain stakeholder buy-in",
    "Develop a value recovery plan",
-   "Launch an IPO",
-   "Sale of non-core activities"
+   "Launch an IPO"
   ],
   "answer": [
    0,
    1,
-   2,
-   4
+   2
   ],
   "explanation": "Slide 24 roadmap: rapid diagnostic, detailed analysis, assess strategic options, develop value recovery plan, obtain stakeholder buy-in, implement regeneration strategy, sale of non-core activities, etc.",
   "reference": "Module 2 – slide 24 (Roadmap for turning around a company)",
@@ -440,13 +425,12 @@
    "Threat of new entrants",
    "Government regulation",
    "Bargaining power of suppliers",
-   "Brand equity",
    "Threat of substitute products or services"
   ],
   "answer": [
    0,
    2,
-   4
+   3
   ],
   "explanation": "Slide 25: rivalry among existing competitors, threat of new entrants, bargaining power of suppliers, bargaining power of buyers, threat of substitutes.",
   "reference": "Module 2 – slide 25 (Does the company still have a reason for being?)",
@@ -461,8 +445,7 @@
    "It is centralized, well staffed, strong and autocratic because the life of the company is at stake",
    "Financial/cash considerations supersede economic ones",
    "All managers are made clearly responsible for their part in the cash project",
-   "Each manager defines his own cash policy independently",
-   "Economic considerations always take precedence over cash considerations"
+   "Each manager defines his own cash policy independently"
   ],
   "answer": [
    0,
@@ -482,8 +465,7 @@
    "Create tools necessary to track and anticipate cash",
    "Vigorous systematic action on the components of working capital",
    "Careful analysis of the credit lines contracts to extract as much cash as possible",
-   "Pay all suppliers early to protect relationships",
-   "Increase spending to reassure the market"
+   "Pay all suppliers early to protect relationships"
   ],
   "answer": [
    0,
@@ -503,7 +485,6 @@
    "It is a weekly cash forecast over the next 3 months",
    "It is built from the annual budget and annual averages",
    "It is built on identified inflows and outflows (day-to-day spending, payments to suppliers and from clients, paydays...)",
-   "It is a monthly forecast over the next 13 months",
    "It is prepared once and not updated afterwards"
   ],
   "answer": [
@@ -523,8 +504,7 @@
    "Cash is what determines whether a company lives or dies",
    "Not all cash that appears in spreadsheets is cash that can be used",
    "Every important decision with a measurable impact on cash should be confronted with its effect on the forecast",
-   "The update period can never be extended beyond one week",
-   "Management habits never limit the availability of cash"
+   "The update period can never be extended beyond one week"
   ],
   "answer": [
    0,
@@ -598,8 +578,7 @@
    "They can be the source of a company's difficulties and of its demise on markets",
    "Turning around a key operational process always takes time and money",
    "It is often outside the scope of crisis management",
-   "They should never be addressed until the financial restructuring is completed",
-   "They can always be fixed within a few days at no cost"
+   "They should never be addressed until the financial restructuring is completed"
   ],
   "answer": [
    0,
@@ -652,18 +631,15 @@
   "type": "multiple",
   "question": "Which of the following qualities must the turnaround plan have, according to the course? Select ALL that apply.",
   "choices": [
-   "Presented by the management team",
    "Demonstrating full understanding of the situation: no complacency, no sentimentality",
    "Showing some visible rupture",
    "Measurable objectives with regular milestones",
-   "Presented exclusively by outside advisors",
-   "Based on optimistic assumptions of a quick market recovery"
+   "Presented exclusively by outside advisors"
   ],
   "answer": [
    0,
    1,
-   2,
-   3
+   2
   ],
   "explanation": "Slide 32 lists these qualities (management team, full understanding, visible rupture, measurable objectives, regular milestones, already in motion).",
   "reference": "Module 2 – slides 31-32 (The turnaround plan: audience and qualities)",
@@ -713,15 +689,13 @@
   "choices": [
    "It might not have been very good in the first place, since the company is where it is",
    "It could have been and remain blind to some key factors (e.g. silos, changes in client needs)",
-   "It is difficult for any person to undo one day what was done the day before",
    "There is a temptation to justify past decisions at the expense of different decisions to be taken today",
    "Management is always dishonest"
   ],
   "answer": [
    0,
    1,
-   2,
-   3
+   2
   ],
   "explanation": "Slide 35 lists these four reasons.",
   "reference": "Module 2 – slide 35 (Existing management)",
@@ -736,8 +710,7 @@
    "Good managers are not easy to identify",
    "Ailing companies are not attractive to would-be managers, even less so when small or mid size",
    "Managers with 'distress management' experience are not many",
-   "Managers with distress experience are plentiful but too expensive",
-   "Ailing companies attract the best managers"
+   "Managers with distress experience are plentiful but too expensive"
   ],
   "answer": [
    0,
@@ -775,8 +748,7 @@
    "Control the cash",
    "Communicate, communicate, communicate",
    "Spend the necessary time on the social issues",
-   "Reward the previous management team",
-   "Keep the previous business plan"
+   "Reward the previous management team"
   ],
   "answer": [
    0,

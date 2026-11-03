@@ -9,7 +9,8 @@ Site 100 % statique (HTML + CSS + JS, aucune base de données). Les questions so
     "answer":[2],"explanation":"…","reference":"Module 1 – slide 15","difficulty":2}
    ```
    - `answer` = positions (à partir de 0) des bonnes propositions, dans l'ordre croissant.
-   - `type` = `"single"` (1 bonne réponse) ou `"multiple"` (2 à 4 bonnes réponses).
+   - `choices` = toujours exactement 4 propositions (affichées a) b) c) d)).
+   - `type` = `"single"` (1 bonne réponse) ou `"multiple"` (2 ou 3 bonnes réponses).
 2. Lance `python validate.py` : il détecte les erreurs (doublons, indices faux…).
 3. Mets en ligne : `git add -A && git commit -m "questions" && git push`.
 

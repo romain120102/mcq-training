@@ -28,14 +28,14 @@ for path in sorted(glob.glob("data/module*.json")):
         if q["module"] != m: errors.append(f"{w}: module={q['module']} mais fichier module{m}")
         if q["type"] not in ("single", "multiple"): errors.append(f"{w}: type invalide"); continue
         ch, an = q["choices"], q["answer"]
-        if not isinstance(ch, list) or not 4 <= len(ch) <= 6: errors.append(f"{w}: il faut 4 à 6 propositions ({len(ch) if isinstance(ch, list) else '?'})")
+        if not isinstance(ch, list) or len(ch) != 4: errors.append(f"{w}: il faut exactement 4 propositions (a, b, c, d) ({len(ch) if isinstance(ch, list) else '?'})")
         if len(set(map(norm, ch))) != len(ch): errors.append(f"{w}: propositions en double")
         if not all(isinstance(c, str) and c.strip() for c in ch): errors.append(f"{w}: proposition vide")
         if not isinstance(an, list) or not an: errors.append(f"{w}: aucune bonne réponse"); continue
         if any((not isinstance(a, int)) or a < 0 or a >= len(ch) for a in an): errors.append(f"{w}: indice de réponse hors limites"); continue
         if len(set(an)) != len(an) or an != sorted(an): errors.append(f"{w}: answer doit être trié et sans doublon")
         if q["type"] == "single" and len(an) != 1: errors.append(f"{w}: single => exactement 1 bonne réponse")
-        if q["type"] == "multiple" and not 2 <= len(an) <= 4: errors.append(f"{w}: multiple => 2 à 4 bonnes réponses ({len(an)})")
+        if q["type"] == "multiple" and not 2 <= len(an) <= 3: errors.append(f"{w}: multiple => 2 ou 3 bonnes réponses ({len(an)})")
         if q["type"] == "multiple" and len(an) == len(ch): errors.append(f"{w}: toutes les propositions sont bonnes")
         if q["difficulty"] not in (1, 2, 3): errors.append(f"{w}: difficulty doit valoir 1, 2 ou 3")
         if not str(q.get("explanation", "")).strip(): errors.append(f"{w}: explication vide")

@@ -1,0 +1,343 @@
+[
+ {
+  "id": "m3-001",
+  "module": 3,
+  "type": "single",
+  "question": "In the Dairy Princess session, which direction does the course recommend for a systematic search of turnaround levers?",
+  "choices": [
+   "From bottom (cost structure, cash flow) to top (market / sales)",
+   "From top (market / sales) to bottom (cost structure, cash flow generation)",
+   "Starting with financing and ending with sales",
+   "Starting with the largest cost line, whatever the root causes"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The tips say to be systematic: from top (market / sales) to bottom (cost structure, cash flow generation).",
+  "reference": "Module 3 – slide 6 (Key turnaround levers – tips)",
+  "difficulty": 1
+ },
+ {
+  "id": "m3-002",
+  "module": 3,
+  "type": "single",
+  "question": "According to the Module 3 tips, what does 'be bold' mean for a turnaround?",
+  "choices": [
+   "A turnaround usually requires key changes and not only small adaptations",
+   "A turnaround should avoid any change to the business model",
+   "Only financial measures should be considered",
+   "Actions should be limited to small incremental adaptations"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The slide states: 'Be bold: a turnaround usually requires key changes and not only small adaptations'.",
+  "reference": "Module 3 – slide 6 (Key turnaround levers – tips)",
+  "difficulty": 1
+ },
+ {
+  "id": "m3-003",
+  "module": 3,
+  "type": "single",
+  "question": "What is the starting point recommended for finding the key turnaround levers of a company such as Dairy Princess?",
+  "choices": [
+   "Benchmarking against the best competitor",
+   "Reviewing the root causes of underperformance identified earlier",
+   "Cutting headcount",
+   "Preparing the financing request to lenders"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The first tip is to review the root causes to underperformance identified earlier and then discuss ways to fix them.",
+  "reference": "Module 3 – slide 6 (Key turnaround levers – tips)",
+  "difficulty": 1
+ },
+ {
+  "id": "m3-004",
+  "module": 3,
+  "type": "single",
+  "question": "How should the turnaround action plan be structured according to the slide 'Structure your turnaround action plan'?",
+  "choices": [
+   "Department by department, regardless of root causes",
+   "By chronological order of past events",
+   "Root cause #1 to be fixed => key action(s) to fix it",
+   "By size of the expected cost"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The plan is structured as root cause #1 to be fixed => key action(s) to fix it.",
+  "reference": "Module 3 – slide 8 (Structure your plan)",
+  "difficulty": 1
+ },
+ {
+  "id": "m3-005",
+  "module": 3,
+  "type": "single",
+  "question": "Which of the following is NOT among the items the course asks you to detail for each action in the plan?",
+  "choices": [
+   "Its anticipated benefit",
+   "Its implementation cost / capex",
+   "Its expected implementation timing",
+   "The names of the individuals who will be dismissed"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Be specific: the action, its anticipated benefit, its implementation cost/capex and its expected implementation timing.",
+  "reference": "Module 3 – slide 8 (Structure your plan)",
+  "difficulty": 2
+ },
+ {
+  "id": "m3-006",
+  "module": 3,
+  "type": "single",
+  "question": "When should alternative routes be detailed in the action plan?",
+  "choices": [
+   "Never, to keep the plan short",
+   "When relevant, explaining why route A was selected versus B, C, etc.",
+   "Only when the benefit is below the cost",
+   "Only for financing actions"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The slide says to detail alternative routes when relevant, and why you selected route A vs B, C, etc.",
+  "reference": "Module 3 – slide 8 (Structure your plan)",
+  "difficulty": 2
+ },
+ {
+  "id": "m3-007",
+  "module": 3,
+  "type": "single",
+  "question": "What does the 'S' of SMART stand for in the criteria for expressing the actions of the plan?",
+  "choices": [
+   "Synthetic",
+   "Strategic",
+   "Simple",
+   "Specific"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "SMART = Specific, Measurable, Achievable, Relevant, and Time-bound.",
+  "reference": "Module 3 – slide 10 (Operational Turnaround Plan)",
+  "difficulty": 1
+ },
+ {
+  "id": "m3-008",
+  "module": 3,
+  "type": "single",
+  "question": "What does the 'T' of SMART stand for in the Dairy Princess one-pager guidance?",
+  "choices": [
+   "Targeted",
+   "Time-bound",
+   "Transparent",
+   "Tactical"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "SMART = Specific, Measurable, Achievable, Relevant, and Time-bound.",
+  "reference": "Module 3 – slide 10 (Operational Turnaround Plan)",
+  "difficulty": 1
+ },
+ {
+  "id": "m3-009",
+  "module": 3,
+  "type": "single",
+  "question": "What is the purpose of the 'key sentence' recommended for the one-pager?",
+  "choices": [
+   "To list all the risks of the plan",
+   "To replace the root cause analysis",
+   "To summarise the plan and 'embark' the audience",
+   "To state the legal basis of the restructuring"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The slide says to find a key sentence to summarise your plan and « embark » the audience.",
+  "reference": "Module 3 – slide 10 (Operational Turnaround Plan)",
+  "difficulty": 1
+ },
+ {
+  "id": "m3-012",
+  "module": 3,
+  "type": "single",
+  "question": "In the guidance on formalising the plan, what does 'Be synthetic' require?",
+  "choices": [
+   "Use synthetic (artificial) data",
+   "Include as many appendices as possible",
+   "Present the plan as a 'one-pager'",
+   "Present the plan as a long narrative"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "'Be synthetic ('one-pager')' appears among the formalisation tips.",
+  "reference": "Module 3 – slide 10 (Operational Turnaround Plan)",
+  "difficulty": 2
+ },
+ {
+  "id": "m3-014",
+  "module": 3,
+  "type": "multiple",
+  "question": "According to the Module 3 tips for finding turnaround levers, which of the following are recommended? Select ALL that apply.",
+  "choices": [
+   "Review the root causes of underperformance identified earlier",
+   "Limit the plan to small adaptations to reduce execution risk",
+   "Discuss ways to fix these issues",
+   "Discuss alternatives / different scenarios when relevant",
+   "Start from the cost structure and ignore market and sales"
+  ],
+  "answer": [
+   0,
+   2,
+   3
+  ],
+  "explanation": "The first, third and fourth are tips on slide 6; the others contradict 'be bold' and the top-to-bottom approach.",
+  "reference": "Module 3 – slide 6 (Key turnaround levers – tips)",
+  "difficulty": 2
+ },
+ {
+  "id": "m3-015",
+  "module": 3,
+  "type": "multiple",
+  "question": "Which TWO items sit at the 'bottom' end of the top-to-bottom approach recommended for turnaround levers?",
+  "choices": [
+   "Market",
+   "Cost structure",
+   "Sales",
+   "Cash flow generation"
+  ],
+  "answer": [
+   1,
+   3
+  ],
+  "explanation": "The approach goes from top (market / sales) to bottom (cost structure, cash flow generation).",
+  "reference": "Module 3 – slide 6 (Key turnaround levers – tips)",
+  "difficulty": 2
+ },
+ {
+  "id": "m3-016",
+  "module": 3,
+  "type": "multiple",
+  "question": "Which of the following must be detailed for each action in the turnaround plan? Select ALL that apply.",
+  "choices": [
+   "Its anticipated benefit",
+   "The personal opinion of each team member",
+   "Its implementation cost / capex",
+   "Its expected implementation timing",
+   "The detailed history of the company"
+  ],
+  "answer": [
+   0,
+   2,
+   3
+  ],
+  "explanation": "Slide 8: be specific, detailing the action, benefit, implementation cost/capex and timing.",
+  "reference": "Module 3 – slide 8 (Structure your plan)",
+  "difficulty": 2
+ },
+ {
+  "id": "m3-017",
+  "module": 3,
+  "type": "multiple",
+  "question": "Which of the following are tips given to formalise the turnaround plan? Select ALL that apply.",
+  "choices": [
+   "Be professional (appealing presentation)",
+   "Be exhaustive (include every possible action)",
+   "Be synthetic ('one-pager')",
+   "Be clear (root cause => action(s))",
+   "Be confidential (do not share with the audience)"
+  ],
+  "answer": [
+   0,
+   2,
+   3
+  ],
+  "explanation": "Slide 10 lists: professional, synthetic, clear, SMART, and a key sentence.",
+  "reference": "Module 3 – slide 10 (Operational Turnaround Plan)",
+  "difficulty": 2
+ },
+ {
+  "id": "m3-018",
+  "module": 3,
+  "type": "multiple",
+  "question": "Which of the following are components of the SMART criteria as listed in the course? Select ALL that apply.",
+  "choices": [
+   "Measurable",
+   "Strategic",
+   "Achievable",
+   "Relevant",
+   "Meaningful"
+  ],
+  "answer": [
+   0,
+   2,
+   3
+  ],
+  "explanation": "SMART = Specific, Measurable, Achievable, Relevant, Time-bound.",
+  "reference": "Module 3 – slide 10 (Operational Turnaround Plan)",
+  "difficulty": 1
+ },
+ {
+  "id": "m3-019",
+  "module": 3,
+  "type": "multiple",
+  "question": "Which TWO of the following statements about the structure of the plan are consistent with Module 3?",
+  "choices": [
+   "Actions are listed without reference to root causes",
+   "Each root cause to be fixed is linked to one or more key actions",
+   "Only the selected route is shown, without any justification",
+   "Alternative routes are explained, with the reason for selecting one over the others"
+  ],
+  "answer": [
+   1,
+   3
+  ],
+  "explanation": "Slide 8: root cause => key action(s); alternative routes and why route A was chosen vs B, C.",
+  "reference": "Module 3 – slide 8 (Structure your plan)",
+  "difficulty": 2
+ },
+ {
+  "id": "m3-023",
+  "module": 3,
+  "type": "multiple",
+  "question": "Which statements about the 'be bold' tip are consistent with the course? Select ALL that apply.",
+  "choices": [
+   "A turnaround usually requires key changes",
+   "Small adaptations alone are usually not enough",
+   "Only small adaptations are needed in a turnaround",
+   "Being bold means skipping the root cause analysis"
+  ],
+  "answer": [
+   0,
+   1
+  ],
+  "explanation": "Slide 6: a turnaround usually requires key changes and not only small adaptations.",
+  "reference": "Module 3 – slide 6 (Key turnaround levers – tips)",
+  "difficulty": 2
+ },
+ {
+  "id": "m3-024",
+  "module": 3,
+  "type": "multiple",
+  "question": "Which of the following does the course ask for when a team presents its action plan? Select ALL that apply.",
+  "choices": [
+   "Actions expressed in a SMART way",
+   "A clear root cause => action(s) logic",
+   "A one-page format",
+   "A purely narrative description without specifics"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Slide 10 tips: SMART, clear root cause => action(s), synthetic one-pager. Slide 8 asks to be specific.",
+  "reference": "Module 3 – slide 8, 10 (Plan and one-pager tips)",
+  "difficulty": 2
+ }
+]

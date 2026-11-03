@@ -1,0 +1,1566 @@
+[
+  {
+    "id": "m4-001",
+    "module": 4,
+    "type": "single",
+    "question": "On the corporate demise curve, which sequence correctly lists the stages that come BEFORE the Control Watershed?",
+    "choices": [
+      "Crisis -> Concern -> Comfort",
+      "Comfort (in trouble, not aware) -> Concern (in trouble, but in control) -> Crisis",
+      "Concern -> Comfort -> Crisis",
+      "Comfort -> Crisis -> Concern"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The demise curve runs Comfort, Concern, Crisis, then the Control Watershed, then 'Lost control' and 'Lost the business'.",
+    "reference": "Module 4 – slide 6 (The corporate demise curve)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-002",
+    "module": 4,
+    "type": "single",
+    "question": "At which point of the corporate demise curve is financial restructuring positioned?",
+    "choices": [
+      "Once the business is already lost",
+      "At the Control Watershed",
+      "Only after the company has lost control",
+      "At the Comfort stage, when the company is in trouble but not aware"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The 'Financial Restructuring' arrow is placed at the level of the Control Watershed, between Crisis and 'Lost control'.",
+    "reference": "Module 4 – slide 6 (The corporate demise curve)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-003",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which TWO states appear AFTER the Control Watershed on the corporate demise curve?",
+    "choices": [
+      "Lost the business",
+      "In trouble, but in control",
+      "Comfort",
+      "Lost control",
+      "Concern"
+    ],
+    "answer": [
+      0,
+      3
+    ],
+    "explanation": "After the Control Watershed the curve ends with 'Lost control' and 'Lost the business'. Comfort and Concern come before it.",
+    "reference": "Module 4 – slide 6 (The corporate demise curve)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-004",
+    "module": 4,
+    "type": "single",
+    "question": "What are the four steps of the Financial Restructuring Life Cycle, in order?",
+    "choices": [
+      "Diagnosis, Intervention, Negotiation, Implementation",
+      "Intervention, Negotiation, Diagnosis, Implementation",
+      "Diagnosis, Negotiation, Implementation, Intervention",
+      "Intervention, Diagnosis, Negotiation, Implementation"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Starting from the crisis, the life cycle runs Intervention -> Diagnosis -> Negotiation -> Implementation.",
+    "reference": "Module 4 – slide 7 (The Financial Restructuring Life Cycle)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-005",
+    "module": 4,
+    "type": "single",
+    "question": "According to the course, what is the purpose of financial restructuring?",
+    "choices": [
+      "To clean the past and finance the turnaround / the future",
+      "To replace the operational turnaround with a purely financial solution",
+      "To maximise dividends to existing shareholders during the crisis",
+      "To finance the past and clean the future"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The reminder on the life cycle slide: 'Financial restructuring: clean the past and finance the turnaround / the future'.",
+    "reference": "Module 4 – slide 7 (The Financial Restructuring Life Cycle)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-006",
+    "module": 4,
+    "type": "multiple",
+    "question": "Select ALL statements that are correct about the relationship between the operational turnaround and the financial restructuring.",
+    "choices": [
+      "The operational turnaround occurs in parallel to the financial restructuring",
+      "The plan integrates both the operational turnaround and the financial restructuring",
+      "The financial restructuring only starts once the operational turnaround is completed",
+      "The two are separate plans that never need to be integrated",
+      "The operational turnaround stops during the Negotiation step"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "Slide 7 reminds that the operational turnaround occurs in parallel and that the plan integrates both.",
+    "reference": "Module 4 – slide 7 (The Financial Restructuring Life Cycle)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-007",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE of the following are listed as triggers of an intervention?",
+    "choices": [
+      "Successful renewal of all credit lines",
+      "Early repayment of debt ahead of schedule",
+      "Credit downgrade",
+      "Increase in the share price",
+      "Covenant breach",
+      "Fraud"
+    ],
+    "answer": [
+      2,
+      4,
+      5
+    ],
+    "explanation": "The trigger list includes request for new monies, facilities exceeded, interest/amortisation not met, covenant breach, credit downgrade, audit issues/going concern and fraud.",
+    "reference": "Module 4 – slide 9 (Intervention – Triggers)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-008",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which of the following are listed as triggers of an intervention? Select ALL that apply.",
+    "choices": [
+      "Facilities exceeded",
+      "Audit issues / going concern",
+      "Interest / amortisation not met",
+      "Completion of a debt/equity swap",
+      "Court approval of a CVA",
+      "Request for new monies (including to finance a turnaround plan)"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      5
+    ],
+    "explanation": "These four appear in the list of triggers; a CVA approval or a debt/equity swap belong to the implementation of a restructuring, not to its triggers.",
+    "reference": "Module 4 – slide 9 (Intervention – Triggers)",
+    "difficulty": 3
+  },
+  {
+    "id": "m4-009",
+    "module": 4,
+    "type": "multiple",
+    "question": "Select the FOUR dimensions of the Diagnosis step.",
+    "choices": [
+      "Legal",
+      "Operational",
+      "Commercial",
+      "Financial",
+      "Environmental",
+      "Structural"
+    ],
+    "answer": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "explanation": "The Diagnosis slide presents four dimensions: Financial, Operational, Structural and Legal.",
+    "reference": "Module 4 – slide 10 (Diagnosis)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-010",
+    "module": 4,
+    "type": "single",
+    "question": "In the Negotiation step, what does the 'all-party strategy' represent?",
+    "choices": [
+      "The sum of all stakeholders' maximum demands",
+      "The strategy chosen by the court for all parties",
+      "The strategy imposed by the largest creditor on all other parties",
+      "The overlap (intersection) of the individual goals of the different stakeholders"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Each stakeholder has 'Individual goals' (circles); their intersection is the 'All-party strategy', which is the objective of the negotiation.",
+    "reference": "Module 4 – slides 11, 12, 21 (Negotiation / Objective: meet an all-party strategy)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-011",
+    "module": 4,
+    "type": "single",
+    "question": "Regarding the Implementation step, what does the course say about the jurisdiction?",
+    "choices": [
+      "It is chosen freely by the largest bank in every case",
+      "It is always debtor-friendly",
+      "It is the same in all countries",
+      "It depends on geography and may be more debtor-friendly or more creditor-friendly"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Slide 13: 'Jurisdiction depends on geography – may be more debtor / creditor friendly'.",
+    "reference": "Module 4 – slide 13 (Implementation)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-012",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE of the following are listed as NON-court implementation routes?",
+    "choices": [
+      "Pre-pack receivership",
+      "Administration",
+      "Consensual refinancing",
+      "Insolvency proceedings",
+      "CVA"
+    ],
+    "answer": [
+      0,
+      2,
+      4
+    ],
+    "explanation": "The non-court branch contains consensual refinancing, CVA and pre-pack receivership. The court branch contains pre-insolvency or insolvency proceedings and administration.",
+    "reference": "Module 4 – slide 13 (Implementation)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-013",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which TWO elements feed the 'Restructuring Vortex' loop between Diagnosis, Negotiation and Implementation?",
+    "choices": [
+      "Lower interest rates",
+      "Increase of the shareholders' stake",
+      "Automatic debt write-offs",
+      "New information",
+      "New stakeholders"
+    ],
+    "answer": [
+      3,
+      4
+    ],
+    "explanation": "The vortex is fed by new information and new stakeholders; it can end in success or in 'Failure - insolvency?'.",
+    "reference": "Module 4 – slide 14 (The Restructuring Vortex)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-014",
+    "module": 4,
+    "type": "single",
+    "question": "What does the course say about the restructuring vortex?",
+    "choices": [
+      "The vortex can only end in a successful exit",
+      "The vortex is a desirable phase that speeds up negotiations",
+      "The vortex only exists in court proceedings",
+      "Financial restructuring needs to be driven so as to avoid the vortex"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The red box on the vortex slide: 'Financial restructuring: Need drive to avoid the vortex'. The possible outcomes are an upward exit (success) or failure/insolvency.",
+    "reference": "Module 4 – slide 14 (The Restructuring Vortex)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-015",
+    "module": 4,
+    "type": "single",
+    "question": "In the debt structure (liabilities side), what is the correct order from top to bottom?",
+    "choices": [
+      "Super senior/priority, prime/senior, subordinated, mezzanine, equity",
+      "Super senior/priority, prime/senior, mezzanine, subordinated, equity",
+      "Equity, mezzanine, subordinated, prime/senior, super senior/priority",
+      "Prime/senior, super senior/priority, mezzanine, subordinated, equity"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The liabilities are stacked from super senior / priority at the top down to equity at the bottom.",
+    "reference": "Module 4 – slide 15 (Debt structures)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-016",
+    "module": 4,
+    "type": "single",
+    "question": "As you move down the debt structure from super senior debt towards equity, what happens to risk and cost?",
+    "choices": [
+      "Risk decreases but cost increases",
+      "Both risk and cost decrease",
+      "Both risk and cost increase",
+      "Risk increases but cost decreases"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The arrow on the slide reads 'Increasing risk & increasing cost' when going down the structure.",
+    "reference": "Module 4 – slide 15 (Debt structures)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-017",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE of the following are things that BANKS like?",
+    "choices": [
+      "Surprises / last-minute changes",
+      "Equity-type investments",
+      "Tight covenants",
+      "Security",
+      "Consensual deals",
+      "Debt write-offs"
+    ],
+    "answer": [
+      2,
+      3,
+      4
+    ],
+    "explanation": "Banks like control/influence, performing debt, security, fees, simplicity, tight covenants, consensual deals and stable relationships. The other three are on their dislike list.",
+    "reference": "Module 4 – slide 16 (Banks: likes / dislikes)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-018",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE of the following are things that BANKS dislike?",
+    "choices": [
+      "Performing debt",
+      "Simplicity",
+      "US-based approaches in European deals",
+      "Stable relationships",
+      "Surprises / last-minute changes",
+      "Non-performing debt"
+    ],
+    "answer": [
+      2,
+      4,
+      5
+    ],
+    "explanation": "Banks' dislikes include bondholders/vulture funds, non-performing debt, equity-type investments, debt write-offs, surprises/last-minute changes and US-based approaches in European deals.",
+    "reference": "Module 4 – slide 16 (Banks: likes / dislikes)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-019",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE of the following are things that BONDHOLDERS like?",
+    "choices": [
+      "Restrictions, particularly on trading",
+      "Easily tradable instruments",
+      "Covenants and default risks",
+      "Cash prepayments",
+      "Process",
+      "A clear exit strategy"
+    ],
+    "answer": [
+      1,
+      3,
+      5
+    ],
+    "explanation": "Bondholders like straight talking, easily tradable instruments, high margins/share in upside, cash prepayments, clear exit strategy and tax-efficient structures. The other three are dislikes.",
+    "reference": "Module 4 – slide 17 (Bondholders: likes / dislikes)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-020",
+    "module": 4,
+    "type": "single",
+    "question": "Which of the following is something BONDHOLDERS dislike?",
+    "choices": [
+      "High margins / share in upside",
+      "Restrictions, particularly on trading",
+      "Easily tradable instruments",
+      "A clear exit strategy"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Bondholders dislike banks and bankers, detail, process, restrictions particularly on trading, covenants and default risks, and non-US-based approaches.",
+    "reference": "Module 4 – slide 17 (Bondholders: likes / dislikes)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-021",
+    "module": 4,
+    "type": "single",
+    "question": "Which item appears among the dislikes of BOTH bondholders and shareholders?",
+    "choices": [
+      "Further investment",
+      "Covenants and default risks",
+      "Detail",
+      "Press leakage"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "'Covenants and default risks' is on both lists. Press leakage and further investment are shareholder-only dislikes; detail is a bondholder-only dislike.",
+    "reference": "Module 4 – slides 17-18 (Bondholders and Shareholders)",
+    "difficulty": 3
+  },
+  {
+    "id": "m4-022",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE of the following are things that SHAREHOLDERS like?",
+    "choices": [
+      "Keeping control / influence",
+      "Links to management",
+      "Loss of value / interest / control",
+      "Press leakage",
+      "Retaining their stake",
+      "Further investment"
+    ],
+    "answer": [
+      0,
+      1,
+      4
+    ],
+    "explanation": "Shareholders like retaining their stake, creation of equity value, keeping control/influence, links to management, tax-efficient structures and a clear exit strategy. The other three are dislikes.",
+    "reference": "Module 4 – slide 18 (Shareholders: likes / dislikes)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-023",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which TWO of the following are things that SHAREHOLDERS dislike?",
+    "choices": [
+      "Tax-efficient structures",
+      "A clear exit strategy",
+      "Creation of equity value",
+      "Further investment",
+      "Press leakage"
+    ],
+    "answer": [
+      3,
+      4
+    ],
+    "explanation": "Shareholders' dislikes: further investment, loss of value/interest/control, covenants and default risks, bondholders, banks' advisors, press leakage.",
+    "reference": "Module 4 – slide 18 (Shareholders: likes / dislikes)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-024",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE of the following are things that HEDGE FUNDS like?",
+    "choices": [
+      "Volatility",
+      "Thinly held and low-liquidity instruments",
+      "Dominant stakeholders with power",
+      "CDS availability (to give hedges)",
+      "Information",
+      "Unclear / uncontrollable insolvency regimes"
+    ],
+    "answer": [
+      0,
+      3,
+      4
+    ],
+    "explanation": "Hedge funds like equity returns in short periods, liquidity of the underlying investment, information, volatility, access to strategy benefits and CDS availability. The other three are dislikes.",
+    "reference": "Module 4 – slide 19 (Hedge funds: likes / dislikes)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-025",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE of the following are things that HEDGE FUNDS dislike?",
+    "choices": [
+      "CDS availability",
+      "Thinly held and low liquidity",
+      "Information",
+      "Dominant stakeholders with power",
+      "Unclear / uncontrollable insolvency regimes",
+      "Volatility"
+    ],
+    "answer": [
+      1,
+      3,
+      4
+    ],
+    "explanation": "Hedge funds' dislikes: thinly held and low liquidity, clarity, dominant stakeholders with power, unclear/uncontrollable insolvency regimes.",
+    "reference": "Module 4 – slide 19 (Hedge funds: likes / dislikes)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-026",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE of the following are listed as options for BANKS on the 'Key stakeholders – Options' slide?",
+    "choices": [
+      "Dilution to a minimal stake",
+      "Rollover / maturity extension",
+      "Exercise security",
+      "Warrants / rights issue",
+      "Covenant waiver"
+    ],
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "Banks' options: covenant waiver, reduction of headroom/avoid drawdown, rollover/maturity extension, debt/equity swap, exercise security, write-off of debt. Warrants/rights issue and dilution to a minimal stake are listed for shareholders.",
+    "reference": "Module 4 – slide 20 (Key stakeholders – Options)",
+    "difficulty": 3
+  },
+  {
+    "id": "m4-027",
+    "module": 4,
+    "type": "single",
+    "question": "Which option is listed for BONDHOLDERS but does NOT appear in the banks' list on the 'Key stakeholders – Options' slide?",
+    "choices": [
+      "Cash payment at a discount to par",
+      "Covenant waiver",
+      "Debt / equity swap",
+      "Exercise security"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Bondholders' options: covenant waiver, cash payment at discount to par, debt/equity swap. Banks' list includes covenant waiver, debt/equity swap and exercise security, but not a cash payment at a discount to par.",
+    "reference": "Module 4 – slide 20 (Key stakeholders – Options)",
+    "difficulty": 3
+  },
+  {
+    "id": "m4-028",
+    "module": 4,
+    "type": "single",
+    "question": "According to the course, what is the only protection of shareholders in a restructuring plan?",
+    "choices": [
+      "Their seniority in the debt structure",
+      "Their right to veto any debt write-off",
+      "Their security over the company's assets",
+      "Their voting power in the restructuring plan"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Shareholders' options include warrants/rights issue and dilution to a minimal stake in a debt/equity swap; 'only protection: voting power in a restructuring plan'.",
+    "reference": "Module 4 – slide 20 (Key stakeholders – Options)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-029",
+    "module": 4,
+    "type": "single",
+    "question": "What happens to shareholders in a debt / equity swap, according to the stakeholder options slide?",
+    "choices": [
+      "They are diluted to a minimal stake",
+      "They are repaid at par before the lenders",
+      "They become the senior creditors",
+      "They keep their full stake and gain control"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Shareholders' options: 'In a debt / equity swap, dilution to a minimal stake'.",
+    "reference": "Module 4 – slide 20 (Key stakeholders – Options)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-030",
+    "module": 4,
+    "type": "single",
+    "question": "In the SuiteCase case (debt-for-equity swap), why did BankOne hold a large share of the debt?",
+    "choices": [
+      "Because of a failed syndication",
+      "Because it had acquired the group in an LBO",
+      "Because it had bought the debt from vulture funds",
+      "Because it was the group's majority shareholder"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The case states that a large share of the debt was held by BankOne due to a failed syndication, with a vocal minority of lenders.",
+    "reference": "Module 4 – slide 22 (Illustration SuiteCase case study)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-031",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE of the following appear on the SuiteCase 'Diagnosis & Conclusions' slide?",
+    "choices": [
+      "Options analysis",
+      "Initial public offering",
+      "Sale of the luggage brand",
+      "Pre-pack receivership",
+      "Contingency planning",
+      "Independent Business Review"
+    ],
+    "answer": [
+      0,
+      4,
+      5
+    ],
+    "explanation": "The slide lists an independent business review, options analysis, contingency planning, valuation and liquidity management.",
+    "reference": "Module 4 – slide 23 (SuiteCase – Diagnosis & Conclusions)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-032",
+    "module": 4,
+    "type": "single",
+    "question": "What were the conclusions of the SuiteCase diagnosis?",
+    "choices": [
+      "No new funding was needed",
+      "The group had to be liquidated immediately",
+      "The capital structure was not sustainable and there was a new funding need of about $165m",
+      "The capital structure was sustainable but the business model was not"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Conclusions: capital structure not sustainable; new funding need of c.$165m.",
+    "reference": "Module 4 – slide 23 (SuiteCase – Diagnosis & Conclusions)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-033",
+    "module": 4,
+    "type": "single",
+    "question": "According to the SuiteCase case, what was the key to the deal?",
+    "choices": [
+      "The new money",
+      "The sale of the retail network",
+      "The unanimous consent of all lenders",
+      "A court-led liquidation"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Slide 24 is titled 'Key to the deal was the new money'.",
+    "reference": "Module 4 – slide 24 (SuiteCase – Key to the deal was the new money)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-034",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE were issues for the EQUITY holder (PE HouseA) in the SuiteCase negotiation?",
+    "choices": [
+      "Wanted to minimise the debt remaining on the balance sheet",
+      "Wanted to avoid funding new money",
+      "Was ready to fund the new money need",
+      "Wanted to keep control (more than 50% of the capital)",
+      "Wanted to maximise the debt left on the balance sheet"
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "Equity issues: keep control (>50%), minimise remaining debt, committed to the restructuring, willing to fund new money. Avoiding new money and maximising the debt left are lender issues.",
+    "reference": "Module 4 – slide 24 (SuiteCase – Key to the deal was the new money)",
+    "difficulty": 3
+  },
+  {
+    "id": "m4-035",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE were issues for the LENDERS in the SuiteCase negotiation?",
+    "choices": [
+      "Maximise the debt left on the balance sheet",
+      "Keep control with more than 50% of the capital",
+      "Maximise recovery (clear economic owners at the start of the deal)",
+      "Be ready to fund the new money need",
+      "Minimise the debt remaining on the balance sheet",
+      "Avoid funding new money"
+    ],
+    "answer": [
+      0,
+      2,
+      5
+    ],
+    "explanation": "Lender issues: maximise recovery, maximise debt left on the balance sheet, avoid funding new money, limited insolvency returns. The other three are equity-side issues.",
+    "reference": "Module 4 – slide 24 (SuiteCase – Key to the deal was the new money)",
+    "difficulty": 3
+  },
+  {
+    "id": "m4-036",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which TWO were part of the COMMON GROUND between equity and lenders in the SuiteCase case?",
+    "choices": [
+      "Willingness of the lenders to fund the new money",
+      "Wish of the lenders to keep more than 50% of the capital",
+      "Desire to avoid insolvency",
+      "Wish to maximise the debt left on the balance sheet",
+      "Recognition of a highly cyclical business"
+    ],
+    "answer": [
+      2,
+      4
+    ],
+    "explanation": "Common ground: desire to avoid insolvency, recognition of a highly cyclical business, upside opportunity, but the economics must work.",
+    "reference": "Module 4 – slide 24 (SuiteCase – Key to the deal was the new money)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-037",
+    "module": 4,
+    "type": "single",
+    "question": "In the SuiteCase deal (equity-led solution), what happened to the bank and shareholder debt of $1.5bn?",
+    "choices": [
+      "It was fully repaid in cash at closing",
+      "It was written down to $240m",
+      "It was fully converted into equity",
+      "It was left unchanged and extended"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The equity-led solution wrote down the $1.5bn bank and shareholder debt to $240m.",
+    "reference": "Module 4 – slide 25 (SuiteCase – Implementation: the deal)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-039",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which statements about the post-deal ownership in SuiteCase are correct? Select ALL that apply.",
+    "choices": [
+      "PE House A was fully wiped out",
+      "The banks held about 35% of the capital",
+      "The banks became majority shareholders",
+      "The management held about 10% of the capital",
+      "PE House A kept about 55% of the capital"
+    ],
+    "answer": [
+      1,
+      3,
+      4
+    ],
+    "explanation": "After the deal: banks c.35%, PE House A c.55%, management c.10%; the banks negotiated the equity position downwards.",
+    "reference": "Module 4 – slide 25 (SuiteCase – Implementation: the deal)",
+    "difficulty": 3
+  },
+  {
+    "id": "m4-040",
+    "module": 4,
+    "type": "single",
+    "question": "In the SuiteCase outcome, what were the net proceeds of the Hong Kong IPO (early 2011) used for?",
+    "choices": [
+      "To repay the bank debt and the ABL in full",
+      "To buy back the shares held by management",
+      "To pay a special dividend to PE House A only",
+      "To fund a new restructuring plan"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The banks sold about 50% of their holding at the IPO and the net proceeds repaid the bank debt and ABL in full.",
+    "reference": "Module 4 – slide 25 (SuiteCase – Implementation: outcome)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-041",
+    "module": 4,
+    "type": "single",
+    "question": "What is a syndicated loan?",
+    "choices": [
+      "A loan that is always subordinated",
+      "A loan issued to the public on a market",
+      "A loan partially owned by various financial institutions that participate in the loan",
+      "A loan granted by a single bank with a pledge on all assets"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "A syndicated loan is partially owned by various financial institutions which participate in it.",
+    "reference": "Module 4 – slide 27 (Focus on types of debt)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-042",
+    "module": 4,
+    "type": "single",
+    "question": "What is the main problem of syndicated loans in a restructuring context?",
+    "choices": [
+      "Certain decisions (e.g. modifications to payment terms) must be approved by 100% of the lenders",
+      "The majority of lenders can impose any decision on the minority",
+      "They cannot be restructured under any circumstances",
+      "The borrower can change the terms without lender approval"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Certain decisions require 100% of lenders' approval, so a small participant can kill the deal or require its position to be paid out.",
+    "reference": "Module 4 – slide 27 (Focus on types of debt)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-043",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE are the basic categories of debt instruments identified in the course?",
+    "choices": [
+      "Secured debt instruments with underlying security of value",
+      "'Secured' debt instruments with security of little value",
+      "Unsecured debt instruments",
+      "Debt instruments convertible by law into equity",
+      "Debt instruments guaranteed by the state"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The course distinguishes unsecured instruments, secured instruments with security of value, and 'secured' instruments with security of little value.",
+    "reference": "Module 4 – slide 27 (Focus on types of debt)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-044",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE are given as examples of unsecured debt instruments?",
+    "choices": [
+      "Factoring of trade receivables",
+      "A syndicated loan without security",
+      "A loan secured by a pledge on shares",
+      "A simple promissory note",
+      "A loan secured by a machine that cannot be removed from the plant",
+      "Short-term credit lines"
+    ],
+    "answer": [
+      1,
+      3,
+      5
+    ],
+    "explanation": "Unsecured: promissory notes, short-term credit lines, syndicated loans without security. Factoring of receivables is the example of the best type of collateral; the other two are examples of security of little value.",
+    "reference": "Module 4 – slide 28 (Focus on types of debt)",
+    "difficulty": 3
+  },
+  {
+    "id": "m4-045",
+    "module": 4,
+    "type": "single",
+    "question": "According to the course, what is the best type of 'secured collateral'?",
+    "choices": [
+      "Machinery installed in the borrower's plant",
+      "Any asset located in Asia Pacific",
+      "Shares of the borrower pledged to the lender",
+      "Collateral that is liquid and in control of the lender (e.g. factoring of trade receivables)"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The best collateral is liquid and in the lender's control, e.g. factoring of trade receivables.",
+    "reference": "Module 4 – slide 28 (Secured, with security of value)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-046",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE are given as reasons why 'secured' debt may have security of little value?",
+    "choices": [
+      "The security is held in cash by the lender",
+      "It can be risky to enforce (e.g. safeguard procedure in France when the security is on shares)",
+      "It can be difficult to enforce the lenders' rights and take the security",
+      "The security consists of trade receivables factored by the lender",
+      "The security is a non-liquid asset (e.g. machinery that cannot be removed from the plant)",
+      "The loan is always fully syndicated"
+    ],
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "Slide 28 lists enforcement difficulty, non-liquid assets and risky enforcement as problems of security of little value.",
+    "reference": "Module 4 – slide 28 (Security of little value)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-047",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE arguments do creditors often use to claim a special status in a restructuring?",
+    "choices": [
+      "Their loan is secured, even if it is effectively unsecured in reality",
+      "Their loan is long term, so it must be repaid last",
+      "Their loan is small, so it should simply be paid off",
+      "Their loan is subordinated, so it must be repaid first",
+      "Their loan is unsecured, so it cannot be restructured",
+      "Their loan is short term and cannot be restructured over the long term"
+    ],
+    "answer": [
+      0,
+      2,
+      5
+    ],
+    "explanation": "Creditors argue that their loan is short term, small or secured (despite being de facto unsecured).",
+    "reference": "Module 4 – slide 29 (Implications in a restructuring)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-048",
+    "module": 4,
+    "type": "single",
+    "question": "According to the course, how are most lenders treated in the restructuring context, unless they are truly secured with collateral that would 'kill the business'?",
+    "choices": [
+      "As the new owners of the company",
+      "As 'de facto' unsecured creditors",
+      "As super senior creditors",
+      "As shareholders"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Unless the lender has collateral that would 'kill the business', most lenders tend to be de facto unsecured creditors.",
+    "reference": "Module 4 – slide 29 (Implications in a restructuring)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-049",
+    "module": 4,
+    "type": "single",
+    "question": "Why is the 'short term versus long term' argument of a creditor typically not fully relevant in a restructuring?",
+    "choices": [
+      "Because long-term loans are always repaid first",
+      "Because all the loans are typically in default and, as such, all are 'short term'",
+      "Because short-term loans are excluded from the restructuring",
+      "Because short-term loans are always secured"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Slide 30: all of the loans are typically in default and, as such, all loans are 'short term'.",
+    "reference": "Module 4 – slide 30 (Implications in a restructuring)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-050",
+    "module": 4,
+    "type": "single",
+    "question": "Why do large creditors typically want ALL financings, including small loans, to remain in place?",
+    "choices": [
+      "Because small loans carry the highest interest rates",
+      "Because small loans are exempt from the pari passu principle",
+      "Because small loans are always senior to large loans",
+      "Because they need the business to be viable in the long term in order to be repaid"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Large creditors need the business to be viable in the long term in order to be repaid, hence they want all financings to remain in place.",
+    "reference": "Module 4 – slide 30 (Implications in a restructuring)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-051",
+    "module": 4,
+    "type": "single",
+    "question": "What does the 'pari passu' principle mean in a restructuring?",
+    "choices": [
+      "Priority of repayment for the smallest loans",
+      "Automatic conversion of senior debt into equity",
+      "Equality of treatment between lenders of the same rank",
+      "Priority of repayment for the shortest loans"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "'Concept of equality of treatment (pari passu) between lenders of same rank is an important concept in a restructuring'.",
+    "reference": "Module 4 – slide 30 (Implications in a restructuring)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-052",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which TWO statements about large and small lenders are supported by the course?",
+    "choices": [
+      "Small loans are always paid off first by law",
+      "Small lenders are always forced to accept the terms of large lenders",
+      "Large creditors benefit from the continuing default because it increases their security",
+      "Large creditors need the restructuring to occur because a continuing default creates accounting problems within the bank (local solvency and liquidity ratios)",
+      "Lenders with small loans can afford to write off the loan, which is sometimes easier than entering a complex restructuring"
+    ],
+    "answer": [
+      3,
+      4
+    ],
+    "explanation": "Slide 30 explains both points: large creditors face accounting problems from a continuing default; small lenders can afford to write off.",
+    "reference": "Module 4 – slide 30 (Implications in a restructuring)",
+    "difficulty": 3
+  },
+  {
+    "id": "m4-053",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE of the following are among the conclusions of the 'Focus on types of debt' section?",
+    "choices": [
+      "Long term versus short term is the decisive criterion when the company is in default",
+      "Subordinated lenders can never have security",
+      "Small lenders may have more power than their position justifies",
+      "Small lenders always have less power than large lenders",
+      "Unsecured lenders generally have little recourse",
+      "Secured lenders may have illusory security with little real value"
+    ],
+    "answer": [
+      2,
+      4,
+      5
+    ],
+    "explanation": "Conclusions include: unsecured lenders have little recourse; secured lenders may have illusory security; small lenders may have more power than justified; long vs short term is largely irrelevant in default; subordinated lenders may have security.",
+    "reference": "Module 4 – slide 31 (Conclusions)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-054",
+    "module": 4,
+    "type": "single",
+    "question": "What does 'New Money is King' mean in a financial restructuring?",
+    "choices": [
+      "The new money provider has the power to impose its restructuring terms on other lenders (take it or leave it), including debt write-offs or conversions into equity",
+      "Existing lenders always decide the restructuring terms unanimously",
+      "New money is forbidden in a restructuring",
+      "The new money provider is always repaid after the existing lenders"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "A real differentiating factor is the need for new money: its provider can 'impose' its terms, including debt write-offs or debt conversions into equity.",
+    "reference": "Module 4 – slide 31 (Conclusions)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-055",
+    "module": 4,
+    "type": "single",
+    "question": "How does an 'Amend & Extend' operation only (without new money) differ from a new-money restructuring?",
+    "choices": [
+      "The shareholders impose a debt write-off on the lenders",
+      "The existing lenders discuss the terms and will likely ask the shareholder for an effort to de-risk the company",
+      "The new money provider imposes the terms on the existing lenders",
+      "The terms are set by the court without negotiation"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "In an Amend & Extend only, the existing lenders discuss the terms of the restructuring and will likely ask an effort from the shareholder to de-risk the company.",
+    "reference": "Module 4 – slide 31 (Conclusions)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-056",
+    "module": 4,
+    "type": "single",
+    "question": "In the Galapagos case, what is the situation of the group?",
+    "choices": [
+      "A group whose lenders have already agreed to write off EUR 40m",
+      "A diving equipment manufacturer with no debt but a cash shortage",
+      "A distributor of diving and snorkelling equipment with a EUR 100m debt to repay over 7 years, with repayment appearing at risk",
+      "A group with a EUR 45m debt to repay over 3 years"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Galapagos distributes diving and snorkelling equipment, has EUR 100m of debt to repay over 7 years and plans to discuss with its lenders to reach a viable debt level.",
+    "reference": "Module 4 – slide 33 (Galapagos – Outline)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-057",
+    "module": 4,
+    "type": "single",
+    "question": "How does the course define sustainable debt?",
+    "choices": [
+      "The amount of debt with no interest",
+      "The amount of debt that a company can reasonably pay over a period of time",
+      "The maximum amount of debt a bank is willing to lend",
+      "The amount of debt equal to the company's equity"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "'Sustainable debt is the amount of debt that a company can reasonably pay over a period of time'.",
+    "reference": "Module 4 – slide 34 (What is sustainable debt?)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-058",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE are listed as factors of sustainable debt?",
+    "choices": [
+      "Amortisation assumptions, including grace period",
+      "The number of employees",
+      "Short-term cash requirements (e.g. overdue suppliers, one-time restructuring)",
+      "The brand awareness of the company",
+      "Refinance-ability at the end of the term (residual asset values)",
+      "The level of dividends paid in previous years"
+    ],
+    "answer": [
+      0,
+      2,
+      4
+    ],
+    "explanation": "Factors: short-term cash requirements, short-to-medium term projected cash flow, interest rate assumptions, amortisation (incl. grace period), term, refinance-ability, ending cash on hand.",
+    "reference": "Module 4 – slide 34 (What is sustainable debt?)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-059",
+    "module": 4,
+    "type": "single",
+    "question": "In Galapagos Step One, free cash flow available to service debt is derived from EBITDA. In year 1 (EBITDA 15.0, capex 5.0, taxes 1.0, restructuring charges 3.0), what is the free cash flow available?",
+    "choices": [
+      "EUR 6.0m",
+      "EUR 15.0m",
+      "EUR 9.0m",
+      "EUR 3.0m"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Free cash flow available = EBITDA - capex - taxes - restructuring charges = 15 - 5 - 1 - 3 = 6.0.",
+    "reference": "Module 4 – slide 37 (Step One – Establish cash flow available to service debt)",
+    "difficulty": 3
+  },
+  {
+    "id": "m4-060",
+    "module": 4,
+    "type": "single",
+    "question": "In Galapagos Step Two, which term and interest rate are assumed?",
+    "choices": [
+      "A 3-year term and an interest rate of Libor + 4%",
+      "A 5-year term and a fixed rate of 4%",
+      "A 7-year term and an interest rate of Libor + 4%",
+      "A 3-year term and an interest rate of Libor + 2%"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Step 2: 3-year term to get to a viable debt; interest rate assumption Libor + 4%.",
+    "reference": "Module 4 – slide 38 (Galapagos – Set key parameters)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-061",
+    "module": 4,
+    "type": "single",
+    "question": "In Galapagos Step Three, what is the maximum amount of debt that can remain non-amortised (maximum refinancing risk)?",
+    "choices": [
+      "EUR 45m (3 times the year 3 EBITDA of EUR 15m)",
+      "EUR 100m (the current debt)",
+      "EUR 60m (3 times a EBITDA of EUR 20m)",
+      "EUR 30m (2 times the year 3 EBITDA)"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Step 3: debt to EBITDA of 3:1; year 3 EBITDA is EUR 15m, so the maximum non-amortised debt is EUR 45m.",
+    "reference": "Module 4 – slide 38 (Galapagos – Set key parameters)",
+    "difficulty": 3
+  },
+  {
+    "id": "m4-062",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE are key assumptions of the Galapagos simulation based on 100% of the existing debt?",
+    "choices": [
+      "No principal grace period",
+      "A 50% write-off of principal",
+      "A conversion of part of the debt into equity",
+      "A minimum of EUR 5m of amortisation per year",
+      "A 7-year term",
+      "A 3-year term"
+    ],
+    "answer": [
+      0,
+      3,
+      4
+    ],
+    "explanation": "Key assumptions: 7-year term, no principal grace period, no principal write-off/conversion, refinancing risk in year 7 at 3:1, minimum EUR 5m amortisation per year.",
+    "reference": "Module 4 – slide 39 (Simulate repayment assuming 100% of existing debt)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-063",
+    "module": 4,
+    "type": "single",
+    "question": "In the Galapagos 7-year scenario with 100% of the existing debt, when does ending cash first become negative (a shortfall)?",
+    "choices": [
+      "Only in the last year (year 7)",
+      "Ending cash stays positive throughout the 7 years",
+      "In year 4",
+      "From the first year"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The shortfall in ending cash appears in year 4: the proposed principal and interest payments cannot be funded (except through additional borrowings).",
+    "reference": "Module 4 – slides 40-41 (7 year sustainable debt scenario)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-064",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which statements describe the Galapagos 7-year scenario with 100% of the existing debt? Select ALL that apply.",
+    "choices": [
+      "Debt to EBITDA reaches 3.00 in year 3",
+      "Ending cash remains positive in every year",
+      "Debt to EBITDA remains far above 3.00 in year 3",
+      "Payments in year 4 can only be funded through additional borrowings",
+      "There is a liquidity issue in year 4",
+      "The debt service is fully covered by free cash flow every year"
+    ],
+    "answer": [
+      2,
+      3,
+      4
+    ],
+    "explanation": "Slides 40-41: Debt/EBITDA stays far above 3.00 in year 3 and there is a liquidity issue in year 4; payments cannot be funded except through additional borrowings.",
+    "reference": "Module 4 – slides 40-41 (7 year sustainable debt scenario)",
+    "difficulty": 3
+  },
+  {
+    "id": "m4-065",
+    "module": 4,
+    "type": "single",
+    "question": "According to the Galapagos case, what is a key criterion for establishing sustainable debt?",
+    "choices": [
+      "Consistency between the free cash flow generated and the debt service (principal + interest)",
+      "Avoiding any repayment of principal during the restructuring",
+      "Keeping the debt equal to the existing EUR 100m",
+      "Maximising the interest rate paid to lenders"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "A key criterion is consistency between free cash flow and debt service; a reasonable amount of repayment of debt is needed during the restructuring.",
+    "reference": "Module 4 – slide 41 (7 year sustainable debt scenario)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-066",
+    "module": 4,
+    "type": "single",
+    "question": "In the Galapagos scenario where the debt is partly written off or converted down to a EUR 60m opening position, what Debt to EBITDA ratio is reached in year 3?",
+    "choices": [
+      "1.50",
+      "3.67",
+      "3.00",
+      "5.67"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "With the EUR 60m opening debt, the 3.00 Debt to EBITDA ratio is reached in year 3.",
+    "reference": "Module 4 – slide 42 (Calculate sustainable debt – using given criteria)",
+    "difficulty": 3
+  },
+  {
+    "id": "m4-067",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which statements are correct for the Galapagos scenario with a EUR 60m opening debt? Select ALL that apply.",
+    "choices": [
+      "Ending cash remains positive in every year",
+      "Debt to EBITDA reaches 3.00 in year 3",
+      "The interest coverage ratio falls below 3.0",
+      "Part of the debt is written off or converted into equity",
+      "The debt is fully written off",
+      "No principal amortisation is paid during the period"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Slide 42: debt is partly written off/converted to EUR 60m; amortisation stays EUR 5m per year; ending cash is positive each year; Debt/EBITDA is 3.00 in year 3 and interest coverage is above 4.",
+    "reference": "Module 4 – slide 42 (Calculate sustainable debt – using given criteria)",
+    "difficulty": 3
+  },
+  {
+    "id": "m4-068",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE are things that LENDERS WANT, according to the Galapagos case?",
+    "choices": [
+      "To decide whether the long-term relationship is still applicable",
+      "To increase the liquidity held on their balance sheet",
+      "To make a provision against the loan",
+      "To enhance their credit position so as to be better off if the restructuring is unsuccessful",
+      "To fix the problem for good (two restructurings of the same company over a short timeframe are undesirable)",
+      "To see their position deteriorate during the process"
+    ],
+    "answer": [
+      0,
+      3,
+      4
+    ],
+    "explanation": "Lenders want to enhance their credit position, decide on the long-term relationship and fix the possible. They do not want a provision, higher liquidity requirements (Basel III) or a deterioration of their position.",
+    "reference": "Module 4 – slide 43 (Lenders requirements)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-069",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which TWO are things that LENDERS DO NOT WANT, according to the Galapagos case?",
+    "choices": [
+      "To make a reserve (provision) against a loan",
+      "To decide whether the long-term relationship is still applicable",
+      "Their position to deteriorate during the process",
+      "To fix the problem so that a second restructuring is avoided",
+      "To enhance their credit position"
+    ],
+    "answer": [
+      0,
+      2
+    ],
+    "explanation": "Lenders do not want to make a provision/higher liquidity requirement (Basel III and other regulation) nor to see their position deteriorate during the process.",
+    "reference": "Module 4 – slide 43 (Lenders requirements)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-070",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE are FAVOURABLE attributes of a restructuring from a lender's perspective?",
+    "choices": [
+      "Collateral",
+      "Interest grace periods",
+      "Excess cash flow sweeps",
+      "Terms longer than 7 years",
+      "No amortizations",
+      "Capital injection by shareholders"
+    ],
+    "answer": [
+      0,
+      2,
+      5
+    ],
+    "explanation": "Favourable: capital injection by shareholders, sale of assets, excess cash flow sweeps, collateral, achievable projections, prepayment in inverse order of maturity. The other three are undesirable.",
+    "reference": "Module 4 – slide 44 (Lenders requirements – key buttons)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-071",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE are UNDESIRABLE attributes of a restructuring from a lender's perspective?",
+    "choices": [
+      "Achievable projections",
+      "Below-market interest rates",
+      "Sale of assets",
+      "Terms longer than 7 years",
+      "'Unrealistic projections'",
+      "Prepayment in inverse order of maturity"
+    ],
+    "answer": [
+      1,
+      3,
+      4
+    ],
+    "explanation": "Undesirable: no amortizations, below-market interest rates, interest grace periods, no collateral, unrealistic projections, terms longer than 7 years, deteriorating position.",
+    "reference": "Module 4 – slide 44 (Lenders requirements – key buttons)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-072",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which questions does the course raise about the position of the banks / lenders themselves? Select TWO.",
+    "choices": [
+      "Can they ignore the pari passu principle?",
+      "Can they appoint the management of the company?",
+      "Can they afford to recognise a haircut?",
+      "Can they afford / want to become a shareholder?",
+      "Can they afford to lend at below-market rates indefinitely?"
+    ],
+    "answer": [
+      2,
+      3
+    ],
+    "explanation": "Slide 45: 'Can they afford to recognise a haircut? Can they afford/want to become a shareholder?'.",
+    "reference": "Module 4 – slide 45 (Stakeholders issues)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-073",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which statements about the unsustainable element of debt are supported by the course? Select THREE.",
+    "choices": [
+      "It is always fully repaid in cash by the shareholders",
+      "It never leads to dilution of existing shareholders",
+      "It often involves a disproportionate amount of time to negotiate relative to value",
+      "Some form of debt to equity swap is usually involved",
+      "It is ignored in negotiations because it is not sustainable",
+      "Its treatment is a major issue in a restructuring"
+    ],
+    "answer": [
+      2,
+      3,
+      5
+    ],
+    "explanation": "Slide 46: treatment of the unsustainable debt is a major issue; it often takes a disproportionate amount of time; a debt-to-equity swap is usually involved; the extent of dilution varies.",
+    "reference": "Module 4 – slide 46 (Stakeholders issues)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-074",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE are listed as financial needs of MARKET REPOSITIONING actions?",
+    "choices": [
+      "Advisory fees for the sale of a branch",
+      "Lease early termination",
+      "R&D investment to develop new products",
+      "Marketing / advertising investments to boost awareness",
+      "Lay-off costs",
+      "Sales structure to develop new products"
+    ],
+    "answer": [
+      2,
+      3,
+      5
+    ],
+    "explanation": "Market repositioning: R&D investment, sales structure, marketing/advertising. Lay-off costs and lease termination are cost rightsizing; advisory fees relate to M&A.",
+    "reference": "Module 4 – slide 49 (Financial needs driven by operational turnaround)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-075",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE are listed as financial needs of COST RIGHTSIZING actions?",
+    "choices": [
+      "Lease early termination",
+      "R&D investment to develop new products",
+      "Interim management fees",
+      "Risks of litigation with suppliers",
+      "Lay-off costs",
+      "Marketing / advertising investments"
+    ],
+    "answer": [
+      0,
+      3,
+      4
+    ],
+    "explanation": "Cost rightsizing: lay-off costs, lease early termination, other contracts early termination, risks of litigation with suppliers.",
+    "reference": "Module 4 – slide 49 (Financial needs driven by operational turnaround)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-076",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which statements about M&A transactions in a turnaround are supported by the course? Select ALL that apply.",
+    "choices": [
+      "The seller alone sets the proceeds, which are always paid in full in cash at closing",
+      "Part of the proceeds may be structured as a vendor loan (paid progressively)",
+      "A business may be acquired to reposition the group",
+      "Part of the proceeds may be structured as an earn-out based on the future performance of the acquired branch",
+      "Selling a loss-making branch is free of any advisory costs",
+      "Selling a loss-making branch takes time and requires advisory fees"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "explanation": "Slide 50 lists time and advisory fees, vendor loan, earn-out (negotiated by the buyer) and acquisitions to reposition the group.",
+    "reference": "Module 4 – slide 50 (Financial needs: M&A transactions)",
+    "difficulty": 3
+  },
+  {
+    "id": "m4-077",
+    "module": 4,
+    "type": "single",
+    "question": "What is the difference between a vendor loan and an earn-out in the sale of a loss-making branch?",
+    "choices": [
+      "A vendor loan is granted by the buyer's bank, an earn-out by the seller's bank",
+      "A vendor loan depends on future performance, whereas an earn-out is paid progressively",
+      "Both are paid in full at closing",
+      "A vendor loan is a portion of the proceeds paid progressively, whereas an earn-out depends on the future performance of the acquired branch"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Proceeds can be negotiated by the buyer, with a portion structured as a vendor loan (paid progressively) or as an earn-out (based on the future performance of the acquired branch).",
+    "reference": "Module 4 – slide 50 (Financial needs: M&A transactions)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-078",
+    "module": 4,
+    "type": "single",
+    "question": "Why must 'timing and interim losses' be included in the turnaround financing needs?",
+    "choices": [
+      "Because lenders require losses to continue",
+      "Because interim losses are tax-deductible",
+      "Because the turnaround takes time and future cash consumption must be financed until the company reaches cash breakeven",
+      "Because cash breakeven is reached immediately after the plan is approved"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Until the company reaches cash breakeven, the future cash consumption needs to be factored in the turnaround financing needs.",
+    "reference": "Module 4 – slide 50 (Financial needs: timing and interim losses)",
+    "difficulty": 1
+  },
+  {
+    "id": "m4-079",
+    "module": 4,
+    "type": "multiple",
+    "question": "Which THREE are listed under 'all other costs' of an operational turnaround?",
+    "choices": [
+      "Contingencies for unexpected events",
+      "R&D investment",
+      "Proceeding fees (pre-insolvency or insolvency proceeding)",
+      "Lay-off costs",
+      "Proceeds from the sale of a branch",
+      "Interim / crisis management"
+    ],
+    "answer": [
+      0,
+      2,
+      5
+    ],
+    "explanation": "All other costs: interim/crisis management, advisory fees, proceeding fees, contingencies.",
+    "reference": "Module 4 – slide 51 (Financial needs: all other costs)",
+    "difficulty": 2
+  },
+  {
+    "id": "m4-080",
+    "module": 4,
+    "type": "single",
+    "question": "Why is a financial restructuring often required in parallel to an operational turnaround plan?",
+    "choices": [
+      "To replace the operational turnaround plan",
+      "To increase the dividend paid to shareholders",
+      "To avoid any negotiation with the lenders",
+      "To clean the past (make the existing debt viable) and finance the turnaround plan (finance the future)"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The summary: the turnaround plan requires financing until it brings the company back to breakeven and positive cash flow; financial restructuring cleans the past and finances the future.",
+    "reference": "Module 4 – slide 52 (Financial needs: in summary)",
+    "difficulty": 1
+  }
+]

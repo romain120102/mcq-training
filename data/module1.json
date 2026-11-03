@@ -1,0 +1,1577 @@
+[
+ {
+  "id": "m1-001",
+  "module": 1,
+  "type": "single",
+  "question": "According to the company lifecycle slide, what can happen once a business's performance has peaked?",
+  "choices": [
+   "It inevitably declines until liquidation, whatever management does",
+   "It automatically moves into a new period of growth without any intervention",
+   "It must immediately be sold to a competitor or a private-equity investor",
+   "It will either decline or be renewed through a turnaround, possibly leading to even greater success (transformation)"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "The slide states: once performance has peaked, a business will decline (work out) or it can be renewed (turnaround) to perhaps even greater success (transformation).",
+  "reference": "Module 1 – slide 10 (The Company Lifecycle)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-002",
+  "module": 1,
+  "type": "single",
+  "question": "How does the course define Turnaround Management?",
+  "choices": [
+   "Managing only the negotiation of the debt of a company with its lenders",
+   "Managing the move from entrepreneurial to professional management during the start-up phase",
+   "Managing the process of transformation from an underperforming situation, through the inflection point, to recovery and renewal",
+   "Managing the orderly liquidation of an underperforming company for the benefit of its creditors"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Slide 11 defines Turnaround Management as managing the process of transformation from an underperforming situation through the inflection point to recovery and renewal.",
+  "reference": "Module 1 – slide 11 (The Company Lifecycle)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-003",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following labels appear on the company lifecycle diagram? Select ALL that apply.",
+  "choices": [
+   "Maturity",
+   "Diversification",
+   "Renewal",
+   "Liquidation",
+   "Franchising",
+   "Start up"
+  ],
+  "answer": [
+   0,
+   2,
+   3,
+   5
+  ],
+  "explanation": "The lifecycle diagram shows Start up, Growth, Maturity, Transformation, Future growth, Liquidation, Renewal and Innovation. Franchising and Diversification are not shown.",
+  "reference": "Module 1 – slide 10 (The Company Lifecycle)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-004",
+  "module": 1,
+  "type": "single",
+  "question": "The lifecycle slide says that the key is to identify the early warning signs and take prompt action in order to do what?",
+  "choices": [
+   "Protect the dividend until the end of the financial year",
+   "\"Break the trend\" and drive through the inflection point to a new period of growth",
+   "Wait for the symptoms to be confirmed by the audited accounts",
+   "Follow the trend of the market until the economic cycle improves"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The slide: the key is to identify the early warning signs and take prompt action in order to \"break the trend\" and drive through the inflection point to a new period of growth.",
+  "reference": "Module 1 – slide 10 (The Company Lifecycle)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-005",
+  "module": 1,
+  "type": "single",
+  "question": "According to the course, how has scoring companies with financial indicators to predict decline performed so far?",
+  "choices": [
+   "It has proven highly reliable and is the preferred early-warning tool",
+   "It has proven to be poor, although it may improve going forward using AI / Big Data",
+   "It has never been attempted because financial indicators are not available",
+   "It has proven reliable for outsiders but not for management"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 13: scoring companies using financial indicators to predict decline has proven to be poor (but may improve going forward using AI / Big Data).",
+  "reference": "Module 1 – slide 13 (Crisis symptoms versus causes/drivers)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-006",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following statements about perceiving the symptoms of decline are consistent with the course? Select ALL that apply.",
+  "choices": [
+   "Management is closer to the business, so should perceive the symptoms earlier",
+   "Outsiders generally rely on public information",
+   "Non-financial information is always easy to access",
+   "Outsiders see the symptoms earlier than management because they are more objective",
+   "Financial scoring models have proven highly reliable",
+   "Financial information can suffer delays before it is received"
+  ],
+  "answer": [
+   0,
+   1,
+   5
+  ],
+  "explanation": "Slide 13: management is closer so should perceive earlier; outsiders generally rely on public information; financial information can suffer delays; non-financial information can give early warning but may be difficult to access.",
+  "reference": "Module 1 – slide 13 (Crisis symptoms versus causes/drivers)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-007",
+  "module": 1,
+  "type": "single",
+  "question": "Which of the following is listed among the common symptoms of decline in the category \"Financial data\"?",
+  "choices": [
+   "Rapid management turnover",
+   "Payment delays",
+   "Audit qualifications",
+   "Frequent product launch flops"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Audit qualifications appear in the Financial data list (slide 15). The other three belong to Management & Staff, Suppliers & Customers and Other symptoms respectively.",
+  "reference": "Module 1 – slide 15 (Common symptoms of decline: financial data)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-008",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are listed as symptoms of decline in the \"Financial data\" category? Select ALL that apply.",
+  "choices": [
+   "Increasing gearing",
+   "Creative accounting",
+   "Staff fear",
+   "Adverse image / media comment",
+   "Delay in publishing/delivering financial information",
+   "Frequent crisis meetings"
+  ],
+  "answer": [
+   0,
+   1,
+   4
+  ],
+  "explanation": "Slide 15 lists delays in financial information, creative accounting and increasing gearing. Staff fear and frequent crisis meetings are Management & Staff symptoms; adverse image/media comment is in Other symptoms.",
+  "reference": "Module 1 – slide 15 (Common symptoms of decline: financial data)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-009",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are also listed under \"Financial data\" symptoms of decline? Select ALL that apply.",
+  "choices": [
+   "More supplier disputes",
+   "Declining performance versus budget / prior year",
+   "Audit qualifications",
+   "Worsening working capital position",
+   "Visible management conflict",
+   "Below sector share performance"
+  ],
+  "answer": [
+   1,
+   2,
+   3,
+   5
+  ],
+  "explanation": "All four correct items are in the Financial data list on slide 15; visible management conflict (slide 16) and supplier disputes (slide 17) belong to other categories.",
+  "reference": "Module 1 – slide 15 (Common symptoms of decline: financial data)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-010",
+  "module": 1,
+  "type": "single",
+  "question": "Which symptom of decline is specifically linked to family-owned businesses?",
+  "choices": [
+   "Family members selling shares to the board",
+   "Second generation management",
+   "Founder-led management",
+   "Absence of a family council"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 16 lists \"Second generation management, in family-owned businesses\" under Management & Staff symptoms.",
+  "reference": "Module 1 – slide 16 (Common symptoms of decline: management & staff)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-011",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are listed as symptoms of decline in the \"Management & Staff\" category? Select ALL that apply.",
+  "choices": [
+   "Frequent crisis meetings",
+   "Payment delays",
+   "Suppliers negotiating with banks",
+   "Visible management conflict",
+   "Audit qualifications",
+   "Top management team indecision"
+  ],
+  "answer": [
+   0,
+   3,
+   5
+  ],
+  "explanation": "Slide 16 lists top management indecision, visible management conflict and frequent crisis meetings. The other options are Financial data or Suppliers & Customers symptoms.",
+  "reference": "Module 1 – slide 16 (Common symptoms of decline: management & staff)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-012",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are listed under Management & Staff symptoms? Select ALL that apply.",
+  "choices": [
+   "Loss of customers",
+   "Declining morale",
+   "Lack of professionalism",
+   "Increasing gearing",
+   "Rapid management turnover, loss of key people",
+   "Lack of leadership"
+  ],
+  "answer": [
+   1,
+   2,
+   4,
+   5
+  ],
+  "explanation": "Slide 16 lists rapid management turnover, lack of professionalism, lack of leadership and declining morale. Increasing gearing is a Financial data symptom; loss of customers is a Suppliers & Customers symptom.",
+  "reference": "Module 1 – slide 16 (Common symptoms of decline: management & staff)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-013",
+  "module": 1,
+  "type": "single",
+  "question": "What additional comment does the course add at the end of the list of Management & Staff symptoms of decline?",
+  "choices": [
+   "\"... and very often an oversized board!\"",
+   "\"... and very often a weak audit committee!\"",
+   "\"... and very often a weak board!\"",
+   "\"... and very often absent shareholders!\""
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The last line of slide 16 reads \"… and very often a weak board!\".",
+  "reference": "Module 1 – slide 16 (Common symptoms of decline: management & staff)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-014",
+  "module": 1,
+  "type": "single",
+  "question": "Which of the following is a symptom of decline in the category \"Suppliers & Customers\"?",
+  "choices": [
+   "Top management team indecision",
+   "Lack of investment in technology and human capital",
+   "Below sector share performance",
+   "Financing operations through customer advances"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Slide 17 lists \"Financing operations through customer advances\". The other options belong to Other symptoms, Financial data and Management & Staff.",
+  "reference": "Module 1 – slide 17 (Common symptoms of decline: suppliers & customers)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-015",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are listed as symptoms of decline in the \"Suppliers & Customers\" category? Select ALL that apply.",
+  "choices": [
+   "Creative accounting",
+   "Staff fear",
+   "More supplier disputes",
+   "Adverse movement in share price",
+   "Payment delays",
+   "Loss of customers"
+  ],
+  "answer": [
+   2,
+   4,
+   5
+  ],
+  "explanation": "Payment delays, loss of customers and more supplier disputes are on slide 17. Creative accounting is Financial data; staff fear is Management & Staff; share price movement is in Other symptoms.",
+  "reference": "Module 1 – slide 17 (Common symptoms of decline: suppliers & customers)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-016",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are also listed as Suppliers & Customers symptoms? Select ALL that apply.",
+  "choices": [
+   "Suppliers negotiating with banks",
+   "Audit qualifications",
+   "Factoring of receivables",
+   "Worsening business terms of trade",
+   "Declining customer service",
+   "Second generation management"
+  ],
+  "answer": [
+   0,
+   2,
+   3,
+   4
+  ],
+  "explanation": "Slide 17 lists worsening terms of trade, suppliers negotiating with banks, factoring of receivables and declining customer service. Audit qualifications (slide 15) and second generation management (slide 16) belong elsewhere.",
+  "reference": "Module 1 – slide 17 (Common symptoms of decline: suppliers & customers)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-017",
+  "module": 1,
+  "type": "single",
+  "question": "If the company has a BtoC activity, what does the course suggest doing to assess possible symptoms of decline?",
+  "choices": [
+   "Review the audit report for qualifications",
+   "Look on the Web to assess its reputation through customers' discussions, blogs, etc.",
+   "Compare the revenues with the prior-year budget only",
+   "Ask suppliers for the payment history of each customer"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 17: if the Company has a BtoC activity, look on the Web to assess reputation through customers discussions / blogs / etc.",
+  "reference": "Module 1 – slide 17 (Common symptoms of decline: suppliers & customers)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-018",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are listed in the category \"Other symptoms\" of decline? Select ALL that apply.",
+  "choices": [
+   "Rising share price",
+   "Increasing availability of credit and funding",
+   "Lack of investment in technology and human capital",
+   "Availability of credit and funding increasingly restricted",
+   "Post-acquisition benefits (e.g. synergies) not being obtained",
+   "Big projects will save the day"
+  ],
+  "answer": [
+   2,
+   3,
+   4,
+   5
+  ],
+  "explanation": "Slide 18 lists restricted credit availability, \"big projects will save the day\", synergies not being obtained and lack of investment in technology and human capital. The two other options are the opposite of listed symptoms.",
+  "reference": "Module 1 – slide 18 (Common symptoms of decline: other symptoms)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-019",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are also listed in the category \"Other symptoms\"? Select ALL that apply.",
+  "choices": [
+   "Adverse movement in share price",
+   "Delay in publishing/delivering financial information",
+   "Frequent product launch flops",
+   "Management believes that market turnaround is the solution",
+   "Staff fear",
+   "Adverse image / media comment"
+  ],
+  "answer": [
+   0,
+   2,
+   3,
+   5
+  ],
+  "explanation": "All four correct items are on slide 18. Staff fear (slide 16) and reporting delays (slide 15) belong to other categories.",
+  "reference": "Module 1 – slide 18 (Common symptoms of decline: other symptoms)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-020",
+  "module": 1,
+  "type": "single",
+  "question": "Under which category of symptoms of decline does the course list \"Post-acquisition benefits (e.g. synergies) not being obtained\"?",
+  "choices": [
+   "Financial data",
+   "Other symptoms",
+   "Suppliers & Customers",
+   "Management & Staff"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 18 (4 – Other symptoms) lists post-acquisition benefits not being obtained.",
+  "reference": "Module 1 – slide 18 (Common symptoms of decline: other symptoms)",
+  "difficulty": 3
+ },
+ {
+  "id": "m1-021",
+  "module": 1,
+  "type": "single",
+  "question": "Under which category of symptoms of decline does the course list \"Rapid management turnover, loss of key people\"?",
+  "choices": [
+   "Management & Staff",
+   "Financial data",
+   "Other symptoms",
+   "Suppliers & Customers"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 16 (2 – Management & Staff) lists rapid management turnover and loss of key people.",
+  "reference": "Module 1 – slide 16 (Common symptoms of decline: management & staff)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-022",
+  "module": 1,
+  "type": "single",
+  "question": "Which of the following is listed among the general indicators of distress?",
+  "choices": [
+   "Capex vs. depreciation",
+   "Number of patents filed",
+   "Brand awareness",
+   "Office rental costs"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 19 lists general indicators of distress including market share, sales, margins, prices, liquidity, dividends, capex vs. depreciation, high staff turnover, unit costs, etc.",
+  "reference": "Module 1 – slide 19 (General indicators of distress)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-023",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are listed among the general indicators of distress? Select ALL that apply.",
+  "choices": [
+   "Number of new patents granted",
+   "Short term debt",
+   "Currency losses",
+   "Customer loyalty survey score",
+   "Creditor pressure",
+   "Debtor provisions"
+  ],
+  "answer": [
+   1,
+   2,
+   4,
+   5
+  ],
+  "explanation": "Slide 19 includes currency losses, creditor pressure, short term debt and debtor provisions. The other two items are not in the list.",
+  "reference": "Module 1 – slide 19 (General indicators of distress)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-024",
+  "module": 1,
+  "type": "single",
+  "question": "Which of the following is a symptom of decline listed in the course, rather than a primary cause of decline?",
+  "choices": [
+   "Inappropriate covenants",
+   "Misdirected advertising",
+   "Cultural differences",
+   "Payment delays"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Payment delays are a Suppliers & Customers symptom (slide 17). Inappropriate covenants, misdirected advertising and cultural differences are listed as primary causes (slides 24-26).",
+  "reference": "Module 1 – slides 17, 24-26 (Symptoms vs primary causes)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-025",
+  "module": 1,
+  "type": "single",
+  "question": "Which of the following is listed as a primary cause of decline, rather than a symptom?",
+  "choices": [
+   "Declining morale",
+   "Poor post-acquisition planning",
+   "Audit qualifications",
+   "Frequent crisis meetings"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Poor post-acquisition planning is listed under Poor acquisitions (slide 26). Declining morale, audit qualifications and frequent crisis meetings are symptoms (slides 15-16).",
+  "reference": "Module 1 – slides 15-16, 26 (Symptoms vs primary causes)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-026",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are listed in the course as SYMPTOMS of decline (not as primary causes)? Select ALL that apply.",
+  "choices": [
+   "Payment delays",
+   "Audit qualifications",
+   "Too high a premium paid",
+   "Misdirected advertising",
+   "Cultural differences",
+   "Staff fear"
+  ],
+  "answer": [
+   0,
+   1,
+   5
+  ],
+  "explanation": "Payment delays, audit qualifications and staff fear are symptoms (slides 15-17). Too high a premium paid, misdirected advertising and cultural differences are primary causes (slides 24 and 26).",
+  "reference": "Module 1 – slides 15-17, 24, 26 (Symptoms vs primary causes)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-027",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are listed in the course as primary CAUSES of decline (not as symptoms)? Select ALL that apply.",
+  "choices": [
+   "Cultural differences",
+   "Over-capacity",
+   "Lack of market knowledge",
+   "Inappropriate covenants",
+   "Declining morale",
+   "Creative accounting"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Over-capacity (slide 24), lack of market knowledge (24), inappropriate covenants (25) and cultural differences (26) are causes. Creative accounting and declining morale are symptoms (15-16).",
+  "reference": "Module 1 – slides 15-16, 24-26 (Symptoms vs primary causes)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-028",
+  "module": 1,
+  "type": "single",
+  "question": "According to the course, what should the analysis of causes of decline focus on?",
+  "choices": [
+   "The causal factor and its effect",
+   "Identifying who should be blamed for the situation",
+   "The external causes only, since management cannot control them",
+   "The financial ratios of the last five years only"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 20 states that the reasoning \"poor management = bad luck\" is NOT SO SIMPLE – it is used as a means to apportion blame – and that one should focus on causal factor and effect.",
+  "reference": "Module 1 – slide 20 (Causes – General considerations)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-029",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following statements are consistent with the \"Causes – General considerations\" slide? Select ALL that apply.",
+  "choices": [
+   "All causes of decline are external and outside management's control",
+   "One should distinguish internal causes from external causes",
+   "Apportioning blame is the main purpose of the causes analysis",
+   "Causes of decline are generally traceable to poor management",
+   "The idea \"good management = good luck, poor management = bad luck\" is not so simple, as it is used as a means to apportion blame"
+  ],
+  "answer": [
+   1,
+   3,
+   4
+  ],
+  "explanation": "Slide 20: causes are generally traceable to poor management; the luck reasoning is used to apportion blame (not so simple); focus should be on causal factor and effect; internal versus external causes.",
+  "reference": "Module 1 – slide 20 (Causes – General considerations)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-030",
+  "module": 1,
+  "type": "single",
+  "question": "Into which two levels are the external drivers of decline divided in the course?",
+  "choices": [
+   "Structural and operational",
+   "Strategic and tactical",
+   "Macro and micro",
+   "Financial and operational"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Slide 21 splits external drivers into MACRO (economic cycles, world events) and MICRO (changes in market demand, loss of competitiveness, commodity prices).",
+  "reference": "Module 1 – slide 21 (External drivers of decline)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-031",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are listed as MICRO external drivers of decline? Select ALL that apply.",
+  "choices": [
+   "Changes in market demand",
+   "Economic cycles",
+   "World events",
+   "Cost base",
+   "Loss of competitiveness",
+   "Commodity prices"
+  ],
+  "answer": [
+   0,
+   4,
+   5
+  ],
+  "explanation": "Slide 21: micro = changes in market demand, loss of competitiveness, commodity prices. Economic cycles and world events are macro; cost base is an internal operational driver.",
+  "reference": "Module 1 – slide 21 (External drivers of decline)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-032",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are classified as EXTERNAL drivers of decline? Select ALL that apply.",
+  "choices": [
+   "Changes in market demand",
+   "Loss of competitiveness",
+   "Over expansion",
+   "Capital structure",
+   "World events",
+   "Economic cycles"
+  ],
+  "answer": [
+   0,
+   1,
+   4,
+   5
+  ],
+  "explanation": "Slide 21 lists economic cycles and world events (macro), changes in market demand and loss of competitiveness (micro). Over expansion and capital structure are internal drivers (slide 22).",
+  "reference": "Module 1 – slides 21-22 (External vs internal drivers)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-033",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are classified as INTERNAL drivers of decline? Select ALL that apply.",
+  "choices": [
+   "Cost base",
+   "Systems",
+   "Commodity prices",
+   "Gearing",
+   "Culture",
+   "Economic cycles"
+  ],
+  "answer": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "explanation": "Slide 22 lists systems and culture (structural), gearing (financial) and cost base (operational) as internal drivers; economic cycles and commodity prices are external (slide 21).",
+  "reference": "Module 1 – slides 21-22 (External vs internal drivers)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-034",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which THREE categories are used to classify the internal drivers of decline? Select ALL that apply.",
+  "choices": [
+   "Operational",
+   "Micro",
+   "Structural",
+   "Cyclical",
+   "Financial",
+   "Macro"
+  ],
+  "answer": [
+   0,
+   2,
+   4
+  ],
+  "explanation": "Slide 22 groups internal drivers into Structural, Financial and Operational. Macro and micro are the levels of external drivers.",
+  "reference": "Module 1 – slide 22 (Internal drivers of decline)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-035",
+  "module": 1,
+  "type": "single",
+  "question": "In the course's classification of internal drivers of decline, under which group is \"Culture\" listed?",
+  "choices": [
+   "Structural",
+   "Operational",
+   "Macro",
+   "Financial"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 22: STRUCTURAL = management, systems, controls, culture.",
+  "reference": "Module 1 – slide 22 (Internal drivers of decline)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-036",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are listed as FINANCIAL internal drivers of decline? Select ALL that apply.",
+  "choices": [
+   "Commodity prices",
+   "Gearing",
+   "Financial policies",
+   "Controls",
+   "Capital structure",
+   "Cost base"
+  ],
+  "answer": [
+   1,
+   2,
+   4
+  ],
+  "explanation": "Slide 22: FINANCIAL = capital structure, gearing, financial policies. Controls are structural, cost base is operational, commodity prices are an external micro driver.",
+  "reference": "Module 1 – slide 22 (Internal drivers of decline)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-037",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are listed as OPERATIONAL internal drivers of decline? Select ALL that apply.",
+  "choices": [
+   "Poor marketing",
+   "Capital structure",
+   "Big projects",
+   "Systems",
+   "Over expansion",
+   "Over reliance"
+  ],
+  "answer": [
+   0,
+   2,
+   4,
+   5
+  ],
+  "explanation": "Slide 22: OPERATIONAL = over expansion, over reliance, big projects, cost base, poor marketing. Systems are structural; capital structure is financial.",
+  "reference": "Module 1 – slide 22 (Internal drivers of decline)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-039",
+  "module": 1,
+  "type": "single",
+  "question": "A company's customers move to a competitor and market demand for its products falls. How does the course classify this driver?",
+  "choices": [
+   "External driver – micro (changes in market demand)",
+   "Internal driver – structural",
+   "External driver – macro (economic cycles)",
+   "Internal driver – operational"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 21 lists \"Changes in market demand\" as a MICRO external driver.",
+  "reference": "Module 1 – slide 21 (External drivers of decline)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-040",
+  "module": 1,
+  "type": "single",
+  "question": "Which of the following is presented in the course (slides 23-26) as a group of primary causes of decline?",
+  "choices": [
+   "Adverse weather",
+   "Excessive executive pay",
+   "Tax audits",
+   "Poor acquisitions"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "The four groups are: poor management / inadequate information, strategic & operational deficiencies, financing structure & associated costs, and poor acquisitions (slides 23-26).",
+  "reference": "Module 1 – slides 23-26 (Primary causes of decline)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-041",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are among the primary causes of decline presented in slides 23 to 26? Select ALL that apply.",
+  "choices": [
+   "Poor management",
+   "Excessive government regulation",
+   "Low employee wages",
+   "Strategic & operational deficiencies",
+   "Financing structure & associated costs",
+   "Inadequate information (lack of financial control)"
+  ],
+  "answer": [
+   0,
+   3,
+   4,
+   5
+  ],
+  "explanation": "Slide 23 (poor management; inadequate information), slide 24 (strategic & operational deficiencies) and slide 25 (financing structure) are primary causes. The other two are not listed.",
+  "reference": "Module 1 – slides 23-26 (Primary causes of decline)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-042",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are listed as characteristics of POOR MANAGEMENT as a primary cause of decline? Select ALL that apply.",
+  "choices": [
+   "Over-ambitious",
+   "Lack of breadth",
+   "Too many banks",
+   "Cultural differences",
+   "Autocratic",
+   "Mature industry"
+  ],
+  "answer": [
+   0,
+   1,
+   4
+  ],
+  "explanation": "Slide 23 lists autocratic, over-ambitious, indecisive, lack of breadth, no vision, wrong skills. The others belong to financing structure, product and poor acquisitions.",
+  "reference": "Module 1 – slide 23 (Primary causes of decline – 1/4)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-043",
+  "module": 1,
+  "type": "single",
+  "question": "Which of the following is listed under \"Inadequate information => Lack of financial control\"?",
+  "choices": [
+   "Misdirected advertising",
+   "Inventories",
+   "Over-capacity",
+   "Earn-outs for equity"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 23 lists cash flows, costing / unit costs, budgets, sales / margins, inventories and capex under inadequate information.",
+  "reference": "Module 1 – slide 23 (Primary causes of decline – 1/4)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-044",
+  "module": 1,
+  "type": "single",
+  "question": "According to slide 23, what does inadequate information lead to?",
+  "choices": [
+   "Easy entry barriers",
+   "Poor acquisitions",
+   "Over-capacity",
+   "Lack of financial control"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Slide 23 shows \"Inadequate information => Lack of financial control\".",
+  "reference": "Module 1 – slide 23 (Primary causes of decline – 1/4)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-045",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following areas are listed under inadequate information / lack of financial control? Select ALL that apply.",
+  "choices": [
+   "Budgets",
+   "Lack of synergy",
+   "Secured vs. unsecured",
+   "Technology lag",
+   "Capex",
+   "Sales / Margins"
+  ],
+  "answer": [
+   0,
+   4,
+   5
+  ],
+  "explanation": "Slide 23 lists cash flows, costing/unit costs, budgets, sales/margins, inventories and capex. The others belong to financing structure (25), product (24) and acquisitions (26).",
+  "reference": "Module 1 – slide 23 (Primary causes of decline – 1/4)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-046",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are listed under MARKETING deficiencies in the group \"Strategic & operational deficiencies\"? Select ALL that apply.",
+  "choices": [
+   "Poor pricing policies",
+   "Misdirected advertising",
+   "Over-gearing",
+   "Labour costs",
+   "Purchasing",
+   "Lack of market knowledge"
+  ],
+  "answer": [
+   0,
+   1,
+   5
+  ],
+  "explanation": "Slide 24 – Marketing: no marketing strategy, lack of market knowledge, no new product development, misdirected advertising, poor pricing policies. Labour costs and purchasing are under Operations; over-gearing is a financing-structure item (slide 25).",
+  "reference": "Module 1 – slide 24 (Primary causes of decline – 2/4)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-047",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are listed under PRODUCT deficiencies in the group \"Strategic & operational deficiencies\"? Select ALL that apply.",
+  "choices": [
+   "Misdirected advertising",
+   "Price cutting",
+   "Over-capacity",
+   "Distribution costs",
+   "Mature industry",
+   "Low investment"
+  ],
+  "answer": [
+   1,
+   2,
+   4,
+   5
+  ],
+  "explanation": "Slide 24 – Product: outdated products, mature industry, technology lag, over-capacity, price cutting, declining demand, easy entry barrier, low investment.",
+  "reference": "Module 1 – slide 24 (Primary causes of decline – 2/4)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-048",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are listed under OPERATIONS deficiencies in the group \"Strategic & operational deficiencies\"? Select ALL that apply.",
+  "choices": [
+   "Quality assurance",
+   "Project control",
+   "Purchasing",
+   "Site costs",
+   "Poor pricing policies",
+   "Declining demand"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Slide 24 – Operations: productivity, quality assurance, project control, labour costs, site costs, distribution costs, purchasing. Declining demand is under Product; poor pricing policies under Marketing.",
+  "reference": "Module 1 – slide 24 (Primary causes of decline – 2/4)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-049",
+  "module": 1,
+  "type": "single",
+  "question": "Under which heading of \"Strategic & operational deficiencies\" does the course list \"Distribution costs\"?",
+  "choices": [
+   "Product",
+   "Operations",
+   "Financing structure",
+   "Marketing"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 24 – Operations includes distribution costs (along with productivity, quality assurance, project control, labour costs, site costs and purchasing).",
+  "reference": "Module 1 – slide 24 (Primary causes of decline – 2/4)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-050",
+  "module": 1,
+  "type": "single",
+  "question": "Under which heading of \"Strategic & operational deficiencies\" does the course list \"Easy entry barrier\"?",
+  "choices": [
+   "Product",
+   "Marketing",
+   "Operations",
+   "Poor acquisitions"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 24 – Product includes outdated products, mature industry, technology lag, over-capacity, price cutting, declining demand, easy entry barrier and low investment.",
+  "reference": "Module 1 – slide 24 (Primary causes of decline – 2/4)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-051",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are listed under \"Financing structure & associated costs\" as primary causes of decline? Select ALL that apply.",
+  "choices": [
+   "Currency exposure",
+   "Quality assurance",
+   "Inappropriate covenants",
+   "Earn-outs for equity",
+   "Number of banks",
+   "Poor timing re business cycle"
+  ],
+  "answer": [
+   0,
+   2,
+   3,
+   4
+  ],
+  "explanation": "Slide 25 lists number of banks, inappropriate covenants, currency exposure and earn-outs for equity. Poor timing re business cycle is under poor acquisitions; quality assurance is under operations.",
+  "reference": "Module 1 – slide 25 (Primary causes of decline – 3/4)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-052",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are also listed under \"Financing structure & associated costs\"? Select ALL that apply.",
+  "choices": [
+   "Short vs long term",
+   "Secured vs. unsecured",
+   "Lack of market knowledge",
+   "Lack of synergy",
+   "Bonds & debentures",
+   "Over-gearing"
+  ],
+  "answer": [
+   0,
+   1,
+   4,
+   5
+  ],
+  "explanation": "Slide 25 lists secured vs. unsecured, committed vs. uncommitted, short vs long term, unmatched to assets, over-gearing, bonds & debentures, etc.",
+  "reference": "Module 1 – slide 25 (Primary causes of decline – 3/4)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-053",
+  "module": 1,
+  "type": "single",
+  "question": "Which contrast is listed among the financing structure issues that can cause decline?",
+  "choices": [
+   "Owned vs. leased premises",
+   "Secured vs. unsecured",
+   "Fixed vs. variable salaries",
+   "Domestic vs. export sales"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 25 lists \"Secured vs. unsecured\", \"Committed vs. uncommitted\" and \"Short vs long term\" under financing structure.",
+  "reference": "Module 1 – slide 25 (Primary causes of decline – 3/4)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-054",
+  "module": 1,
+  "type": "single",
+  "question": "Under which group of primary causes do \"Currency exposure\" and \"Interest rates\" appear?",
+  "choices": [
+   "Financing structure & associated costs",
+   "Poor acquisitions",
+   "Poor management / inadequate information",
+   "Strategic & operational deficiencies"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 25 (Financing structure & associated costs) lists currency exposure and interest rates.",
+  "reference": "Module 1 – slide 25 (Primary causes of decline – 3/4)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-055",
+  "module": 1,
+  "type": "single",
+  "question": "Which of the following is listed as a cause of decline under \"Poor acquisitions\"?",
+  "choices": [
+   "Poor budgets",
+   "Too high a premium paid",
+   "Unmatched to assets",
+   "Lack of market knowledge"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 26 lists unclear objectives, lack of information on target, too high a premium paid, highly geared financing, lack of synergy, cultural differences, poor post-acquisition planning, poor timing re business cycle.",
+  "reference": "Module 1 – slide 26 (Primary causes of decline – 4/4)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-056",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are listed under \"Poor acquisitions\" as causes of decline? Select ALL that apply.",
+  "choices": [
+   "Lack of information on target",
+   "Poor timing re business cycle",
+   "Cultural differences",
+   "Unclear objectives",
+   "Easy entry barrier",
+   "Misdirected advertising"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "All four correct items are on slide 26. Misdirected advertising and easy entry barrier are listed under strategic & operational deficiencies (slide 24).",
+  "reference": "Module 1 – slide 26 (Primary causes of decline – 4/4)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-057",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are also listed under \"Poor acquisitions\"? Select ALL that apply.",
+  "choices": [
+   "Productivity",
+   "Number of banks",
+   "Highly geared financing",
+   "Labour costs",
+   "Too high a premium paid",
+   "Poor post-acquisition planning"
+  ],
+  "answer": [
+   2,
+   4,
+   5
+  ],
+  "explanation": "Slide 26 lists too high a premium paid, highly geared financing and poor post-acquisition planning. Productivity and labour costs are operations items; number of banks is a financing-structure item.",
+  "reference": "Module 1 – slide 26 (Primary causes of decline – 4/4)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-058",
+  "module": 1,
+  "type": "single",
+  "question": "According to the summary slide \"Causes & Symptoms – In summary\", what is usually the case regarding the causes of a crisis?",
+  "choices": [
+   "There is usually a single root cause",
+   "There is usually not one single cause, but a mix",
+   "The causes are irrelevant once the symptoms are visible",
+   "The causes are always external"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 27: \"Causes: usually not one single cause, but a mix!\"",
+  "reference": "Module 1 – slide 27 (Causes & Symptoms – In summary)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-059",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following statements appear in the summary of causes and symptoms? Select ALL that apply.",
+  "choices": [
+   "It is key to have proper monitoring tools to identify symptoms as soon as possible",
+   "A single cause usually explains a crisis",
+   "A detailed identification of causes is unnecessary in order to fix the crisis",
+   "Symptoms are usually clearly visible far in advance, for those who want to see them",
+   "Symptoms are rarely visible before the crisis breaks out",
+   "It is key to have the right management team in place to identify and implement action plans addressing the roots of underperformance"
+  ],
+  "answer": [
+   0,
+   3,
+   5
+  ],
+  "explanation": "Slide 27 states the three correct points; it also says causes are usually a mix and must be identified in detail to understand the crisis and fix it.",
+  "reference": "Module 1 – slide 27 (Causes & Symptoms – In summary)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-060",
+  "module": 1,
+  "type": "single",
+  "question": "According to the summary slide, why is it important to identify the causes of the crisis in detail?",
+  "choices": [
+   "To predict the exact date of insolvency",
+   "To determine which manager should be held responsible",
+   "To understand the crisis and be in a position to fix it",
+   "To satisfy the reporting requirements of the auditors"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Slide 27: \"Causes: important to identify in detail to understand crisis... and be in a position to fix it\".",
+  "reference": "Module 1 – slide 27 (Causes & Symptoms – In summary)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-061",
+  "module": 1,
+  "type": "single",
+  "question": "According to the summary slide, which of the following is a key element to address the roots of underperformance?",
+  "choices": [
+   "Having the right management team in place to identify and implement action plans",
+   "Waiting for a rebound in the market",
+   "Increasing the number of banks",
+   "Relying on one big project"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 27: key to have the right management team in place to identify and implement actions plans to address roots for underperformance. Reliance on market rebound and big projects are listed as symptoms.",
+  "reference": "Module 1 – slide 27 (Causes & Symptoms – In summary)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-062",
+  "module": 1,
+  "type": "multiple",
+  "question": "According to the summary slide, monitoring tools to identify symptoms as soon as possible should include which of the following? Select ALL that apply.",
+  "choices": [
+   "Rating agency opinions only",
+   "Annual press releases only",
+   "Adequate reportings",
+   "Timely reportings",
+   "Forecasts"
+  ],
+  "answer": [
+   2,
+   3,
+   4
+  ],
+  "explanation": "Slide 27: key to have proper monitoring tools, including adequate & timely reportings and forecasts.",
+  "reference": "Module 1 – slide 27 (Causes & Symptoms – In summary)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-063",
+  "module": 1,
+  "type": "single",
+  "question": "In the Red Motorbike situation, what is the bank's only security?",
+  "choices": [
+   "A mortgage on your home",
+   "A pledge on your red motorbike, worth €3,000",
+   "A guarantee from a family member",
+   "A pledge on the cash in all your bank accounts"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 30: the bank's only security is a pledge on the red motorbike, worth €3,000.",
+  "reference": "Module 1 – slide 30 (The Red Motorbike)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-064",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following facts are part of the Red Motorbike situation? Select ALL that apply.",
+  "choices": [
+   "Your projected income is €10,000/year",
+   "Your cash position is €2,000 across your bank accounts",
+   "You owe the bank €10,000 in 2 weeks (loan repayment)",
+   "The loan is repayable in 5 years",
+   "The motorbike is worth €10,000",
+   "Your projected expenses are €10,000/year"
+  ],
+  "answer": [
+   1,
+   2,
+   5
+  ],
+  "explanation": "Slide 30: €10,000 owed in 2 weeks; motorbike worth €3,000; cash €2,000; projected income €12,000/year; projected expenses €10,000/year.",
+  "reference": "Module 1 – slide 30 (The Red Motorbike)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-065",
+  "module": 1,
+  "type": "single",
+  "question": "In the Red Motorbike situation, what are the projected annual income and projected annual expenses over the next five years (before risks and uncertainties)?",
+  "choices": [
+   "Income €10,000/year; expenses €12,000/year",
+   "Income €12,000/year; expenses €2,000/year",
+   "Income €12,000/year; expenses €10,000/year",
+   "Income €3,000/year; expenses €10,000/year"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Slide 30: projected income is €12,000/year and projected expenses are €10,000/year.",
+  "reference": "Module 1 – slide 30 (The Red Motorbike)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-066",
+  "module": 1,
+  "type": "single",
+  "question": "In the Red Motorbike situation, the total of your cash and your motorbike is how far from the €10,000 due in two weeks?",
+  "choices": [
+   "It covers the debt exactly",
+   "€2,000 short",
+   "€5,000 short",
+   "€7,000 short"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Slide 30: cash is €2,000 and the motorbike (the only other asset) is worth €3,000, i.e. €5,000 against €10,000 due in 2 weeks.",
+  "reference": "Module 1 – slide 30 (The Red Motorbike)",
+  "difficulty": 3
+ },
+ {
+  "id": "m1-067",
+  "module": 1,
+  "type": "multiple",
+  "question": "In the Red Motorbike situation, which of the following does your banker see? Select ALL that apply.",
+  "choices": [
+   "The motorcycle",
+   "A €1,000 account handling only part of your income and expenses",
+   "Your total cash of €2,000 across all your banks",
+   "The debt",
+   "Your projected income of €12,000/year"
+  ],
+  "answer": [
+   0,
+   1,
+   3
+  ],
+  "explanation": "Slide 30 note: you use several banks; your banker sees only the debt, the motorcycle and a €1,000 account handling only part of your income and expenses.",
+  "reference": "Module 1 – slide 30 (The Red Motorbike)",
+  "difficulty": 3
+ },
+ {
+  "id": "m1-068",
+  "module": 1,
+  "type": "single",
+  "question": "In the Red Motorbike situation, what do you want to do with the motorbike?",
+  "choices": [
+   "Keep it, because you love it",
+   "Sell it immediately to repay the bank",
+   "Rent it out to finance the loan",
+   "Give it to the bank in exchange for debt forgiveness"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 30: the motorbike is \"fantastic\", \"which you love and want to keep!\".",
+  "reference": "Module 1 – slide 30 (The Red Motorbike)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-069",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are cited as business disruptions that call for an operational turnaround? Select ALL that apply.",
+  "choices": [
+   "Inadequate product portfolio",
+   "Need for new money",
+   "Oversized cost structure",
+   "Loss making activities",
+   "Cash crisis",
+   "Unsustainable debt level"
+  ],
+  "answer": [
+   0,
+   2,
+   3
+  ],
+  "explanation": "Slide 33: operational turnaround is needed when the crisis has been caused by business disruptions (loss making activities, inadequate product portfolio, oversized cost structure). Cash crisis, debt and new money relate to financial restructuring.",
+  "reference": "Module 1 – slide 33 (Operational turnaround vs financial restructuring)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-070",
+  "module": 1,
+  "type": "single",
+  "question": "According to the course, what are the two main objectives of a financial restructuring?",
+  "choices": [
+   "Replace the management and the board",
+   "Clean the past and finance the future",
+   "Reduce headcount and sell non-core assets",
+   "Maximise dividends and minimise taxes"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 33: \"Two main objectives: clean the past and finance the future\".",
+  "reference": "Module 1 – slide 33 (Operational turnaround vs financial restructuring)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-071",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are cited as parts of the need for a financial restructuring? Select ALL that apply.",
+  "choices": [
+   "A cash crisis is anticipated (or faced)",
+   "Loss making activities must be closed",
+   "Sufficient financing (including new money) must be secured to finance the turnaround plan",
+   "The balance sheet must be restructured to get to a viable debt",
+   "The cost structure must be downsized"
+  ],
+  "answer": [
+   0,
+   2,
+   3
+  ],
+  "explanation": "Slide 33 (need for financial restructuring): cash crisis anticipated or faced; restructure the balance sheet to a viable debt; secure financing incl. new money. Closing loss-making activities and downsizing costs are operational measures.",
+  "reference": "Module 1 – slide 33 (Operational turnaround vs financial restructuring)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-072",
+  "module": 1,
+  "type": "single",
+  "question": "What does the course say about operational restructuring?",
+  "choices": [
+   "It is optional when new money has been secured",
+   "It should only be started once the financial restructuring is completed",
+   "It should be systematic, although too many times it is postponed to address only short term / financial issues",
+   "It is only relevant in the start-up phase"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Slide 33: \"Operational restructuring should be systematic....although too many times postponed to address only short term / financial issues\".",
+  "reference": "Module 1 – slide 33 (Operational turnaround vs financial restructuring)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-073",
+  "module": 1,
+  "type": "single",
+  "question": "What is the conclusion of the course on operational turnaround and financial restructuring?",
+  "choices": [
+   "Operational turnaround alone is sufficient to ensure long-lasting sustainability",
+   "Financial restructuring alone is sufficient to ensure long-lasting sustainability",
+   "A successful restructuring will cover both dimensions, to ensure long-lasting sustainability",
+   "They are alternatives: a company must choose one of the two"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Slide 33 conclusion: a successful restructuring will cover both dimensions, to ensure long-lasting sustainability.",
+  "reference": "Module 1 – slide 33 (Operational turnaround vs financial restructuring)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-074",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following statements about operational turnaround and financial restructuring are consistent with the course? Select ALL that apply.",
+  "choices": [
+   "A successful restructuring covers both dimensions",
+   "Operational turnaround is optional once new money has been obtained",
+   "Financial restructuring alone ensures long-lasting sustainability",
+   "Operational restructuring is too often postponed",
+   "Financial restructuring has two main objectives"
+  ],
+  "answer": [
+   0,
+   3,
+   4
+  ],
+  "explanation": "Slide 33 makes the three correct points and concludes that both dimensions are needed.",
+  "reference": "Module 1 – slide 33 (Operational turnaround vs financial restructuring)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-075",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following parties are listed as sitting around the restructuring table? Select ALL that apply.",
+  "choices": [
+   "Employees",
+   "Customers",
+   "Competitors",
+   "Government",
+   "Judge",
+   "Credit rating agencies"
+  ],
+  "answer": [
+   0,
+   1,
+   3,
+   4
+  ],
+  "explanation": "Slide 35 lists management, employees, equity, secured debt, suppliers, unsecured debt, customers, Administrateur judiciaire / trustee, judge and government, with advisors assisting some or most of the parties.",
+  "reference": "Module 1 – slide 35 (Several parties to manage)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-076",
+  "module": 1,
+  "type": "single",
+  "question": "According to the stakeholders slide, what is the role of advisors (lawyers, financial advisors, turnaround manager, etc.)?",
+  "choices": [
+   "They are neutral parties who sit only with the judge",
+   "They represent only the secured lenders",
+   "They replace the management during the restructuring",
+   "They assist some or most of the parties around the table"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Slide 35: \"With advisors (lawyers, financial adv., turnaround manager, etc) assisting some / most of the parties\".",
+  "reference": "Module 1 – slide 35 (Several parties to manage)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-077",
+  "module": 1,
+  "type": "single",
+  "question": "According to the \"Alignment of interests\" slide, what do all the stakeholders have in common?",
+  "choices": [
+   "They all want to keep control of governance",
+   "They all want to be repaid first",
+   "They all seek the liquidation of the company",
+   "They all desire to stabilize the company and recreate value"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Slide 36: \"…they all desire to stabilize and recreate value\".",
+  "reference": "Module 1 – slide 36 (Alignment of interests)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-078",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which TWO aspects does the course describe as challenging in the negotiation between stakeholders? Select ALL that apply.",
+  "choices": [
+   "The desire to recreate value",
+   "The distribution of value",
+   "Governance",
+   "The desire to stabilize the company"
+  ],
+  "answer": [
+   1,
+   2
+  ],
+  "explanation": "Slide 36: they all desire to stabilize and recreate value, but negotiating the distribution of value and governance can be challenging.",
+  "reference": "Module 1 – slide 36 (Alignment of interests)",
+  "difficulty": 2
+ },
+ {
+  "id": "m1-080",
+  "module": 1,
+  "type": "multiple",
+  "question": "Which of the following are stated objectives of the seminar (what students should understand)? Select ALL that apply.",
+  "choices": [
+   "Why companies get into trouble",
+   "Different strategies available to save the company (or not)",
+   "How the financial restructuring process works",
+   "How the operational turnaround process works",
+   "How to value listed companies",
+   "How to draft a company's annual accounts"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Slide 3: the objective is to understand why companies get into trouble, how the operational turnaround and the financial restructuring processes work, and the strategies available to save the company (or not).",
+  "reference": "Module 1 – slide 3 (Agenda)",
+  "difficulty": 1
+ }
+]

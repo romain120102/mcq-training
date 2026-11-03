@@ -621,5 +621,41 @@
   "explanation": "Yearly shortfall = 36 − 30 = €6k. Over five years = 5 × 6 = €30k. Without a change (turnaround), the situation does not improve by itself.",
   "reference": "Module 1 – Red Motorbike-style exercise (applied calculation)",
   "difficulty": 1
+ },
+ {
+  "id": "m1-103",
+  "module": 1,
+  "type": "single",
+  "question": "A small business spends €8k per month and earns €5k per month. It has reserves of €12k. How many months can it continue before reserves run out?",
+  "choices": [
+   "4 months",
+   "2.4 months",
+   "1.5 months",
+   "12 months"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Monthly deficit = 8 − 5 = €3k. Months = 12 / 3 = 4. This is the kind of early warning a manager must monitor.",
+  "reference": "Module 1 – Red Motorbike-style exercise (applied calculation)",
+  "difficulty": 1
+ },
+ {
+  "id": "m1-104",
+  "module": 1,
+  "type": "single",
+  "question": "A company's sales fell from €50m to €40m in one year (a symptom of decline in the financial data). By what percentage did sales fall?",
+  "choices": [
+   "20%",
+   "25%",
+   "10%",
+   "80%"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Fall = 50 − 40 = €10m. As a share of the starting sales: 10 / 50 = 20%. Dividing by 40 would give 25%, a common mistake.",
+  "reference": "Module 1 – Red Motorbike-style exercise (applied calculation)",
+  "difficulty": 1
  }
 ]

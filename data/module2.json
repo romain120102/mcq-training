@@ -799,17 +799,17 @@
   "id": "m2-101",
   "module": 2,
   "type": "single",
-  "question": "Lumis Cosmetics has net sales of €250m and a cost of goods sold of €185m. What is its gross margin rate (% of sales)?",
+  "question": "Lumis Cosmetics has net sales of €200m and a cost of goods sold of €150m. What is its gross margin rate (% of sales)?",
   "choices": [
-   "26%",
-   "74%",
-   "35%",
-   "30%"
+   "25%",
+   "75%",
+   "33%",
+   "20%"
   ],
   "answer": [
    0
   ],
-  "explanation": "Gross margin = 250 − 185 = €65m. Rate = 65 / 250 = 26%. 74% is the cost of goods sold as a share of sales.",
+  "explanation": "Gross margin = 200 − 150 = €50m. Rate = 50 / 200 = 25%. 75% is the cost of goods sold as a share of sales.",
   "reference": "Module 2 – Cash and margin management (applied calculation)",
   "difficulty": 1
  },
@@ -817,25 +817,25 @@
   "id": "m2-102",
   "module": 2,
   "type": "single",
-  "question": "Kalmar Distribution makes 40% of its sales with a large retailer at a margin of 8%, and the other 60% with smaller clients at a margin of 20%. What is the average margin on total sales?",
+  "question": "Kalmar Distribution has two clients. Client A: sales €100m, cost of goods sold €94m. Client B: sales €50m, cost of goods sold €40m. What is the total gross margin?",
   "choices": [
-   "15.2%",
-   "14.0%",
-   "28.0%",
-   "12.8%"
+   "€16m",
+   "€6m",
+   "€10m",
+   "€26m"
   ],
   "answer": [
    0
   ],
-  "explanation": "Weighted average = 40% × 8% + 60% × 20% = 3.2% + 12% = 15.2%. A large low-margin client dilutes the overall margin.",
+  "explanation": "Margin A = 100 − 94 = €6m. Margin B = 50 − 40 = €10m. Total = 6 + 10 = €16m. Client B is much more profitable in relative terms (20% against 6%).",
   "reference": "Module 2 – Cash and margin management (applied calculation)",
-  "difficulty": 2
+  "difficulty": 1
  },
  {
   "id": "m2-103",
   "module": 2,
   "type": "single",
-  "question": "A company wins a new large client generating €10m of sales at a 6% margin. Serving this client requires extra logistics and payment-delay costs of €0.9m per year. What is the yearly impact on profit?",
+  "question": "A company wins a new large client. The margin generated on its sales is €0.6m per year, but serving this client creates extra logistics and payment-delay costs of €0.9m per year. What is the yearly impact on profit?",
   "choices": [
    "A loss of €0.3m",
    "A gain of €0.6m",
@@ -845,25 +845,25 @@
   "answer": [
    0
   ],
-  "explanation": "Margin on the new sales = 10 × 6% = €0.6m. Extra costs = €0.9m. Net impact = 0.6 − 0.9 = −€0.3m: this is 'unprofitable growth'.",
+  "explanation": "Impact = 0.6 − 0.9 = −€0.3m: this is 'unprofitable growth'.",
   "reference": "Module 2 – Cash and margin management (applied calculation)",
-  "difficulty": 2
+  "difficulty": 1
  },
  {
   "id": "m2-104",
   "module": 2,
   "type": "single",
-  "question": "Tarin Hardware has a yearly cost of goods sold of €36.5m (i.e. €0.1m per day) and holds 60 days of inventory. A turnaround action reduces inventory to 45 days. How much cash is released?",
+  "question": "Tarin Hardware has a daily cost of goods sold of €0.1m and holds 60 days of inventory. A turnaround action reduces inventory to 50 days. How much cash is released?",
   "choices": [
-   "€1.5m",
-   "€0.15m",
-   "€4.5m",
+   "€1.0m",
+   "€0.1m",
+   "€5.0m",
    "€6.0m"
   ],
   "answer": [
    0
   ],
-  "explanation": "Days reduced = 60 − 45 = 15. Cash released = 15 × €0.1m = €1.5m (a one-off improvement of working capital).",
+  "explanation": "Days reduced = 60 − 50 = 10. Cash released = 10 × €0.1m = €1.0m (a one-off improvement of working capital).",
   "reference": "Module 2 – Cash and margin management (applied calculation)",
   "difficulty": 1
  },
@@ -871,17 +871,17 @@
   "id": "m2-105",
   "module": 2,
   "type": "single",
-  "question": "Bexley Services has yearly sales of €73m (€0.2m per day) and collects its clients after 75 days on average. Stronger collection brings this to 60 days. How much cash is released?",
+  "question": "Bexley Services has daily sales of €0.2m and collects its clients after 75 days on average. Stronger collection brings this to 65 days. How much cash is released?",
   "choices": [
-   "€3.0m",
-   "€15.0m",
-   "€1.5m",
-   "€0.3m"
+   "€2.0m",
+   "€0.2m",
+   "€10.0m",
+   "€1.0m"
   ],
   "answer": [
    0
   ],
-  "explanation": "Days reduced = 75 − 60 = 15. Cash released = 15 × €0.2m = €3.0m.",
+  "explanation": "Days reduced = 75 − 65 = 10. Cash released = 10 × €0.2m = €2.0m.",
   "reference": "Module 2 – Cash and margin management (applied calculation)",
   "difficulty": 1
  },
@@ -943,18 +943,126 @@
   "id": "m2-109",
   "module": 2,
   "type": "single",
-  "question": "A turnaround plan lays off 20 employees with an average yearly cost of €50k each. The one-off severance cost is €0.6m. After how long do the savings repay the severance cost?",
+  "question": "A turnaround plan cuts 20 jobs. The yearly saving is €1.0m and the one-off severance cost is €0.5m. After how long do the savings repay the severance cost?",
   "choices": [
-   "About 7 months",
-   "About 12 months",
-   "About 20 months",
-   "About 3 months"
+   "6 months",
+   "12 months",
+   "2 months",
+   "18 months"
   ],
   "answer": [
    0
   ],
-  "explanation": "Yearly savings = 20 × 50k = €1.0m. Payback = 0.6 / 1.0 = 0.6 year ≈ 7 months.",
+  "explanation": "Payback = 0.5 / 1.0 = half a year = 6 months.",
   "reference": "Module 2 – Cash and margin management (applied calculation)",
-  "difficulty": 2
+  "difficulty": 1
+ },
+ {
+  "id": "m2-110",
+  "module": 2,
+  "type": "single",
+  "question": "A company starts a 4-week cash forecast with €6m of cash. Each week it expects €3m of receipts and €4m of payments. What is the cash balance at the end of week 4?",
+  "choices": [
+   "€2m",
+   "€6m",
+   "€10m",
+   "A shortfall of €2m"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Net flow per week = 3 − 4 = −€1m. Over 4 weeks = −€4m. Cash = 6 − 4 = €2m.",
+  "reference": "Module 2 – Cash and margin management (applied calculation)",
+  "difficulty": 1
+ },
+ {
+  "id": "m2-111",
+  "module": 2,
+  "type": "single",
+  "question": "A company has sales of €80m and total operating costs of €76m, so an EBITDA of €4m. A cost programme saves €6m per year, with no change in sales. What is the new EBITDA?",
+  "choices": [
+   "€10m",
+   "€6m",
+   "€4m",
+   "€14m"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "New EBITDA = 4 + 6 = €10m.",
+  "reference": "Module 2 – Cash and margin management (applied calculation)",
+  "difficulty": 1
+ },
+ {
+  "id": "m2-112",
+  "module": 2,
+  "type": "single",
+  "question": "A cash mobilization plan frees €5m by reducing inventory and €3m by collecting receivables faster, but paying some suppliers earlier consumes €2m. What is the net cash released?",
+  "choices": [
+   "€6m",
+   "€10m",
+   "€8m",
+   "€4m"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Net cash = 5 + 3 − 2 = €6m. Paying suppliers earlier works against the plan.",
+  "reference": "Module 2 – Cash and margin management (applied calculation)",
+  "difficulty": 1
+ },
+ {
+  "id": "m2-113",
+  "module": 2,
+  "type": "single",
+  "question": "A business has fixed costs of €12m per year. Each €1 of sales brings a margin of 50 cents to cover these costs. What level of sales is needed to break even?",
+  "choices": [
+   "€24m",
+   "€6m",
+   "€12m",
+   "€36m"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Break-even sales = fixed costs / margin rate = 12 / 50% = 12 / 0.5 = €24m.",
+  "reference": "Module 2 – Cash and margin management (applied calculation)",
+  "difficulty": 1
+ },
+ {
+  "id": "m2-114",
+  "module": 2,
+  "type": "single",
+  "question": "A company has €2.4m of cash, no credit line, and burns €0.6m of cash per month. How many months can it survive without any change?",
+  "choices": [
+   "4 months",
+   "3 months",
+   "6 months",
+   "2.4 months"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Runway = 2.4 / 0.6 = 4 months.",
+  "reference": "Module 2 – Cash and margin management (applied calculation)",
+  "difficulty": 1
+ },
+ {
+  "id": "m2-115",
+  "module": 2,
+  "type": "single",
+  "question": "A company has sales of €200m and an EBITDA of €10m. What is its EBITDA margin?",
+  "choices": [
+   "5%",
+   "20%",
+   "10%",
+   "2%"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "EBITDA margin = 10 / 200 = 5%.",
+  "reference": "Module 2 – Cash and margin management (applied calculation)",
+  "difficulty": 1
  }
 ]

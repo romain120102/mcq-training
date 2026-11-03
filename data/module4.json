@@ -920,17 +920,17 @@
   "id": "m4-105",
   "module": 4,
   "type": "single",
-  "question": "Lenders of Tavian Logistics accept a maximum refinancing risk of 3.5x Debt to EBITDA. The year-3 EBITDA is projected at €20m. What is the maximum amount of debt that can remain non-amortised at the end of the term?",
+  "question": "Lenders of Tavian Logistics accept a maximum refinancing risk of 3.0x Debt to EBITDA. The year-3 EBITDA is projected at €20m. What is the maximum amount of debt that can remain non-amortised at the end of the term?",
   "choices": [
-   "€70m",
-   "€35m",
-   "€5.7m",
-   "€23.5m"
+   "€60m",
+   "€40m",
+   "€23m",
+   "€6.7m"
   ],
   "answer": [
    0
   ],
-  "explanation": "Maximum non-amortised debt = leverage multiple × EBITDA = 3.5 × 20 = €70m (same logic as 3 × €15m = €45m in the course).",
+  "explanation": "Maximum non-amortised debt = 3 × EBITDA = 20 + 20 + 20 = €60m (same logic as 3 × €15m = €45m in the course).",
   "reference": "Module 4 – Sustainable debt (Galapagos method, slides 36-40)",
   "difficulty": 1
  },
@@ -938,17 +938,17 @@
   "id": "m4-106",
   "module": 4,
   "type": "single",
-  "question": "Orion Components has an opening debt of €120m. The interest rate is the base rate (2%) plus a spread of 5%. What is the interest expense for the first year (no amortisation during the year)?",
+  "question": "Orion Components has an opening debt of €100m. The interest rate is the base rate (2%) plus a spread of 5%. What is the interest expense for the first year (no amortisation during the year)?",
   "choices": [
-   "€8.4m",
-   "€6.0m",
-   "€2.4m",
-   "€14.4m"
+   "€7m",
+   "€5m",
+   "€2m",
+   "€12m"
   ],
   "answer": [
    0
   ],
-  "explanation": "Interest rate = 2% + 5% = 7%. Interest = 120 × 7% = €8.4m. Using only the spread gives 6.0; using only the base rate gives 2.4.",
+  "explanation": "Interest rate = 2% + 5% = 7%. On a debt of €100m, 7% = €7m. Using only the spread gives 5; using only the base rate gives 2.",
   "reference": "Module 4 – Sustainable debt (Galapagos method, slides 36-40)",
   "difficulty": 1
  },
@@ -996,13 +996,13 @@
   "choices": [
    "8 million",
    "10 million",
-   "1.6 million",
+   "4 million",
    "6 million"
   ],
   "answer": [
    0
   ],
-  "explanation": "Total shares after the swap = 2 / 20% = 10 million. New shares = 10 − 2 = 8 million (existing shareholders are strongly diluted).",
+  "explanation": "20% = 2 million shares, so each 10% = 1 million and 100% = 10 million shares. New shares = 10 − 2 = 8 million (existing shareholders are strongly diluted).",
   "reference": "Module 4 – Sustainable debt (Galapagos method, slides 36-40)",
   "difficulty": 2
  },
@@ -1010,17 +1010,17 @@
   "id": "m4-110",
   "module": 4,
   "type": "single",
-  "question": "Three unsecured lenders of the same rank, treated pari passu, hold claims of €50m (Lender A), €30m (Lender B) and €20m (Lender C). Only €60m is available for distribution to them. How much does Lender B receive?",
+  "question": "Three unsecured lenders of the same rank, treated pari passu, hold claims of €50m (Lender A), €30m (Lender B) and €20m (Lender C). Only €50m is available for distribution to them. How much does Lender B receive?",
   "choices": [
-   "€18m",
-   "€20m",
+   "€15m",
+   "€16.7m",
    "€30m",
-   "€15m"
+   "€25m"
   ],
   "answer": [
    0
   ],
-  "explanation": "Pari passu = same percentage for everyone. Recovery rate = 60 / 100 = 60%. Lender B receives 30 × 60% = €18m. An equal split (€20m each) ignores the size of the claims.",
+  "explanation": "Pari passu = same percentage for everyone. Recovery rate = 50 / 100 = 50%, so Lender B receives half of its €30m claim = €15m. An equal split (€16.7m each) ignores the size of the claims.",
   "reference": "Module 4 – Sustainable debt (Galapagos method, slides 36-40)",
   "difficulty": 2
  },
@@ -1028,17 +1028,17 @@
   "id": "m4-111",
   "module": 4,
   "type": "single",
-  "question": "A company buys back €50m of its debt from lenders at 60% of par value, paying in cash. By how much does its net debt (debt minus cash) decrease?",
+  "question": "A company buys back €40m of its debt from lenders at 50% of par value, paying in cash. By how much does its net debt (debt minus cash) decrease?",
   "choices": [
    "€20m",
-   "€30m",
-   "€50m",
-   "€80m"
+   "€40m",
+   "€60m",
+   "€10m"
   ],
   "answer": [
    0
   ],
-  "explanation": "Debt falls by 50 but cash falls by 50 × 60% = 30. Net debt decreases by 50 − 30 = €20m, which is the discount obtained.",
+  "explanation": "Debt falls by 40, but the company pays 50% × 40 = 20 in cash. Net debt decreases by 40 − 20 = €20m, which is the discount obtained.",
   "reference": "Module 4 – Sustainable debt (Galapagos method, slides 36-40)",
   "difficulty": 2
  },
@@ -1084,17 +1084,143 @@
   "id": "m4-114",
   "module": 4,
   "type": "single",
-  "question": "Vantis Paper generates €12m of free cash flow per year before debt service and pays 6% interest on a debt of €80m. How much cash is left each year to repay principal?",
+  "question": "Vantis Paper generates €12m of free cash flow per year before debt service and pays €5m of interest per year. How much cash is left each year to repay principal?",
   "choices": [
-   "€7.2m",
-   "€12.0m",
-   "€4.8m",
-   "€8.4m"
+   "€7m",
+   "€12m",
+   "€5m",
+   "€17m"
   ],
   "answer": [
    0
   ],
-  "explanation": "Interest = 80 × 6% = €4.8m. Cash available for principal = 12 − 4.8 = €7.2m per year.",
+  "explanation": "Cash available for principal = free cash flow − interest = 12 − 5 = €7m per year.",
+  "reference": "Module 4 – Sustainable debt (Galapagos method, slides 36-40)",
+  "difficulty": 1
+ },
+ {
+  "id": "m4-115",
+  "module": 4,
+  "type": "single",
+  "question": "In year 2, Sorel Brands projects: EBITDA €18m, capex €4m, taxes €2m, restructuring charges €1m. What is the free cash flow available to service the debt?",
+  "choices": [
+   "€11m",
+   "€12m",
+   "€13m",
+   "€7m"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "18 − 4 − 2 − 1 = €11m. Forgetting the restructuring charges gives 12.",
+  "reference": "Module 4 – Sustainable debt (Galapagos method, slides 36-40)",
+  "difficulty": 1
+ },
+ {
+  "id": "m4-116",
+  "module": 4,
+  "type": "single",
+  "question": "Pellan Group starts with €5m of cash. After debt service, its net cash flow is −€3m in year 1 and −€4m in year 2. What is its cash position at the end of year 2?",
+  "choices": [
+   "A shortfall of €2m",
+   "A positive cash of €2m",
+   "A positive cash of €5m",
+   "A shortfall of €7m"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "5 − 3 − 4 = −€2m: the company has a liquidity shortfall in year 2.",
+  "reference": "Module 4 – Sustainable debt (Galapagos method, slides 36-40)",
+  "difficulty": 1
+ },
+ {
+  "id": "m4-117",
+  "module": 4,
+  "type": "single",
+  "question": "Ravel Steel has a debt of €90m and an EBITDA of €20m. Lenders agree to convert €30m of debt into equity. What is the Debt to EBITDA ratio after the conversion?",
+  "choices": [
+   "3.0x",
+   "4.5x",
+   "1.5x",
+   "6.0x"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Debt after conversion = 90 − 30 = €60m. Ratio = 60 / 20 = 3.0x (before: 90 / 20 = 4.5x).",
+  "reference": "Module 4 – Sustainable debt (Galapagos method, slides 36-40)",
+  "difficulty": 1
+ },
+ {
+  "id": "m4-118",
+  "module": 4,
+  "type": "single",
+  "question": "Hadley Foods has a debt of €100m and repays €5m of principal per year, with no other change. What is the debt outstanding after 4 years?",
+  "choices": [
+   "€80m",
+   "€95m",
+   "€20m",
+   "€100m"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Repaid in 4 years = 5 + 5 + 5 + 5 = €20m. Debt left = 100 − 20 = €80m.",
+  "reference": "Module 4 – Sustainable debt (Galapagos method, slides 36-40)",
+  "difficulty": 1
+ },
+ {
+  "id": "m4-119",
+  "module": 4,
+  "type": "single",
+  "question": "Odell Chemicals has an EBITDA of €36m and pays €18m of interest. The loan agreement requires a minimum interest coverage of 2.5x. What is the situation?",
+  "choices": [
+   "Coverage is 2.0x: below the minimum",
+   "Coverage is 2.0x: above the minimum",
+   "Coverage is 0.5x: below the minimum",
+   "Coverage is 54x: above the minimum"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Coverage = EBITDA / interest = 36 / 18 = 2.0x, which is below the 2.5x minimum: a covenant breach.",
+  "reference": "Module 4 – Sustainable debt (Galapagos method, slides 36-40)",
+  "difficulty": 1
+ },
+ {
+  "id": "m4-120",
+  "module": 4,
+  "type": "single",
+  "question": "Quill Media has a debt of €100m, but its sustainable debt is estimated at €70m. The unsustainable part is shared equally between two lenders, who each write it off. How much does each lender write off?",
+  "choices": [
+   "€15m",
+   "€30m",
+   "€35m",
+   "€70m"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Unsustainable part = 100 − 70 = €30m. Shared equally between 2 lenders: 30 / 2 = €15m each.",
+  "reference": "Module 4 – Sustainable debt (Galapagos method, slides 36-40)",
+  "difficulty": 1
+ },
+ {
+  "id": "m4-121",
+  "module": 4,
+  "type": "single",
+  "question": "A turnaround plan needs €15m for severance payments and €10m to cover interim losses. The group secures €20m of new money and €3m of cash from asset sales. What financing gap remains?",
+  "choices": [
+   "€2m",
+   "€5m",
+   "€23m",
+   "€0"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Needs = 15 + 10 = €25m. Resources = 20 + 3 = €23m. Gap = 25 − 23 = €2m.",
   "reference": "Module 4 – Sustainable debt (Galapagos method, slides 36-40)",
   "difficulty": 1
  }

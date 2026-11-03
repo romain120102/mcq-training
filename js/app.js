@@ -14,7 +14,17 @@ const MODULES = [
 ];
 const MIN_Q = 20;           // minimum de questions par session (sauf si la banque est plus petite)
 const DEFAULT_Q = 60;
-const K = { settings: "mcq.settings", session: "mcq.session", history: "mcq.history", stats: "mcq.stats" };
+const K = { settings: "mcq.settings", session: "mcq.session", history: "mcq.history", stats: "mcq.stats",
+  seen: "mcq.seen",           // { idQuestion: date } = questions auxquelles j'ai déjà répondu
+  mistakes: "mcq.mistakes" }; // { idQuestion: { sel:[…], date } } = questions ratées la dernière fois (retirée dès qu'on la réussit)
+
+/** Enregistre le résultat d'une question répondue : « vue » + ajout/retrait dans les erreurs. */
+function recordAnswer(id, sel, p) {
+  const seen = load(K.seen, {}); seen[id] = Date.now(); save(K.seen, seen);
+  const mis = load(K.mistakes, {});
+  if (p < 1) mis[id] = { sel: sel || [], date: Date.now() }; else delete mis[id];
+  save(K.mistakes, mis);
+}
 
 /* ---------- Petits utilitaires ---------- */
 const $ = (s, r = document) => r.querySelector(s);
@@ -52,7 +62,7 @@ async function loadBank() {
 }
 
 /* ---------- Réglages & état ---------- */
-const defaults = { mods: MODULES.map((m) => m.n), n: DEFAULT_Q, type: "mixed", mode: "train", scoring: "strict", timed: true, perQ: 1 };
+const defaults = { mods: MODULES.map((m) => m.n), n: DEFAULT_Q, type: "mixed", mode: "train", scoring: "strict", timed: true, perQ: 1, unseen: true };
 let settings = Object.assign({}, defaults, load(K.settings, {}));
 let S = null;                  // session en cours
 let view = "home";
@@ -84,12 +94,14 @@ function startSession(ids, opts) {
 }
 
 function buildFromSettings() {
-  const pool = poolFor(settings.mods, settings.type);
+  const pool = poolFor(settings.mods, settings.type, settings.unseen);
   const n = Math.min(Math.max(settings.n, Math.min(MIN_Q, pool.length)), pool.length);
   return shuffle(pool).slice(0, n).map((q) => q.id);
 }
-function poolFor(mods, type) {
-  return mods.flatMap((m) => BY_MOD[m] || []).filter((q) => type === "mixed" || q.type === type);
+/** Questions disponibles. Si unseenOnly : on retire celles auxquelles j'ai déjà répondu. */
+function poolFor(mods, type, unseenOnly) {
+  const seen = unseenOnly ? load(K.seen, {}) : {};
+  return mods.flatMap((m) => BY_MOD[m] || []).filter((q) => (type === "mixed" || q.type === type) && !seen[q.id]);
 }
 
 function go(v) { view = v; clearInterval(tick); render(); window.scrollTo(0, 0); }
@@ -102,6 +114,7 @@ function render() {
   if (view === "home") renderHome();
   else if (view === "quiz") renderQuiz();
   else if (view === "results") renderResults();
+  else if (view === "mistakes") renderMistakes();
 }
 
 /* ---------- Accueil ---------- */
@@ -110,6 +123,9 @@ function renderHome() {
   const stats = load(K.stats, {}), hist = load(K.history, []);
   const resume = load(K.session, null);
   const valid = resume && !resume.finished && resume.items && resume.items.length;
+  const seenMap = load(K.seen, {}), misMap = load(K.mistakes, {});
+  const misIds = Object.keys(misMap).filter((id) => BANK.has(id));
+  const newCount = (m) => (BY_MOD[m] || []).filter((q) => !seenMap[q.id]).length;
   app.innerHTML = `
     <div class="hero"><h1>Entraînement QCM</h1><p>Choisis tes modules, le nombre de questions et le mode. Les questions viennent uniquement de tes cours.</p></div>
     ${LOAD_ERRORS.length ? `<div class="card" style="border-color:var(--ko)"><b>Module(s) introuvable(s) : ${LOAD_ERRORS.join(", ")}.</b> Vérifie les fichiers data/moduleN.json.</div>` : ""}
@@ -120,14 +136,16 @@ function renderHome() {
     <section class="card"><h2><span class="step">1</span> Modules</h2>
       <div class="row" style="margin-bottom:.7rem"><button class="btn small" id="allm">Tous les modules</button><button class="btn small" id="nonem">Aucun</button></div>
       <div id="modlist">${MODULES.map((m) => `<label class="opt"><input type="checkbox" name="mod" value="${m.n}" ${settings.mods.includes(m.n) ? "checked" : ""}>
-        <span class="t"><b>Module ${m.n}</b>${esc(m.title)}</span><span class="n">${(BY_MOD[m.n] || []).length} q.</span></label>`).join("")}</div>
+        <span class="t"><b>Module ${m.n}</b>${esc(m.title)}</span><span class="n">${newCount(m.n)} nouvelles / ${(BY_MOD[m.n] || []).length}</span></label>`).join("")}</div>
     </section>
 
     <section class="card"><h2><span class="step">2</span> Questions</h2>
       <div class="seg" id="typeseg">
         ${[["mixed", "Mixte"], ["single", "Choix unique"], ["multiple", "Choix multiples"]].map(([v, l]) => `<label><input type="radio" name="type" value="${v}" ${settings.type === v ? "checked" : ""}>${l}</label>`).join("")}
       </div>
-      <div class="row" style="margin-top:.9rem"><label for="nq"><b>Nombre de questions</b></label><input type="number" id="nq" inputmode="numeric"><span class="muted small" id="avail"></span></div>
+      <label class="opt" style="margin-top:.9rem"><input type="checkbox" id="unseen" ${settings.unseen ? "checked" : ""}><span class="t"><b>Seulement des questions jamais vues</b>Évite de retomber sur celles auxquelles tu as déjà répondu</span></label>
+      <div class="row" style="margin:-.1rem 0 .4rem"><button class="btn small ghost" id="resetseen">Remettre toutes les questions « à voir »</button></div>
+      <div class="row" style="margin-top:.5rem"><label for="nq"><b>Nombre de questions</b></label><input type="number" id="nq" inputmode="numeric"><span class="muted small" id="avail"></span></div>
       <input type="range" id="nqr" aria-label="Nombre de questions">
     </section>
 
@@ -149,11 +167,17 @@ function renderHome() {
       <p class="hint" id="scorehint"></p>
     </section>
 
+    <section class="card"><h2>Mes erreurs récentes</h2>
+      ${misIds.length ? `<p class="small muted">${misIds.length} question(s) ratée(s) à la dernière fois où tu y as répondu (elles disparaissent dès que tu les réussis).</p>
+      <div class="row"><button class="btn primary grow" id="mis-view">Revoir la correction</button><button class="btn grow" id="mis-redo">Les refaire</button></div>`
+      : `<p class="muted small">Aucune erreur enregistrée pour l'instant.</p>`}
+    </section>
+
     <section class="card"><h2>Mes stats</h2>
       ${MODULES.map((m) => { const s = stats[m.n] || { ok: 0, total: 0 }; const p = s.total ? Math.round(100 * s.ok / s.total) : 0;
         return `<div class="stat"><div class="row between small"><span>Module ${m.n}</span><span class="muted">${s.total ? `${p} % · ${num(s.ok)}/${s.total}` : "pas encore de données"}</span></div><div class="bar"><i style="width:${p}%"></i></div></div>`; }).join("")}
       ${hist.length ? `<h3 style="margin-top:1rem">Historique</h3><table class="hist"><tr><th>Date</th><th>Mode</th><th>Questions</th><th>Note</th></tr>
-        ${hist.slice(0, 15).map((h) => `<tr><td>${new Date(h.date).toLocaleDateString("fr-FR", { day: "2-digit", month: "2-digit" })} ${new Date(h.date).toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })}</td><td>${h.mode === "exam" ? "Examen" : "Entraîn."}${h.redo ? " (erreurs)" : ""}</td><td>${h.n}</td><td><b>${num(h.note)}/20</b> · ${Math.round(h.pct)} %</td></tr>`).join("")}</table>` : `<p class="muted small">Ton historique apparaîtra ici.</p>`}
+        ${hist.slice(0, 15).map((h) => `<tr><td>${new Date(h.date).toLocaleDateString("fr-FR", { day: "2-digit", month: "2-digit" })} ${new Date(h.date).toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })}</td><td>${h.mode === "exam" ? "Examen" : "Entraîn."}${h.redo ? " (erreurs)" : ""}</td><td>${h.planned && h.planned !== h.n ? `${h.n}/${h.planned} (arrêtée)` : h.n}</td><td><b>${num(h.note)}/20</b> · ${Math.round(h.pct)} %</td></tr>`).join("")}</table>` : `<p class="muted small">Ton historique apparaîtra ici.</p>`}
       <div style="margin-top:1rem"><button class="btn small danger" id="reset">Tout réinitialiser</button></div>
     </section>
 
@@ -162,11 +186,13 @@ function renderHome() {
   /* --- interactions de l'accueil --- */
   const save_ = () => save(K.settings, settings);
   const syncCount = () => {
-    const pool = poolFor(settings.mods, settings.type), max = pool.length, min = Math.min(MIN_Q, max);
+    const pool = poolFor(settings.mods, settings.type, settings.unseen), max = pool.length, min = Math.min(MIN_Q, max);
     settings.n = Math.min(Math.max(settings.n || DEFAULT_Q, min), max) || 0;
     const nq = $("#nq"), r = $("#nqr");
     nq.min = r.min = min; nq.max = r.max = max; nq.value = r.value = settings.n; nq.disabled = r.disabled = max === 0;
+    const total = poolFor(settings.mods, settings.type, false).length;
     $("#avail").textContent = `/ ${max} disponibles` + (max && max < MIN_Q ? " (moins de 20 : tout est pris)" : "");
+    if (max === 0 && total > 0 && settings.unseen) $("#avail").textContent = "Tu as tout vu ici : remets les questions « à voir » ou décoche l'option.";
     $("#start").disabled = max === 0;
     $("#tottime").textContent = `→ ${fmtTime(settings.n * settings.perQ * 60)} au total`;
     save_();
@@ -190,7 +216,11 @@ function renderHome() {
   $("#timed").onchange = (e) => { settings.timed = e.target.checked; syncHints(); save_(); };
   $("#perq").onchange = (e) => { settings.perQ = Math.min(10, Math.max(0.25, +e.target.value || 1)); e.target.value = settings.perQ; syncCount(); };
   $("#start").onclick = () => { syncCount(); const ids = buildFromSettings(); if (!ids.length) return toast("Choisis au moins un module."); startSession(ids, settings); };
-  $("#reset").onclick = async () => { if (await ask("Effacer tout l'historique, les stats et la session en cours ?", "Tout effacer")) { [K.history, K.stats, K.session].forEach((k) => localStorage.removeItem(k)); toast("Tout a été réinitialisé."); renderHome(); } };
+  $("#unseen").onchange = (e) => { settings.unseen = e.target.checked; syncCount(); };
+  $("#resetseen").onclick = async () => { if (await ask("Remettre toutes les questions « à voir » ? (tes stats et tes erreurs sont conservées)", "Remettre")) { localStorage.removeItem(K.seen); toast("Toutes les questions sont de nouveau disponibles."); renderHome(); } };
+  const mv = $("#mis-view"); if (mv) mv.onclick = () => go("mistakes");
+  const mr = $("#mis-redo"); if (mr) mr.onclick = () => startSession(shuffle(misIds), { mode: settings.mode, scoring: settings.scoring, timed: settings.timed, perQ: settings.perQ, redo: true });
+  $("#reset").onclick = async () => { if (await ask("Effacer tout l'historique, les stats, les questions vues, les erreurs et la session en cours ?", "Tout effacer")) { [K.history, K.stats, K.session, K.seen, K.mistakes].forEach((k) => localStorage.removeItem(k)); toast("Tout a été réinitialisé."); renderHome(); } };
   if (valid) {
     $("#resume").onclick = () => { S = resume; // on retire les questions qui n'existent plus dans la banque
       S.items = S.items.filter((it) => BANK.has(it.id)); if (!S.items.length) { localStorage.removeItem(K.session); return renderHome(); } S.cur = Math.min(S.cur, S.items.length - 1); go("quiz"); };
@@ -257,12 +287,20 @@ function trainFooter(checked, sel, nTot) {
   return `<div class="nav">${checked
     ? `<button class="btn primary" id="next">${last ? "Voir les résultats" : "Question suivante →"}</button>`
     : `<button class="btn primary" id="validate" ${sel.length ? "" : "disabled"}>Valider</button>`}</div>
-    <div class="row" style="margin-top:.8rem"><button class="btn ghost small" id="pause">⏸ Pause (reprendre plus tard)</button></div>`;
+    <div class="row" style="margin-top:.8rem"><button class="btn ghost small" id="pause">⏸ Pause (reprendre plus tard)</button><button class="btn ghost small" id="stop">⏹ Arrêter la série et voir mon bilan</button></div>`;
 }
+/** Arrêt anticipé : on garde uniquement les questions auxquelles j'ai répondu. */
+async function stopEarly() {
+  const done = S.items.filter((x) => isAnswered(x.id)).length;
+  if (!done) { if (await ask("Tu n'as répondu à aucune question. Abandonner la série ?", "Abandonner")) { localStorage.removeItem(K.session); S = null; go("home"); } return; }
+  if (await ask(`Arrêter la série maintenant ?\nTes ${done} réponse(s) seront enregistrées (stats, questions vues, erreurs). Les autres questions ne comptent pas.`, "Arrêter et voir le bilan")) finish(true);
+}
+const isAnswered = (id) => (S.mode === "exam" ? selOf(id).length > 0 : !!S.checked[id]);
 function wireTrain(it, nTot) {
-  const v = $("#validate"); if (v) v.onclick = () => { if (!selOf(it.id).length) return; S.checked[it.id] = true; persist(); renderQuiz(); $("#choices").scrollIntoView({ block: "start", behavior: "smooth" }); };
+  const v = $("#validate"); if (v) v.onclick = () => { if (!selOf(it.id).length) return; S.checked[it.id] = true; recordAnswer(it.id, selOf(it.id), points(BANK.get(it.id), selOf(it.id), S.scoring)); persist(); renderQuiz(); $("#choices").scrollIntoView({ block: "start", behavior: "smooth" }); };
   const n = $("#next"); if (n) n.onclick = () => { if (S.cur === nTot - 1) finish(); else { S.cur++; persist(); renderQuiz(); window.scrollTo(0, 0); } };
   $("#pause").onclick = () => { persist(); go("home"); };
+  $("#stop").onclick = stopEarly;
 }
 
 /* --- examen blanc --- */
@@ -273,7 +311,8 @@ function examFooter(nTot) {
       <button class="btn primary" id="nextq" ${S.cur === nTot - 1 ? "disabled" : ""}>Suivante →</button></div>
     <div class="card" style="margin-top:1rem"><h3>Navigation</h3><div class="grid" id="grid"></div>
       <div class="legend"><span>▢ non répondue</span><span style="color:var(--accent)">■ répondue</span><span style="color:var(--warn)">⚑ à revoir</span></div></div>
-    <div class="row" style="margin-top:.5rem"><button class="btn primary grow" id="finish">Terminer l'examen</button><button class="btn ghost small" id="pause">⏸ Pause</button></div>`;
+    <div class="row" style="margin-top:.5rem"><button class="btn primary grow" id="finish">Terminer l'examen</button><button class="btn ghost small" id="pause">⏸ Pause</button></div>
+    <div class="row" style="margin-top:.5rem"><button class="btn ghost small" id="stop">⏹ Arrêter la série (ne compter que mes réponses)</button></div>`;
 }
 function refreshGrid() {
   const g = $("#grid"); if (!g) return;
@@ -286,6 +325,7 @@ function wireExam(nTot) {
   $("#nextq").onclick = () => { if (S.cur < nTot - 1) { S.cur++; persist(); renderQuiz(); window.scrollTo(0, 0); } };
   $("#flag").onclick = () => { const id = curItem().id; if (S.flags[id]) delete S.flags[id]; else S.flags[id] = true; persist(); renderQuiz(); };
   $("#pause").onclick = () => { persist(); go("home"); };
+  $("#stop").onclick = stopEarly;
   $("#finish").onclick = async () => {
     const un = S.items.filter((x) => !selOf(x.id).length).length, fl = Object.keys(S.flags).length;
     const msg = `Terminer l'examen ?` + (un ? `\n${un} question(s) sans réponse.` : "") + (fl ? `\n${fl} question(s) marquée(s) « à revoir ».` : "");
@@ -308,18 +348,23 @@ document.addEventListener("visibilitychange", () => { if (document.hidden) persi
 
 /* ---------- Fin de session ---------- */
 let RESULT = null;
-function finish() {
+/** early = true : série arrêtée avant la fin -> seules les questions répondues comptent. */
+function finish(early = false) {
   clearInterval(tick);
   const perMod = {}; let total = 0; const detail = [];
+  const planned = S.items.length;
   for (const it of S.items) {
+    const answered = isAnswered(it.id);
+    if (early && !answered) continue;                 // arrêt anticipé : on ignore les questions non répondues
     const q = BANK.get(it.id), sel = selOf(it.id), p = points(q, sel, S.scoring);
     total += p; (perMod[q.module] ||= { ok: 0, total: 0 }); perMod[q.module].ok += p; perMod[q.module].total += 1;
     detail.push({ it, q, sel, p });
+    if (answered) recordAnswer(q.id, sel, p);         // « déjà vue » + liste des erreurs
   }
-  const n = S.items.length;
-  RESULT = { mode: S.mode, scoring: S.scoring, n, total, note: total / n * 20, pct: total / n * 100, perMod, detail, redo: S.redo, used: S.total - S.remaining, timed: S.timed, filter: false };
+  const n = detail.length;
+  RESULT = { mode: S.mode, scoring: S.scoring, n, planned, early, total, note: total / n * 20, pct: total / n * 100, perMod, detail, redo: S.redo, used: S.total - S.remaining, timed: S.timed, filter: false };
   // historique + stats (enregistrés une seule fois ici)
-  const hist = load(K.history, []); hist.unshift({ date: Date.now(), mode: S.mode, scoring: S.scoring, n, note: RESULT.note, pct: RESULT.pct, redo: S.redo }); save(K.history, hist.slice(0, 100));
+  const hist = load(K.history, []); hist.unshift({ date: Date.now(), mode: S.mode, scoring: S.scoring, n, planned, note: RESULT.note, pct: RESULT.pct, redo: S.redo }); save(K.history, hist.slice(0, 100));
   const st = load(K.stats, {}); for (const m in perMod) { st[m] ||= { ok: 0, total: 0 }; st[m].ok += perMod[m].ok; st[m].total += perMod[m].total; } save(K.stats, st);
   localStorage.removeItem(K.session); S = null;
   go("results");
@@ -343,6 +388,7 @@ function renderResults() {
   $("#app").innerHTML = `
     <div class="card score"><div class="muted small">${R.mode === "exam" ? "Examen blanc" : "Entraînement"}${R.redo ? " – mes erreurs" : ""}</div>
       <div class="big">${num(R.note)}<small> / 20</small></div><div class="pct">${num(R.pct)} % · ${num(R.total)} / ${R.n} points</div>
+      ${R.early ? `<div class="muted small">Série arrêtée : ${R.n} question(s) répondue(s) sur ${R.planned}. Seules tes réponses comptent.</div>` : ""}
       <span class="pill">Notation : ${R.scoring === "strict" ? "tout ou rien (choix multiples)" : "partielle (choix multiples)"}</span>
       ${R.timed ? `<div class="muted small" style="margin-top:.5rem">Temps utilisé : ${fmtTime(R.used)}</div>` : ""}</div>
     <div class="card"><h2>Score par module</h2>${Object.keys(R.perMod).sort().map((m) => { const s = R.perMod[m], p = Math.round(100 * s.ok / s.total);
@@ -357,6 +403,19 @@ function renderResults() {
   const redo = $("#redo");
   if (redo) redo.onclick = () => startSession(errors.map((d) => d.q.id), { mode: R.mode, scoring: R.scoring, timed: R.timed, perQ: settings.perQ, redo: true });
   $("#again").onclick = () => go("home");
+}
+
+/* ---------- Revoir mes erreurs récentes (toutes séries confondues) ---------- */
+function renderMistakes() {
+  const mis = load(K.mistakes, {});
+  const ids = Object.keys(mis).filter((id) => BANK.has(id)).sort((a, b) => mis[b].date - mis[a].date);   // plus récentes d'abord
+  const detail = ids.map((id) => { const q = BANK.get(id); return { it: { order: q.choices.map((_, i) => i) }, q, sel: mis[id].sel || [], p: points(q, mis[id].sel, "strict") }; });
+  $("#app").innerHTML = `<div class="row between" style="margin-bottom:.8rem"><h2 style="margin:0">Mes erreurs récentes (${ids.length})</h2><button class="btn small" id="back">← Accueil</button></div>
+    <p class="muted small">Les plus récentes en premier. Une question disparaît de cette liste dès que tu la réussis.</p>
+    ${ids.length ? `<button class="btn primary" id="redo-all" style="margin-bottom:1rem;width:100%">Les refaire (${ids.length})</button>` : ""}
+    <div class="review">${detail.length ? detail.map((d, i) => reviewCard(d, i)).join("") : `<p class="muted">Aucune erreur enregistrée. 🎉</p>`}</div>`;
+  $("#back").onclick = () => go("home");
+  const r = $("#redo-all"); if (r) r.onclick = () => startSession(shuffle(ids), { mode: settings.mode, scoring: settings.scoring, timed: settings.timed, perQ: settings.perQ, redo: true });
 }
 
 /* ---------- Démarrage ---------- */

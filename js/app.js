@@ -8,7 +8,6 @@
 const MODULES = [
   { n: 1, title: "Introduction to Restructuring & Turnaround" },
   { n: 2, title: "Operational Turnaround" },
-  { n: 3, title: "Operational Turnaround – Dairy Princess" },
   { n: 4, title: "Financial Restructuring" },
   // { n: 5, title: "…" },   <- à décommenter quand data/module5.json existe
 ];
@@ -127,7 +126,7 @@ function renderHome() {
   const misIds = Object.keys(misMap).filter((id) => BANK.has(id));
   const newCount = (m) => (BY_MOD[m] || []).filter((q) => !seenMap[q.id]).length;
   app.innerHTML = `
-    <div class="hero"><h1>Entraînement QCM</h1><p>Choisis tes modules, le nombre de questions et le mode. Les questions viennent uniquement de tes cours.</p></div>
+    <div class="hero"><h1>Entraînement QCM</h1><p>Choisis tes modules, le nombre de questions et le mode. L'examen réel compte 60 questions (en anglais) qui couvrent tous les chapitres : pour t'y préparer, garde les 3 modules cochés et 60 questions. Il y a aussi des questions de calcul (cas fictifs).</p></div>
     ${LOAD_ERRORS.length ? `<div class="card" style="border-color:var(--ko)"><b>Module(s) introuvable(s) : ${LOAD_ERRORS.join(", ")}.</b> Vérifie les fichiers data/moduleN.json.</div>` : ""}
     ${valid ? `<div class="card resume"><h2>Session en cours</h2>
       <p class="small">${resume.mode === "exam" ? "Examen blanc" : "Entraînement"} – question ${resume.cur + 1}/${resume.items.length}, ${Object.keys(resume.answers).length} réponse(s) donnée(s).</p>

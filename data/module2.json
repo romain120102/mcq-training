@@ -1,1558 +1,988 @@
 [
-  {
-    "id": "m2-001",
-    "module": 2,
-    "type": "single",
-    "question": "According to the course, what is the objective of the diagnosis performed at the start of a turnaround?",
-    "choices": [
-      "To identify the drivers of underperformance and understand the present situation and future prospects, so that the plan can fix these root causes",
-      "To select the buyer who will acquire the company",
-      "To determine the dividend that can still be paid to shareholders",
-      "To prepare the communication to the press about the crisis"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "The diagnosis aims at identifying the drivers of underperformance and deeply understanding the present situation and future prospects; the turnaround plan aims at fixing these root causes.",
-    "reference": "Module 2 – slide 6 (Root causes: diagnosis)",
-    "difficulty": 1
-  },
-  {
-    "id": "m2-002",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which statements about the diagnosis of a company in trouble are consistent with the course? Select ALL that apply.",
-    "choices": [
-      "Underperformance is usually due to a mix of several causes",
-      "It may be performed by management, with or without the help of third-party advisors",
-      "It is usually traced back to one single root cause",
-      "It may sometimes be performed at the request of other stakeholders such as lenders or shareholders",
-      "It must always be performed exclusively by third-party advisors"
-    ],
-    "answer": [
-      0,
-      1,
-      3
-    ],
-    "explanation": "Slide 6: 'usually mix of several causes'; the diagnosis may be performed by management with or without third-party advisors, and sometimes at the request of lenders, shareholders, etc.",
-    "reference": "Module 2 – slide 6 (Root causes: diagnosis)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-003",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which TWO of the following are given in the course as examples of a 'reason for intervention' that needs to be concretized?",
-    "choices": [
-      "Appointment of a new marketing director",
-      "Covenant breach",
-      "Increase in the share price",
-      "Need for cash"
-    ],
-    "answer": [
-      1,
-      3
-    ],
-    "explanation": "Slide 6: 'Reason for intervention need to concretize (covenant breach, need for cash, etc)'.",
-    "reference": "Module 2 – slide 6 (Root causes: diagnosis)",
-    "difficulty": 1
-  },
-  {
-    "id": "m2-004",
-    "module": 2,
-    "type": "single",
-    "question": "Why is the diagnosis described as 'key' in the course?",
-    "choices": [
-      "Because it is required by law before any bank meeting",
-      "Because it allows the company to avoid any communication with stakeholders",
-      "Because it is needed to define a restructuring solution (operational and/or financial) and then implement it",
-      "Because it replaces the need for a turnaround plan"
-    ],
-    "answer": [
-      2
-    ],
-    "explanation": "Slide 6: 'Diagnosis is key in order to define a restructuring solution (operational and/or financial) for the company, and then implement it'.",
-    "reference": "Module 2 – slide 6 (Root causes: diagnosis)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-005",
-    "module": 2,
-    "type": "single",
-    "question": "Pronadis (case study): what share of total FY22 sales was made with the single client SoBio/BioCBon, according to the root-causes slide?",
-    "choices": [
-      "50%",
-      "60%",
-      "80%",
-      "70%"
-    ],
-    "answer": [
-      3
-    ],
-    "explanation": "Slide 11: hyper-growth with mostly one client (SoBio/BioCBon), 70% of total sales in FY22.",
-    "reference": "Module 2 – slide 11 (Pronadis: root causes to underperformance)",
-    "difficulty": 3
-  },
-  {
-    "id": "m2-006",
-    "module": 2,
-    "type": "single",
-    "question": "Pronadis: in the root-causes slide, SoBio/BioCBon margins are 13%. What margin is given for independent stores?",
-    "choices": [
-      "13%",
-      "16%",
-      "24%",
-      "18%"
-    ],
-    "answer": [
-      2
-    ],
-    "explanation": "Slide 11: margins of 13% for SoBio/BioCBon, versus 24% for independent stores and 16% for key accounts.",
-    "reference": "Module 2 – slide 11 (Pronadis: root causes to underperformance)",
-    "difficulty": 3
-  },
-  {
-    "id": "m2-007",
-    "module": 2,
-    "type": "multiple",
-    "question": "Pronadis: which statements about the margins on the SoBio/BioCBon business are correct according to the course? Select ALL that apply.",
-    "choices": [
-      "Their margin is 13%, lower than the 16% margin of key accounts",
-      "Their margin is further reduced by year-end rebates of -1.8%",
-      "Their margin is further reduced by payment discounts of -1.0%",
-      "Their margin is higher than the 24% margin of independent stores",
-      "Year-end rebates are -1.0% and payment discounts are -1.8%"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Slide 11: 13% (versus 24% for independent stores and 16% for key accounts), reduced by year-end rebates -1.8% and payment discounts -1.0%.",
-    "reference": "Module 2 – slide 11 (Pronadis: root causes to underperformance)",
-    "difficulty": 3
-  },
-  {
-    "id": "m2-008",
-    "module": 2,
-    "type": "single",
-    "question": "Pronadis: according to the root-causes slide, what was the market trend of the bio market over the last year?",
-    "choices": [
-      "A 15% increase",
-      "A 5% decrease",
-      "A 15% decrease",
-      "A 50% decrease"
-    ],
-    "answer": [
-      2
-    ],
-    "explanation": "Slide 11: 'Bio market showing signs of slowdown: -15% market trend over last year'.",
-    "reference": "Module 2 – slide 11 (Pronadis: root causes to underperformance)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-009",
-    "module": 2,
-    "type": "single",
-    "question": "Pronadis: according to the root-causes slide, what was the consequence of the EBITDA losses generated in FY22?",
-    "choices": [
-      "The banks immediately cancelled all credit lines",
-      "The shareholder injected new money to cover the losses",
-      "The company was not in a position to respect its debt repayment milestones in December 2022",
-      "The company immediately closed all its warehouses"
-    ],
-    "answer": [
-      2
-    ],
-    "explanation": "Slide 11: after the EBITDA losses generated in FY22, the company was 'not in a position to respect debt repayment milestones in Dec 2022'.",
-    "reference": "Module 2 – slide 11 (Pronadis: root causes to underperformance)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-010",
-    "module": 2,
-    "type": "multiple",
-    "question": "Pronadis: which of the following are listed among the root causes of underperformance? Select ALL that apply.",
-    "choices": [
-      "Hyper-growth (sales x3 in 4 years, mostly with one client)",
-      "A fraud committed by the management",
-      "Unprofitable growth, with limited control on profitability and cash generation",
-      "Higher cost structure built to support the strong sales growth",
-      "Loss of the main supplier",
-      "Bio market showing signs of slowdown"
-    ],
-    "answer": [
-      0,
-      2,
-      3,
-      5
-    ],
-    "explanation": "Slide 11 lists hyper-growth, unprofitable growth, higher cost structure and a slowing bio market. Fraud and loss of the main supplier are not mentioned.",
-    "reference": "Module 2 – slide 11 (Pronadis: root causes to underperformance)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-011",
-    "module": 2,
-    "type": "single",
-    "question": "Pronadis: why did the company have a 'higher cost structure' according to the course?",
-    "choices": [
-      "Because it had to pay a penalty to its banks",
-      "Because the management structured the company to support the strong sales growth and to prepare future development, de-risking Pronadis from its key client",
-      "Because it was forced to close its warehouses in favour of outsourcing",
-      "Because its shareholder charged it very high management fees"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "Slide 11: 'the management structured the company to support the strong sales growth, and prepare for future development to de-risk Pronadis from its key client'.",
-    "reference": "Module 2 – slide 11 (Pronadis: root causes to underperformance)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-012",
-    "module": 2,
-    "type": "single",
-    "question": "Pronadis: which of the root causes below is an EXTERNAL cause of underperformance?",
-    "choices": [
-      "Higher cost structure",
-      "Unprofitable growth",
-      "Hyper-growth driven by management choices",
-      "The -15% trend of the bio market"
-    ],
-    "answer": [
-      3
-    ],
-    "explanation": "The slowdown of the bio market (-15%) comes from the market, outside the company; the other items stem from the company's own choices and structure.",
-    "reference": "Module 2 – slide 11 (Pronadis: root causes to underperformance)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-013",
-    "module": 2,
-    "type": "single",
-    "question": "Pronadis: the 'unprofitable growth' is described as a shift 'from regional to national player' with more demanding clients. Which requirement of these clients is specifically mentioned?",
-    "choices": [
-      "Minimum levels of inventory",
-      "Longer payment terms of 120 days",
-      "Exclusive use of the client's own trucks",
-      "Organic certification of every supplier"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "Slide 11: 'from local independent clients to national champion with higher requests – including on inventory minimum levels'.",
-    "reference": "Module 2 – slide 11 (Pronadis: root causes to underperformance)",
-    "difficulty": 3
-  },
-  {
-    "id": "m2-014",
-    "module": 2,
-    "type": "multiple",
-    "question": "Pronadis: which of the following are listed as objectives of the discussion with the lenders? Select ALL that apply.",
-    "choices": [
-      "Maintain bank confidence and maintain the existing financing lines",
-      "Obtain the cancellation of all bank debt",
-      "Gain sufficient time to implement the turnaround plan",
-      "Obtain the necessary financing to support the implementation of the turnaround plan",
-      "Force the shareholder to sell the company immediately"
-    ],
-    "answer": [
-      0,
-      2,
-      3
-    ],
-    "explanation": "Slide 12: maintain bank confidence and existing lines, gain time to implement the plan, obtain necessary financing to support its implementation.",
-    "reference": "Module 2 – slide 12 (Pronadis: asks from the lenders)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-015",
-    "module": 2,
-    "type": "multiple",
-    "question": "Pronadis: which elements are part of the agreement obtained with the banks? Select ALL that apply.",
-    "choices": [
-      "Suspension of the repayment of the medium-term loans (PGE, 90% state guaranteed)",
-      "Maintenance of the short-term credit lines",
-      "A reduction of the factoring/discount lines from EUR 9.7m to EUR 5m",
-      "An agreement valid for 12 months",
-      "A new money injection by the shareholder"
-    ],
-    "answer": [
-      0,
-      1,
-      2,
-      3
-    ],
-    "explanation": "Slide 12: banks OK to suspend PGE repayment and maintain short-term lines, with factoring/discount lines reduced from €9.7m to €5m, for 12 months. The shareholder was NOT in a position to inject new money.",
-    "reference": "Module 2 – slide 12 (Pronadis: asks from the lenders)",
-    "difficulty": 3
-  },
-  {
-    "id": "m2-016",
-    "module": 2,
-    "type": "single",
-    "question": "Pronadis: under which kind of proceeding did the banks agree to suspend the repayment of the medium-term loans?",
-    "choices": [
-      "Liquidation proceeding",
-      "Conciliation proceeding",
-      "Asset deal proceeding",
-      "Shareholder squeeze-out"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "Slide 12: 'Banks OK (under Conciliation proceeding) to suspend the repayment of the medium-term loans (PGE...)'.",
-    "reference": "Module 2 – slide 12 (Pronadis: asks from the lenders)",
-    "difficulty": 3
-  },
-  {
-    "id": "m2-017",
-    "module": 2,
-    "type": "multiple",
-    "question": "Pronadis: which statements about the overall financing described by the course are correct? Select ALL that apply.",
-    "choices": [
-      "There was EUR 5.1m of PGE (state-guaranteed loan) debt",
-      "There were EUR 4.5m of short-term credit lines",
-      "Trade receivable factoring lines amounted to EUR 9.7m + EUR 3.5m, partially used (EUR 4m to EUR 5m)",
-      "The factoring lines were fully used",
-      "The PGE debt amounted to EUR 9.7m"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Slide 12: 'Overall: 5.1m PGE debt, €4.5m short term credit lines and €9.7m + €3.5m trade receivable factoring lines (partially used up to €4m to €5m)'.",
-    "reference": "Module 2 – slide 12 (Pronadis: asks from the lenders)",
-    "difficulty": 3
-  },
-  {
-    "id": "m2-018",
-    "module": 2,
-    "type": "single",
-    "question": "Pronadis: what commitment did the shareholder make as part of the 12-month agreement with the banks?",
-    "choices": [
-      "To inject new money himself within three months",
-      "To sell the real estate to the banks",
-      "To personally guarantee all PGE loans",
-      "To find a new investor to inject new money in the Group and finance the plan"
-    ],
-    "answer": [
-      3
-    ],
-    "explanation": "Slide 12: the shareholder was not in a position to inject new money; the agreement came with his commitment to find a new investor to do so.",
-    "reference": "Module 2 – slide 12 (Pronadis: asks from the lenders)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-019",
-    "module": 2,
-    "type": "multiple",
-    "question": "Pronadis: which of the following are among the levers of the turnaround plan listed in the course? Select ALL that apply.",
-    "choices": [
-      "Negotiated tariff increase with SoBio",
-      "Logistics improvement through a WMS",
-      "Reduction in the number of SKUs for SoBio",
-      "Launch of a new national consumer brand",
-      "Termination of one warehouse in Beychac",
-      "Acquisition of a competitor"
-    ],
-    "answer": [
-      0,
-      1,
-      2,
-      4
-    ],
-    "explanation": "Slide 13 lists, among others: negotiated tariff increase with SoBio, logistics improvement through WMS, reduction of SKUs for SoBio, termination of one warehouse in Beychac.",
-    "reference": "Module 2 – slides 13-14 (Pronadis: the turnaround plan)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-020",
-    "module": 2,
-    "type": "single",
-    "question": "Pronadis: in the projected income statement of the turnaround plan (slide 14), in which year does EBITDA first become positive?",
-    "choices": [
-      "2023 (budget)",
-      "2022 (normalised)",
-      "2025 only",
-      "2024"
-    ],
-    "answer": [
-      3
-    ],
-    "explanation": "Slide 14: EBITDA is -2,020k (2022 normalised), -215k (2023 budget), +1,878k (2024 BP) and +2,524k (2025 BP).",
-    "reference": "Module 2 – slides 13-14 (Pronadis: the turnaround plan)",
-    "difficulty": 3
-  },
-  {
-    "id": "m2-021",
-    "module": 2,
-    "type": "single",
-    "question": "Pronadis: the gross margin rate (% of sales) in the income statements FY20-FY22 evolved as follows:",
-    "choices": [
-      "18.0% (2020), 16.0% (2021), 14.1% (2022)",
-      "14.1% (2020), 16.0% (2021), 18.0% (2022)",
-      "16.0% (2020), 18.0% (2021), 14.1% (2022)",
-      "It stayed at 18.0% over the three years"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "Slide 10: 'Taux de marge brute en % CA' = 18.0%, 16.0%, 14.1% for 2020, 2021, 2022: a steady decline.",
-    "reference": "Module 2 – slide 10 (Pronadis: company in a nutshell)",
-    "difficulty": 3
-  },
-  {
-    "id": "m2-022",
-    "module": 2,
-    "type": "multiple",
-    "question": "Pronadis: which key takeaways are drawn about the turnaround plan? Select ALL that apply.",
-    "choices": [
-      "It appears sufficient to maintain positive liquidity over FY23-FY25",
-      "Available liquidity is limited and there are potential execution risks",
-      "It does not enable dividend distribution to the holding and the family-owned real estate company to repay their debt",
-      "It generates enough surplus cash to remove any need for new equity",
-      "It requires no negotiation with SoBio"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Slide 14 key takeaways: positive liquidity maintained but limited and risky; no dividend capacity, hence the need for an equity injection from a new investor.",
-    "reference": "Module 2 – slides 13-14 (Pronadis: the turnaround plan)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-023",
-    "module": 2,
-    "type": "single",
-    "question": "Pronadis: why was an equity injection from a new investor needed, according to the course?",
-    "choices": [
-      "Because the plan did not allow dividends to repay debt at holding/real estate level and the shareholder could not inject money",
-      "Because the plan showed a negative liquidity in every year",
-      "Because the banks demanded the immediate repayment of the PGE",
-      "Because the competitor Investor 2 required an equity increase"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "Slide 14: the plan does not enable dividend distribution to repay debt at the holding / family-owned real estate level; 'Hence need for equity injection - from a new investor given the shareholder was not in a position to do so'.",
-    "reference": "Module 2 – slides 13-14 (Pronadis: the turnaround plan)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-024",
-    "module": 2,
-    "type": "single",
-    "question": "Pronadis: what happened with the first investor (a competitor) who entered an exclusivity period?",
-    "choices": [
-      "He acquired 100% of the shares in bonis",
-      "He eventually decided to drop",
-      "He injected new money as a minority shareholder",
-      "He bought only the Vayres warehouse"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "Slide 15: the investor entered an exclusivity period to acquire the company in bonis, but eventually decided to drop.",
-    "reference": "Module 2 – slide 15 (Pronadis: what happened in real-life)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-025",
-    "module": 2,
-    "type": "single",
-    "question": "Pronadis: in what form was the transaction with Investor 2 finally carried out?",
-    "choices": [
-      "A share deal in bonis with a capital increase",
-      "A debt-for-equity swap with the banks",
-      "An asset deal under insolvency",
-      "A management buy-out financed by the shareholder"
-    ],
-    "answer": [
-      2
-    ],
-    "explanation": "Slide 15: Investor 2 asked to do the transaction as an asset deal under insolvency.",
-    "reference": "Module 2 – slide 15 (Pronadis: what happened in real-life)",
-    "difficulty": 1
-  },
-  {
-    "id": "m2-026",
-    "module": 2,
-    "type": "multiple",
-    "question": "Pronadis: why did Investor 2 ask for an asset deal under insolvency? Select ALL that apply.",
-    "choices": [
-      "The company was deemed too leveraged: the debt remains with the procedure and the investor only acquires assets",
-      "The lay-off and restructuring costs are borne by the procedure",
-      "The investor wanted to take over all existing debt at a discount",
-      "The banks had demanded this structure in the 12-month agreement"
-    ],
-    "answer": [
-      0,
-      1
-    ],
-    "explanation": "Slide 15: the company was deemed too leveraged (debt remains with the procedure) and lay-off/restructuring costs are borne by the procedure.",
-    "reference": "Module 2 – slide 15 (Pronadis: what happened in real-life)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-027",
-    "module": 2,
-    "type": "multiple",
-    "question": "Pronadis: which synergies with Investor 2 are listed in the course? Select ALL that apply.",
-    "choices": [
-      "Commercial (client base)",
-      "Industrial (shared factory)",
-      "Geographical (warehouse footprint)",
-      "Support functions",
-      "R&D (shared laboratories)"
-    ],
-    "answer": [
-      0,
-      2,
-      3
-    ],
-    "explanation": "Slide 15: synergies with Investor 2 are commercial (client base), geographical (warehouse footprint) and in support functions.",
-    "reference": "Module 2 – slide 15 (Pronadis: what happened in real-life)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-028",
-    "module": 2,
-    "type": "multiple",
-    "question": "Pronadis: which statements about the real-life outcome are correct? Select ALL that apply.",
-    "choices": [
-      "About 70 jobs were preserved out of about 120 remaining",
-      "The shareholder lost his investment",
-      "The shareholder maintained the Vayres lease on the family-owned warehouse",
-      "The shareholder recovered his investment in full",
-      "All the debt was transferred to Investor 2"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Slide 15: c.70 jobs preserved out of c.120 remaining; the shareholder lost his investment but maintained the Vayres lease. The debt remained with the procedure.",
-    "reference": "Module 2 – slide 15 (Pronadis: what happened in real-life)",
-    "difficulty": 3
-  },
-  {
-    "id": "m2-029",
-    "module": 2,
-    "type": "single",
-    "question": "Pronadis: which warehouse is rented from the shareholder's family-owned company?",
-    "choices": [
-      "Vayres (5,500 m2, EUR 330k/year)",
-      "Beychac 1 (3,000 m2, EUR 207k/year)",
-      "Beychac 2 (2,000 m2, EUR 120k/year)",
-      "None: all warehouses were owned by Pronadis"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "Slide 9: Vayres, 5,500 m², rent €330k/year, shareholder's family-owned. Beychac 1 and 2 are rented from third parties.",
-    "reference": "Module 2 – slide 9 (Pronadis: company in a nutshell)",
-    "difficulty": 3
-  },
-  {
-    "id": "m2-030",
-    "module": 2,
-    "type": "multiple",
-    "question": "Pronadis: which are the three largest suppliers (2022 purchases) shown in the course? Select ALL that apply.",
-    "choices": [
-      "Ekibio (EUR 5.7m)",
-      "SoBio",
-      "Markal (EUR 4.3m)",
-      "FPA Distribution (EUR 3.1m)",
-      "BioCBon"
-    ],
-    "answer": [
-      0,
-      2,
-      3
-    ],
-    "explanation": "Slide 9: top 3 suppliers are Ekibio (€5.7m), Markal (€4.3m) and FPA Distribution (€3.1m). SoBio and BioCBon are clients.",
-    "reference": "Module 2 – slide 9 (Pronadis: company in a nutshell)",
-    "difficulty": 3
-  },
-  {
-    "id": "m2-031",
-    "module": 2,
-    "type": "single",
-    "question": "Pronadis: what was the amount of net sales in 2022, according to the 'company in a nutshell' slide?",
-    "choices": [
-      "EUR 88.5m",
-      "EUR 51.0m",
-      "EUR 103.1m",
-      "EUR 72.0m"
-    ],
-    "answer": [
-      2
-    ],
-    "explanation": "Slide 9: 'Net sales 2022: €103.1m' (net purchases 2022 incl. year-end rebates: €88.5m).",
-    "reference": "Module 2 – slide 9 (Pronadis: company in a nutshell)",
-    "difficulty": 3
-  },
-  {
-    "id": "m2-032",
-    "module": 2,
-    "type": "single",
-    "question": "In the turnaround lifecycle framework, which phase follows 'II. Rapid Decline' (after stabilization)?",
-    "choices": [
-      "I. Underperformance",
-      "IV. Renewal",
-      "III. Recovery",
-      "A second phase of rapid decline"
-    ],
-    "answer": [
-      2
-    ],
-    "explanation": "Slide 17: the four phases are I. Underperformance, II. Rapid Decline, III. Recovery, IV. Renewal, with stabilization between decline and recovery.",
-    "reference": "Module 2 – slide 17 (The turnaround lifecycle)",
-    "difficulty": 1
-  },
-  {
-    "id": "m2-033",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which of the following are phases of the turnaround lifecycle framework? Select ALL that apply.",
-    "choices": [
-      "Underperformance",
-      "Rapid Decline",
-      "Expansion",
-      "Recovery",
-      "Liquidation",
-      "Renewal"
-    ],
-    "answer": [
-      0,
-      1,
-      3,
-      5
-    ],
-    "explanation": "Slide 17: I. Underperformance, II. Rapid Decline, III. Recovery, IV. Renewal.",
-    "reference": "Module 2 – slide 17 (The turnaround lifecycle)",
-    "difficulty": 1
-  },
-  {
-    "id": "m2-034",
-    "module": 2,
-    "type": "single",
-    "question": "Where does 'Stabilization' sit in the turnaround lifecycle diagram?",
-    "choices": [
-      "Before the Underperformance phase",
-      "Between Rapid Decline and Recovery, at the low point of the cycle",
-      "After the Renewal phase",
-      "Between Recovery and Renewal"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "Slide 17 diagram: the low point (stabilization) separates the decline from the recovery.",
-    "reference": "Module 2 – slide 17 (The turnaround lifecycle)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-035",
-    "module": 2,
-    "type": "single",
-    "question": "What is the FIRST of the five steps to leading a turnaround?",
-    "choices": [
-      "Diagnose",
-      "Design the plan",
-      "Overcome denial and recognize that there is a problem",
-      "Communicate the results"
-    ],
-    "answer": [
-      2
-    ],
-    "explanation": "Slide 19: 1. Overcome denial, recognize that there is a problem ('Houston, we have a problem!').",
-    "reference": "Module 2 – slide 19 (The turnaround process: 5 steps)",
-    "difficulty": 1
-  },
-  {
-    "id": "m2-036",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which statements about the 5 steps to leading a turnaround are correct? Select ALL that apply.",
-    "choices": [
-      "The steps are: overcome denial, diagnose, design, execute, communicate the results",
-      "Design comes after diagnose",
-      "Communicating the results is the last step",
-      "The process is linear, with no iteration",
-      "Execution takes place before the design of the plan"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Slide 19 lists the 5 steps in that order and calls it a 'highly iterative, highly communicative process'.",
-    "reference": "Module 2 – slide 19 (The turnaround process: 5 steps)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-037",
-    "module": 2,
-    "type": "single",
-    "question": "According to the course, how is the turnaround process characterised?",
-    "choices": [
-      "Highly iterative, highly communicative",
-      "Strictly sequential and confidential",
-      "Mostly legal and mostly passive",
-      "Short and purely financial"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "Slide 19: 'Highly iterative, highly communicative process'.",
-    "reference": "Module 2 – slide 19 (The turnaround process: 5 steps)",
-    "difficulty": 1
-  },
-  {
-    "id": "m2-038",
-    "module": 2,
-    "type": "single",
-    "question": "Why does the course present the Kübler-Ross Grief Cycle (originally describing people with terminal diseases) at the start of the turnaround process?",
-    "choices": [
-      "To explain how to calculate the debt capacity of the company",
-      "To show the need to first understand and accept the situation",
-      "To describe the legal steps of an insolvency procedure",
-      "To rank the stakeholders by their level of risk"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "Slide 20: 'First, the need to understand and accept the situation' - the Kübler-Ross cycle illustrates the denial and acceptance of a dramatic situation.",
-    "reference": "Module 2 – slide 20 (Kübler-Ross grief cycle)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-039",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which THREE of the following are stages of the Kübler-Ross grief cycle shown in the course?",
-    "choices": [
-      "Denial",
-      "Euphoria",
-      "Anger",
-      "Overconfidence",
-      "Bargaining"
-    ],
-    "answer": [
-      0,
-      2,
-      4
-    ],
-    "explanation": "Slide 20 curve: Stability, Immobilisation, Denial, Anger, Bargaining, Depression, Testing, Acceptance.",
-    "reference": "Module 2 – slide 20 (Kübler-Ross grief cycle)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-040",
-    "module": 2,
-    "type": "multiple",
-    "question": "According to the course, the manager's actions should be driven by a sense of extreme urgency resulting from which factors? Select ALL that apply.",
-    "choices": [
-      "Limited cash",
-      "Teams' exhaustion",
-      "Outside stakeholders' doubts (bankers, clients, suppliers...)",
-      "Excess of liquidity in the bank accounts",
-      "Pressure from shareholders to increase dividends"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Slide 22: urgency is the result of limited cash, teams' exhaustion and outside stakeholders' doubts.",
-    "reference": "Module 2 – slide 22 (Time is of the essence)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-041",
-    "module": 2,
-    "type": "multiple",
-    "question": "Since time is limited, on what should the manager focus according to the course? Select ALL that apply.",
-    "choices": [
-      "Extending the time window available by mobilizing all available cash resources",
-      "Addressing internal and external stakeholder issues and getting their support for the plan",
-      "Identifying the causes at the origin of the situation and correcting them",
-      "Launching long-term growth projects first, financed by new debt",
-      "Waiting for the market to recover before acting"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Slide 22: the three focus areas are extending the time window via cash mobilization, stakeholder support, and identifying and correcting the causes.",
-    "reference": "Module 2 – slide 22 (Time is of the essence)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-042",
-    "module": 2,
-    "type": "single",
-    "question": "The slide 'Short and medium term: are there enough resources?' asks about which two resources?",
-    "choices": [
-      "Time and cash",
-      "People and brand",
-      "Equity and patents",
-      "Stock and machinery"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "Slide 21: 'Are there enough resources (time, cash)?', illustrated with an emergency medical team.",
-    "reference": "Module 2 – slide 21 (Short and medium term resources)",
-    "difficulty": 1
-  },
-  {
-    "id": "m2-043",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which statements correctly describe the two dimensions of the turnaround project? Select ALL that apply.",
-    "choices": [
-      "Operations: make the change of course credible and fix the underperforming parts for good, i.e. turn the company around",
-      "Finances: solve the cash/debt problem to have time for action and ensure a viable debt structure, i.e. proper restructuring",
-      "Finances: finance the turnaround actions",
-      "Operations: solve the debt instalment problem",
-      "Finances: fix the underperforming parts of the business for good"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Slide 23: operations = turn the company around; finances = solve the cash/debt problem, finance the turnaround actions and ensure a viable debt structure = proper restructuring.",
-    "reference": "Module 2 – slide 23 (A two-dimensional project)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-044",
-    "module": 2,
-    "type": "multiple",
-    "question": "Financial and cash problems very often have operational causes. Which of the following operational causes are listed in the course? Select ALL that apply.",
-    "choices": [
-      "Part of the business is not competitive enough",
-      "A key process is underperforming (money-losing business, loss-making products)",
-      "The cost structure is too costly (disorganized or bloated support functions)",
-      "The service level offered to clients by the Supply Chain is not at par with industry standards",
-      "Equity is too small compared to total debts",
-      "Cash problem to honor debt instalments"
-    ],
-    "answer": [
-      0,
-      1,
-      2,
-      3
-    ],
-    "explanation": "Slide 23 (operations side) lists these four causes. 'Equity too small' and 'cash problem to honor debt instalments' belong to the finances side.",
-    "reference": "Module 2 – slide 23 (A two-dimensional project)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-045",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which TWO of the following are listed on the FINANCES side of the two-dimensional project?",
-    "choices": [
-      "Equity too small compared to total debts",
-      "Part of the business is not competitive enough",
-      "Cash problem to honor debt instalments",
-      "Support functions are disorganized or bloated",
-      "Supply chain service level below industry standards"
-    ],
-    "answer": [
-      0,
-      2
-    ],
-    "explanation": "Slide 23 (finances side): cash problem to address current business issues, cash problem to honor debt instalments, inadequate cash/short-term financing, equity too small compared to total debts.",
-    "reference": "Module 2 – slide 23 (A two-dimensional project)",
-    "difficulty": 3
-  },
-  {
-    "id": "m2-046",
-    "module": 2,
-    "type": "single",
-    "question": "According to the course, what is 'all too often forgotten, once the financial restructuring is secured'?",
-    "choices": [
-      "The actual operational turnaround",
-      "The payment of the advisors",
-      "The appointment of the lenders' representative",
-      "The year-end rebates"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "Slide 23: 'The actual operational turnaround is all too often forgotten, once the financial restructuring is secured!'",
-    "reference": "Module 2 – slide 23 (A two-dimensional project)",
-    "difficulty": 1
-  },
-  {
-    "id": "m2-047",
-    "module": 2,
-    "type": "single",
-    "question": "What does the course say about the origin of financial and cash problems?",
-    "choices": [
-      "They never have operational causes",
-      "They are always caused by banks",
-      "They very often have operational causes",
-      "They only arise in high-growth companies"
-    ],
-    "answer": [
-      2
-    ],
-    "explanation": "Slide 23: 'Financial and cash problem very often have operational causes'.",
-    "reference": "Module 2 – slide 23 (A two-dimensional project)",
-    "difficulty": 1
-  },
-  {
-    "id": "m2-048",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which of the following elements appear in the roadmap for turning around a company? Select ALL that apply.",
-    "choices": [
-      "Rapid diagnostic to identify problems",
-      "Obtain stakeholder buy-in",
-      "Develop a value recovery plan",
-      "Launch an IPO",
-      "Sale of non-core activities"
-    ],
-    "answer": [
-      0,
-      1,
-      2,
-      4
-    ],
-    "explanation": "Slide 24 roadmap: rapid diagnostic, detailed analysis, assess strategic options, develop value recovery plan, obtain stakeholder buy-in, implement regeneration strategy, sale of non-core activities, etc.",
-    "reference": "Module 2 – slide 24 (Roadmap for turning around a company)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-049",
-    "module": 2,
-    "type": "single",
-    "question": "Which pairing of business type and treatment is consistent with the roadmap?",
-    "choices": [
-      "Core businesses: sale; non-core activities: turnaround; non-viable businesses: strengthen",
-      "Core businesses: turnaround; non-core activities: sale; non-viable businesses: restructure or close",
-      "Core businesses: close; non-core activities: turnaround; non-viable businesses: sale",
-      "Core businesses: restructure or close; non-core activities: strengthen; non-viable businesses: turnaround"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "Slide 24: turnaround of core businesses, sale of non-core activities, restructure or close non-viable businesses.",
-    "reference": "Module 2 – slide 24 (Roadmap for turning around a company)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-050",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which THREE of the following stage labels appear in the roadmap for turning around a company?",
-    "choices": [
-      "Stabilise",
-      "Liquidate",
-      "Analyse",
-      "Outsource",
-      "Reposition"
-    ],
-    "answer": [
-      0,
-      2,
-      4
-    ],
-    "explanation": "Slide 24 stage labels: Stabilise, Analyse, Reposition, Strengthen, Manage value.",
-    "reference": "Module 2 – slide 24 (Roadmap for turning around a company)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-051",
-    "module": 2,
-    "type": "single",
-    "question": "To assess whether the company still has a reason for being, the course uses which framework?",
-    "choices": [
-      "Porter's five forces",
-      "The Kübler-Ross cycle",
-      "A 13-week cash flow forecast",
-      "The lifecycle of restructuring"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "Slide 25 shows the five forces of Porter to challenge the company's reason for being.",
-    "reference": "Module 2 – slide 25 (Does the company still have a reason for being?)",
-    "difficulty": 1
-  },
-  {
-    "id": "m2-052",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which THREE of the following are among Porter's five forces shown on the slide?",
-    "choices": [
-      "Threat of new entrants",
-      "Government regulation",
-      "Bargaining power of suppliers",
-      "Brand equity",
-      "Threat of substitute products or services"
-    ],
-    "answer": [
-      0,
-      2,
-      4
-    ],
-    "explanation": "Slide 25: rivalry among existing competitors, threat of new entrants, bargaining power of suppliers, bargaining power of buyers, threat of substitutes.",
-    "reference": "Module 2 – slide 25 (Does the company still have a reason for being?)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-053",
-    "module": 2,
-    "type": "single",
-    "question": "How long should the manager continue the 'systematic questioning' of why the company got where it is?",
-    "choices": [
-      "Until the first meeting with the banks",
-      "Until some reasonable explanation is found as to why the company got where it is today",
-      "Until the shareholders approve the questions",
-      "For exactly five rounds of questions"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "Slide 26: 'Question until there is some reasonable explanation as to why the company got where it is today'.",
-    "reference": "Module 2 – slide 26 (Starting point: systematic questioning)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-054",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which of the following questions are explicitly listed on the slide as examples of the systematic questioning? Select ALL that apply.",
-    "choices": [
-      "Why have we lost market share?",
-      "Why is our customer base shrinking?",
-      "Why are manufacturing costs rising every year?",
-      "Why is our shareholder base so small?",
-      "Why do we pay our employees less than our competitors?"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Slide 26 lists these questions (among others on profitability, sales, service level, innovation).",
-    "reference": "Module 2 – slide 26 (Starting point: systematic questioning)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-055",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which statements about the 'cash mobilization' initiative are consistent with the course? Select ALL that apply.",
-    "choices": [
-      "It is centralized, well staffed, strong and autocratic because the life of the company is at stake",
-      "Financial/cash considerations supersede economic ones",
-      "All managers are made clearly responsible for their part in the cash project",
-      "Each manager defines his own cash policy independently",
-      "Economic considerations always take precedence over cash considerations"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Slide 27: centralized, well staffed, strong and autocratic initiative; cash considerations supersede economic ones; managers are made responsible.",
-    "reference": "Module 2 – slide 27 (Squeeze cash out from everywhere)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-056",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which actions are recommended to squeeze cash out of the company? Select ALL that apply.",
-    "choices": [
-      "Create tools necessary to track and anticipate cash",
-      "Vigorous systematic action on the components of working capital",
-      "Careful analysis of the credit lines contracts to extract as much cash as possible",
-      "Pay all suppliers early to protect relationships",
-      "Increase spending to reassure the market"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Slide 27 lists tracking tools, action on working capital, analysis of credit lines contracts, and 'cut spending - only pay what you have planned to pay'.",
-    "reference": "Module 2 – slide 27 (Squeeze cash out from everywhere)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-057",
-    "module": 2,
-    "type": "single",
-    "question": "How often should the cash situation be followed according to the cash mobilization slide?",
-    "choices": [
-      "Monthly throughout the crisis",
-      "Quarterly, at board meetings",
-      "Annually, with the budget",
-      "Day to day until the situation is better, then on a weekly basis"
-    ],
-    "answer": [
-      3
-    ],
-    "explanation": "Slide 27: 'Follow the situation day to day, until the situation is better, then on a weekly basis'.",
-    "reference": "Module 2 – slide 27 (Squeeze cash out from everywhere)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-058",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which TWO statements describe the '13-week cash flow forecast' correctly?",
-    "choices": [
-      "It is a weekly cash forecast over the next 3 months",
-      "It is built from the annual budget and annual averages",
-      "It is built on identified inflows and outflows (day-to-day spending, payments to suppliers and from clients, paydays...)",
-      "It is a monthly forecast over the next 13 months",
-      "It is prepared once and not updated afterwards"
-    ],
-    "answer": [
-      0,
-      2
-    ],
-    "explanation": "Slide 28: 'a weekly cash forecast over the next 3 months', built on identified inflows and outflows, not from the budget or annual averages.",
-    "reference": "Module 2 – slide 28 (Forecast and monitor your cash needs)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-059",
-    "module": 2,
-    "type": "single",
-    "question": "How often should the cash forecast initially be updated?",
-    "choices": [
-      "Every week",
-      "Every day, without exception",
-      "Every quarter",
-      "Once at the start of the crisis"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "Slide 28: 'Initially, this forecast should be updated every week'; the period can be extended to 3 to 4 weeks when forecasts become precise.",
-    "reference": "Module 2 – slide 28 (Forecast and monitor your cash needs)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-060",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which statements about cash management are consistent with the course? Select ALL that apply.",
-    "choices": [
-      "Cash is what determines whether a company lives or dies",
-      "Not all cash that appears in spreadsheets is cash that can be used",
-      "Every important decision with a measurable impact on cash should be confronted with its effect on the forecast",
-      "The update period can never be extended beyond one week",
-      "Management habits never limit the availability of cash"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Slide 28 lists the first three statements; the update period can be extended to 3 to 4 weeks, and management 'habits' often limit cash availability.",
-    "reference": "Module 2 – slide 28 (Forecast and monitor your cash needs)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-061",
-    "module": 2,
-    "type": "single",
-    "question": "Why should a manager 'beware' of cash that appears in spreadsheets?",
-    "choices": [
-      "Because spreadsheets are never accurate",
-      "Because legal or contractual rules on bank credit lines may prevent it from being used",
-      "Because it is always owned by the shareholder",
-      "Because it is automatically taxed at 90%"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "Slide 28: 'all cash that appears in spreadsheets is not cash that you can use (legal or contractual rules on bank credit lines)'.",
-    "reference": "Module 2 – slide 28 (Forecast and monitor your cash needs)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-062",
-    "module": 2,
-    "type": "single",
-    "question": "According to the course, what often limits the availability of cash within a company in difficulty?",
-    "choices": [
-      "The decisions of the credit rating agencies",
-      "Management 'habits'",
-      "The seasonality of Christmas sales",
-      "The absence of external auditors"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "Slide 28: 'All available cash should be identified and mobilized (often management \"habits\" limit cash availability)'.",
-    "reference": "Module 2 – slide 28 (Forecast and monitor your cash needs)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-063",
-    "module": 2,
-    "type": "single",
-    "question": "Why is it worth doing, in crisis mode, the operational actions that can be done quickly and without much cash consumption?",
-    "choices": [
-      "Because they fully replace the turnaround of key processes",
-      "Because they send a signal to all stakeholders about the company's willingness to do whatever is necessary to turn itself around",
-      "Because they are required by banking regulation",
-      "Because they eliminate the need for a cash forecast"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "Slide 29: such actions 'send a signal to all stakeholders about the willingness of the company to do whatever is necessary to get back on its feet'.",
-    "reference": "Module 2 – slide 29 (Major sources of operational deficiencies)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-064",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which statements about underperforming key processes are consistent with the course? Select ALL that apply.",
-    "choices": [
-      "They can be the source of a company's difficulties and of its demise on markets",
-      "Turning around a key operational process always takes time and money",
-      "It is often outside the scope of crisis management",
-      "They should never be addressed until the financial restructuring is completed",
-      "They can always be fixed within a few days at no cost"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Slide 29: underperforming processes can cause demise; turning them around always takes time and money and is often outside crisis management; yet quick, cash-light actions are worth doing.",
-    "reference": "Module 2 – slide 29 (Major sources of operational deficiencies)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-065",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which changes carry the message 'something key has changed' to all audiences, according to the course? Select ALL that apply.",
-    "choices": [
-      "The situation is now seen as it is, no more pink glasses",
-      "Spending that is not key has stopped and cash is under strict control",
-      "A plan exists, it gathers support and shows how the company will get out of this",
-      "The previous business plan is kept unchanged to preserve confidence",
-      "Obvious causes are left aside until the financial restructuring is over"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Slide 30 lists the changes: no more pink glasses, non-key spending stopped, strict cash control, obvious causes recognized with action taken, a plan that gathers support, stakeholders in support.",
-    "reference": "Module 2 – slide 30 (Break away from the past)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-066",
-    "module": 2,
-    "type": "single",
-    "question": "What message should the first phase send to all audiences of the company?",
-    "choices": [
-      "'Wait and see: the market will recover'",
-      "'Something key has changed, the company is going to do what is necessary!'",
-      "'The shareholders will cover all losses'",
-      "'The previous strategy was right and will be accelerated'"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "Slide 30: « Something key has changed, the company is going to do what is necessary ! »",
-    "reference": "Module 2 – slide 30 (Break away from the past)",
-    "difficulty": 1
-  },
-  {
-    "id": "m2-067",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which TWO of the following are explicitly listed among the audiences of the turnaround plan?",
-    "choices": [
-      "Credit rating agencies",
-      "Porter's five forces",
-      "Employees and their advisers",
-      "The 13-week cash flow forecast"
-    ],
-    "answer": [
-      0,
-      2
-    ],
-    "explanation": "Slide 31: shareholders, banks, employees, credit rating agencies, employees and their advisers, suppliers, clients...",
-    "reference": "Module 2 – slides 31-32 (The turnaround plan: audience and qualities)",
-    "difficulty": 1
-  },
-  {
-    "id": "m2-068",
-    "module": 2,
-    "type": "single",
-    "question": "Why can the audiences of the turnaround plan not be expected to give management 'the benefit of the doubt' again?",
-    "choices": [
-      "Because they have either already lost a lot or are in a position to lose a lot",
-      "Because they are all competitors",
-      "Because they have no financial interest in the company",
-      "Because the law forbids them to approve plans"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "Slide 32: audiences have already lost a lot or are in a position to lose a lot; the presentation must clear any doubt and create certainty.",
-    "reference": "Module 2 – slides 31-32 (The turnaround plan: audience and qualities)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-069",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which of the following qualities must the turnaround plan have, according to the course? Select ALL that apply.",
-    "choices": [
-      "Presented by the management team",
-      "Demonstrating full understanding of the situation: no complacency, no sentimentality",
-      "Showing some visible rupture",
-      "Measurable objectives with regular milestones",
-      "Presented exclusively by outside advisors",
-      "Based on optimistic assumptions of a quick market recovery"
-    ],
-    "answer": [
-      0,
-      1,
-      2,
-      3
-    ],
-    "explanation": "Slide 32 lists these qualities (management team, full understanding, visible rupture, measurable objectives, regular milestones, already in motion).",
-    "reference": "Module 2 – slides 31-32 (The turnaround plan: audience and qualities)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-070",
-    "module": 2,
-    "type": "single",
-    "question": "Why must the turnaround plan show 'some visible rupture'?",
-    "choices": [
-      "Otherwise the same causes will create the same results",
-      "Because the banks require a change of logo",
-      "Because it reduces the legal costs",
-      "Because the employees must be replaced"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "Slide 32: 'Showing some visible rupture (otherwise, same cause will create same results!)'.",
-    "reference": "Module 2 – slides 31-32 (The turnaround plan: audience and qualities)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-071",
-    "module": 2,
-    "type": "single",
-    "question": "On which areas must the turnaround plan include actions, according to the course?",
-    "choices": [
-      "Legal structure and brand name only",
-      "Commercial, cost structure and cash flow generation, short to medium term",
-      "Long-term R&D only",
-      "Dividend policy and share buybacks"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "Slide 32: 'Actions on commercial (products, markets, R&D, etc), cost structure and cash flow generation (working capital, capex), short to medium term'.",
-    "reference": "Module 2 – slides 31-32 (The turnaround plan: audience and qualities)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-072",
-    "module": 2,
-    "type": "single",
-    "question": "When the turnaround plan is presented to its audiences, what should be the status of its implementation?",
-    "choices": [
-      "Not started, to avoid commitments",
-      "Already in motion, with first targets either reached or within grasp",
-      "Fully completed",
-      "Suspended until stakeholders approve"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "Slide 32: 'Already in motion! With first targets either reached or within grasp...'.",
-    "reference": "Module 2 – slides 31-32 (The turnaround plan: audience and qualities)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-073",
-    "module": 2,
-    "type": "single",
-    "question": "What does the course say about the turnaround plan in the recent 'no-growth and new business models' economy?",
-    "choices": [
-      "It is no longer needed",
-      "It might not have been enough",
-      "It should be replaced by a financial restructuring only",
-      "It should focus exclusively on growth"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "Slide 33: 'In the recent no-growth & new business models economy, the above turnaround plan might not have been enough!'",
-    "reference": "Module 2 – slide 33 (No-growth economy)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-074",
-    "module": 2,
-    "type": "multiple",
-    "question": "Why is existing management often not capable of executing the turnaround alone? Select ALL that apply.",
-    "choices": [
-      "It might not have been very good in the first place, since the company is where it is",
-      "It could have been and remain blind to some key factors (e.g. silos, changes in client needs)",
-      "It is difficult for any person to undo one day what was done the day before",
-      "There is a temptation to justify past decisions at the expense of different decisions to be taken today",
-      "Management is always dishonest"
-    ],
-    "answer": [
-      0,
-      1,
-      2,
-      3
-    ],
-    "explanation": "Slide 35 lists these four reasons.",
-    "reference": "Module 2 – slide 35 (Existing management)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-075",
-    "module": 2,
-    "type": "multiple",
-    "question": "Why is it not easy to simply replace existing management? Select ALL that apply.",
-    "choices": [
-      "Good managers are not easy to identify",
-      "Ailing companies are not attractive to would-be managers, even less so when small or mid size",
-      "Managers with 'distress management' experience are not many",
-      "Managers with distress experience are plentiful but too expensive",
-      "Ailing companies attract the best managers"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Slide 35: good managers are hard to identify, ailing companies are unattractive, and distress management experience is rare.",
-    "reference": "Module 2 – slide 35 (Existing management)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-076",
-    "module": 2,
-    "type": "single",
-    "question": "According to the course, what might be even more important than knowing the industry inside out for a manager taking over?",
-    "choices": [
-      "Knowledge of distressed situations",
-      "Personal wealth",
-      "Seniority in the shareholder's family",
-      "A large network of competitors"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "Slide 35: the manager 'should know the industry inside out, but the knowledge of that kind of distressed situation might be even more important!'",
-    "reference": "Module 2 – slide 35 (Existing management)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-077",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which of the following are among the 10 cardinal rules for the manager? Select ALL that apply.",
-    "choices": [
-      "Control the cash",
-      "Communicate, communicate, communicate",
-      "Spend the necessary time on the social issues",
-      "Reward the previous management team",
-      "Keep the previous business plan"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Slide 36 includes #5 Control the cash, #7 Communicate x3, #8 Spend the necessary time on the social issues; #6 is 'Bin the previous business plan'.",
-    "reference": "Module 2 – slide 36 (10 cardinal rules)",
-    "difficulty": 1
-  },
-  {
-    "id": "m2-078",
-    "module": 2,
-    "type": "multiple",
-    "question": "Which of the following pairings of rule number and rule are correct? Select ALL that apply.",
-    "choices": [
-      "#1 - Do not stay alone",
-      "#2 - Get yourself the right lawyer",
-      "#6 - Bin the previous business plan",
-      "#4 - Communicate, communicate, communicate",
-      "#5 - Spend your energy on what is nice to have"
-    ],
-    "answer": [
-      0,
-      1,
-      2
-    ],
-    "explanation": "Slide 36: #1 Do not stay alone, #2 Get yourself the right lawyer, #6 Bin the previous business plan. #4 is 'Time is of the essence' and #5 'Control the cash'.",
-    "reference": "Module 2 – slide 36 (10 cardinal rules)",
-    "difficulty": 3
-  },
-  {
-    "id": "m2-079",
-    "module": 2,
-    "type": "single",
-    "question": "Which cardinal rule warns the manager against 'disconnects'?",
-    "choices": [
-      "#3 - Spend your energy on what will save your life",
-      "#10 - Beware of disconnects between beliefs and facts",
-      "#9 - Restore performance in what you have to do right",
-      "#7 - Communicate, communicate, communicate"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "Slide 36: '#10 - And ... beware of \"disconnects\" between beliefs and facts'.",
-    "reference": "Module 2 – slide 36 (10 cardinal rules)",
-    "difficulty": 2
-  },
-  {
-    "id": "m2-080",
-    "module": 2,
-    "type": "single",
-    "question": "Which cardinal rule says to focus on what is going to save the company rather than on what is nice to have?",
-    "choices": [
-      "#3",
-      "#4",
-      "#8",
-      "#9"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "Slide 36: '#3 - Spend your energy on what is going to save your life... not on what is nice to have!'",
-    "reference": "Module 2 – slide 36 (10 cardinal rules)",
-    "difficulty": 2
-  }
+ {
+  "id": "m2-001",
+  "module": 2,
+  "type": "single",
+  "question": "According to the course, what is the objective of the diagnosis performed at the start of a turnaround?",
+  "choices": [
+   "To identify the drivers of underperformance and understand the present situation and future prospects, so that the plan can fix these root causes",
+   "To select the buyer who will acquire the company",
+   "To determine the dividend that can still be paid to shareholders",
+   "To prepare the communication to the press about the crisis"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The diagnosis aims at identifying the drivers of underperformance and deeply understanding the present situation and future prospects; the turnaround plan aims at fixing these root causes.",
+  "reference": "Module 2 – slide 6 (Root causes: diagnosis)",
+  "difficulty": 1
+ },
+ {
+  "id": "m2-002",
+  "module": 2,
+  "type": "multiple",
+  "question": "Which statements about the diagnosis of a company in trouble are consistent with the course? Select ALL that apply.",
+  "choices": [
+   "Underperformance is usually due to a mix of several causes",
+   "It may be performed by management, with or without the help of third-party advisors",
+   "It is usually traced back to one single root cause",
+   "It may sometimes be performed at the request of other stakeholders such as lenders or shareholders",
+   "It must always be performed exclusively by third-party advisors"
+  ],
+  "answer": [
+   0,
+   1,
+   3
+  ],
+  "explanation": "Slide 6: 'usually mix of several causes'; the diagnosis may be performed by management with or without third-party advisors, and sometimes at the request of lenders, shareholders, etc.",
+  "reference": "Module 2 – slide 6 (Root causes: diagnosis)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-004",
+  "module": 2,
+  "type": "single",
+  "question": "Why is the diagnosis described as 'key' in the course?",
+  "choices": [
+   "Because it is required by law before any bank meeting",
+   "Because it allows the company to avoid any communication with stakeholders",
+   "Because it is needed to define a restructuring solution (operational and/or financial) and then implement it",
+   "Because it replaces the need for a turnaround plan"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Slide 6: 'Diagnosis is key in order to define a restructuring solution (operational and/or financial) for the company, and then implement it'.",
+  "reference": "Module 2 – slide 6 (Root causes: diagnosis)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-014",
+  "module": 2,
+  "type": "multiple",
+  "question": "Pronadis: which of the following are listed as objectives of the discussion with the lenders? Select ALL that apply.",
+  "choices": [
+   "Maintain bank confidence and maintain the existing financing lines",
+   "Obtain the cancellation of all bank debt",
+   "Gain sufficient time to implement the turnaround plan",
+   "Obtain the necessary financing to support the implementation of the turnaround plan",
+   "Force the shareholder to sell the company immediately"
+  ],
+  "answer": [
+   0,
+   2,
+   3
+  ],
+  "explanation": "Slide 12: maintain bank confidence and existing lines, gain time to implement the plan, obtain necessary financing to support its implementation.",
+  "reference": "Module 2 – slide 12 (Pronadis: asks from the lenders)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-022",
+  "module": 2,
+  "type": "multiple",
+  "question": "Pronadis: which key takeaways are drawn about the turnaround plan? Select ALL that apply.",
+  "choices": [
+   "It appears sufficient to maintain positive liquidity over FY23-FY25",
+   "Available liquidity is limited and there are potential execution risks",
+   "It does not enable dividend distribution to the holding and the family-owned real estate company to repay their debt",
+   "It generates enough surplus cash to remove any need for new equity",
+   "It requires no negotiation with SoBio"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Slide 14 key takeaways: positive liquidity maintained but limited and risky; no dividend capacity, hence the need for an equity injection from a new investor.",
+  "reference": "Module 2 – slides 13-14 (Pronadis: the turnaround plan)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-023",
+  "module": 2,
+  "type": "single",
+  "question": "Pronadis: why was an equity injection from a new investor needed, according to the course?",
+  "choices": [
+   "Because the plan did not allow dividends to repay debt at holding/real estate level and the shareholder could not inject money",
+   "Because the plan showed a negative liquidity in every year",
+   "Because the banks demanded the immediate repayment of the PGE",
+   "Because the competitor Investor 2 required an equity increase"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 14: the plan does not enable dividend distribution to repay debt at the holding / family-owned real estate level; 'Hence need for equity injection - from a new investor given the shareholder was not in a position to do so'.",
+  "reference": "Module 2 – slides 13-14 (Pronadis: the turnaround plan)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-026",
+  "module": 2,
+  "type": "multiple",
+  "question": "Pronadis: why did Investor 2 ask for an asset deal under insolvency? Select ALL that apply.",
+  "choices": [
+   "The company was deemed too leveraged: the debt remains with the procedure and the investor only acquires assets",
+   "The lay-off and restructuring costs are borne by the procedure",
+   "The investor wanted to take over all existing debt at a discount",
+   "The banks had demanded this structure in the 12-month agreement"
+  ],
+  "answer": [
+   0,
+   1
+  ],
+  "explanation": "Slide 15: the company was deemed too leveraged (debt remains with the procedure) and lay-off/restructuring costs are borne by the procedure.",
+  "reference": "Module 2 – slide 15 (Pronadis: what happened in real-life)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-032",
+  "module": 2,
+  "type": "single",
+  "question": "In the turnaround lifecycle framework, which phase follows 'II. Rapid Decline' (after stabilization)?",
+  "choices": [
+   "I. Underperformance",
+   "IV. Renewal",
+   "III. Recovery",
+   "A second phase of rapid decline"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Slide 17: the four phases are I. Underperformance, II. Rapid Decline, III. Recovery, IV. Renewal, with stabilization between decline and recovery.",
+  "reference": "Module 2 – slide 17 (The turnaround lifecycle)",
+  "difficulty": 1
+ },
+ {
+  "id": "m2-033",
+  "module": 2,
+  "type": "multiple",
+  "question": "Which of the following are phases of the turnaround lifecycle framework? Select ALL that apply.",
+  "choices": [
+   "Underperformance",
+   "Rapid Decline",
+   "Expansion",
+   "Recovery",
+   "Liquidation",
+   "Renewal"
+  ],
+  "answer": [
+   0,
+   1,
+   3,
+   5
+  ],
+  "explanation": "Slide 17: I. Underperformance, II. Rapid Decline, III. Recovery, IV. Renewal.",
+  "reference": "Module 2 – slide 17 (The turnaround lifecycle)",
+  "difficulty": 1
+ },
+ {
+  "id": "m2-035",
+  "module": 2,
+  "type": "single",
+  "question": "What is the FIRST of the five steps to leading a turnaround?",
+  "choices": [
+   "Diagnose",
+   "Design the plan",
+   "Overcome denial and recognize that there is a problem",
+   "Communicate the results"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Slide 19: 1. Overcome denial, recognize that there is a problem ('Houston, we have a problem!').",
+  "reference": "Module 2 – slide 19 (The turnaround process: 5 steps)",
+  "difficulty": 1
+ },
+ {
+  "id": "m2-036",
+  "module": 2,
+  "type": "multiple",
+  "question": "Which statements about the 5 steps to leading a turnaround are correct? Select ALL that apply.",
+  "choices": [
+   "The steps are: overcome denial, diagnose, design, execute, communicate the results",
+   "Design comes after diagnose",
+   "Communicating the results is the last step",
+   "The process is linear, with no iteration",
+   "Execution takes place before the design of the plan"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Slide 19 lists the 5 steps in that order and calls it a 'highly iterative, highly communicative process'.",
+  "reference": "Module 2 – slide 19 (The turnaround process: 5 steps)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-037",
+  "module": 2,
+  "type": "single",
+  "question": "According to the course, how is the turnaround process characterised?",
+  "choices": [
+   "Highly iterative, highly communicative",
+   "Strictly sequential and confidential",
+   "Mostly legal and mostly passive",
+   "Short and purely financial"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 19: 'Highly iterative, highly communicative process'.",
+  "reference": "Module 2 – slide 19 (The turnaround process: 5 steps)",
+  "difficulty": 1
+ },
+ {
+  "id": "m2-038",
+  "module": 2,
+  "type": "single",
+  "question": "Why does the course present the Kübler-Ross Grief Cycle (originally describing people with terminal diseases) at the start of the turnaround process?",
+  "choices": [
+   "To explain how to calculate the debt capacity of the company",
+   "To show the need to first understand and accept the situation",
+   "To describe the legal steps of an insolvency procedure",
+   "To rank the stakeholders by their level of risk"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 20: 'First, the need to understand and accept the situation' - the Kübler-Ross cycle illustrates the denial and acceptance of a dramatic situation.",
+  "reference": "Module 2 – slide 20 (Kübler-Ross grief cycle)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-040",
+  "module": 2,
+  "type": "multiple",
+  "question": "According to the course, the manager's actions should be driven by a sense of extreme urgency resulting from which factors? Select ALL that apply.",
+  "choices": [
+   "Limited cash",
+   "Teams' exhaustion",
+   "Outside stakeholders' doubts (bankers, clients, suppliers...)",
+   "Excess of liquidity in the bank accounts",
+   "Pressure from shareholders to increase dividends"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Slide 22: urgency is the result of limited cash, teams' exhaustion and outside stakeholders' doubts.",
+  "reference": "Module 2 – slide 22 (Time is of the essence)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-041",
+  "module": 2,
+  "type": "multiple",
+  "question": "Since time is limited, on what should the manager focus according to the course? Select ALL that apply.",
+  "choices": [
+   "Extending the time window available by mobilizing all available cash resources",
+   "Addressing internal and external stakeholder issues and getting their support for the plan",
+   "Identifying the causes at the origin of the situation and correcting them",
+   "Launching long-term growth projects first, financed by new debt",
+   "Waiting for the market to recover before acting"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Slide 22: the three focus areas are extending the time window via cash mobilization, stakeholder support, and identifying and correcting the causes.",
+  "reference": "Module 2 – slide 22 (Time is of the essence)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-043",
+  "module": 2,
+  "type": "multiple",
+  "question": "Which statements correctly describe the two dimensions of the turnaround project? Select ALL that apply.",
+  "choices": [
+   "Operations: make the change of course credible and fix the underperforming parts for good, i.e. turn the company around",
+   "Finances: solve the cash/debt problem to have time for action and ensure a viable debt structure, i.e. proper restructuring",
+   "Finances: finance the turnaround actions",
+   "Operations: solve the debt instalment problem",
+   "Finances: fix the underperforming parts of the business for good"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Slide 23: operations = turn the company around; finances = solve the cash/debt problem, finance the turnaround actions and ensure a viable debt structure = proper restructuring.",
+  "reference": "Module 2 – slide 23 (A two-dimensional project)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-044",
+  "module": 2,
+  "type": "multiple",
+  "question": "Financial and cash problems very often have operational causes. Which of the following operational causes are listed in the course? Select ALL that apply.",
+  "choices": [
+   "Part of the business is not competitive enough",
+   "A key process is underperforming (money-losing business, loss-making products)",
+   "The cost structure is too costly (disorganized or bloated support functions)",
+   "The service level offered to clients by the Supply Chain is not at par with industry standards",
+   "Equity is too small compared to total debts",
+   "Cash problem to honor debt instalments"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Slide 23 (operations side) lists these four causes. 'Equity too small' and 'cash problem to honor debt instalments' belong to the finances side.",
+  "reference": "Module 2 – slide 23 (A two-dimensional project)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-046",
+  "module": 2,
+  "type": "single",
+  "question": "According to the course, what is 'all too often forgotten, once the financial restructuring is secured'?",
+  "choices": [
+   "The actual operational turnaround",
+   "The payment of the advisors",
+   "The appointment of the lenders' representative",
+   "The year-end rebates"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 23: 'The actual operational turnaround is all too often forgotten, once the financial restructuring is secured!'",
+  "reference": "Module 2 – slide 23 (A two-dimensional project)",
+  "difficulty": 1
+ },
+ {
+  "id": "m2-047",
+  "module": 2,
+  "type": "single",
+  "question": "What does the course say about the origin of financial and cash problems?",
+  "choices": [
+   "They never have operational causes",
+   "They are always caused by banks",
+   "They very often have operational causes",
+   "They only arise in high-growth companies"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Slide 23: 'Financial and cash problem very often have operational causes'.",
+  "reference": "Module 2 – slide 23 (A two-dimensional project)",
+  "difficulty": 1
+ },
+ {
+  "id": "m2-048",
+  "module": 2,
+  "type": "multiple",
+  "question": "Which of the following elements appear in the roadmap for turning around a company? Select ALL that apply.",
+  "choices": [
+   "Rapid diagnostic to identify problems",
+   "Obtain stakeholder buy-in",
+   "Develop a value recovery plan",
+   "Launch an IPO",
+   "Sale of non-core activities"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "explanation": "Slide 24 roadmap: rapid diagnostic, detailed analysis, assess strategic options, develop value recovery plan, obtain stakeholder buy-in, implement regeneration strategy, sale of non-core activities, etc.",
+  "reference": "Module 2 – slide 24 (Roadmap for turning around a company)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-049",
+  "module": 2,
+  "type": "single",
+  "question": "Which pairing of business type and treatment is consistent with the roadmap?",
+  "choices": [
+   "Core businesses: sale; non-core activities: turnaround; non-viable businesses: strengthen",
+   "Core businesses: turnaround; non-core activities: sale; non-viable businesses: restructure or close",
+   "Core businesses: close; non-core activities: turnaround; non-viable businesses: sale",
+   "Core businesses: restructure or close; non-core activities: strengthen; non-viable businesses: turnaround"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 24: turnaround of core businesses, sale of non-core activities, restructure or close non-viable businesses.",
+  "reference": "Module 2 – slide 24 (Roadmap for turning around a company)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-051",
+  "module": 2,
+  "type": "single",
+  "question": "To assess whether the company still has a reason for being, the course uses which framework?",
+  "choices": [
+   "Porter's five forces",
+   "The Kübler-Ross cycle",
+   "A 13-week cash flow forecast",
+   "The lifecycle of restructuring"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 25 shows the five forces of Porter to challenge the company's reason for being.",
+  "reference": "Module 2 – slide 25 (Does the company still have a reason for being?)",
+  "difficulty": 1
+ },
+ {
+  "id": "m2-052",
+  "module": 2,
+  "type": "multiple",
+  "question": "Which THREE of the following are among Porter's five forces shown on the slide?",
+  "choices": [
+   "Threat of new entrants",
+   "Government regulation",
+   "Bargaining power of suppliers",
+   "Brand equity",
+   "Threat of substitute products or services"
+  ],
+  "answer": [
+   0,
+   2,
+   4
+  ],
+  "explanation": "Slide 25: rivalry among existing competitors, threat of new entrants, bargaining power of suppliers, bargaining power of buyers, threat of substitutes.",
+  "reference": "Module 2 – slide 25 (Does the company still have a reason for being?)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-055",
+  "module": 2,
+  "type": "multiple",
+  "question": "Which statements about the 'cash mobilization' initiative are consistent with the course? Select ALL that apply.",
+  "choices": [
+   "It is centralized, well staffed, strong and autocratic because the life of the company is at stake",
+   "Financial/cash considerations supersede economic ones",
+   "All managers are made clearly responsible for their part in the cash project",
+   "Each manager defines his own cash policy independently",
+   "Economic considerations always take precedence over cash considerations"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Slide 27: centralized, well staffed, strong and autocratic initiative; cash considerations supersede economic ones; managers are made responsible.",
+  "reference": "Module 2 – slide 27 (Squeeze cash out from everywhere)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-056",
+  "module": 2,
+  "type": "multiple",
+  "question": "Which actions are recommended to squeeze cash out of the company? Select ALL that apply.",
+  "choices": [
+   "Create tools necessary to track and anticipate cash",
+   "Vigorous systematic action on the components of working capital",
+   "Careful analysis of the credit lines contracts to extract as much cash as possible",
+   "Pay all suppliers early to protect relationships",
+   "Increase spending to reassure the market"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Slide 27 lists tracking tools, action on working capital, analysis of credit lines contracts, and 'cut spending - only pay what you have planned to pay'.",
+  "reference": "Module 2 – slide 27 (Squeeze cash out from everywhere)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-058",
+  "module": 2,
+  "type": "multiple",
+  "question": "Which TWO statements describe the '13-week cash flow forecast' correctly?",
+  "choices": [
+   "It is a weekly cash forecast over the next 3 months",
+   "It is built from the annual budget and annual averages",
+   "It is built on identified inflows and outflows (day-to-day spending, payments to suppliers and from clients, paydays...)",
+   "It is a monthly forecast over the next 13 months",
+   "It is prepared once and not updated afterwards"
+  ],
+  "answer": [
+   0,
+   2
+  ],
+  "explanation": "Slide 28: 'a weekly cash forecast over the next 3 months', built on identified inflows and outflows, not from the budget or annual averages.",
+  "reference": "Module 2 – slide 28 (Forecast and monitor your cash needs)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-060",
+  "module": 2,
+  "type": "multiple",
+  "question": "Which statements about cash management are consistent with the course? Select ALL that apply.",
+  "choices": [
+   "Cash is what determines whether a company lives or dies",
+   "Not all cash that appears in spreadsheets is cash that can be used",
+   "Every important decision with a measurable impact on cash should be confronted with its effect on the forecast",
+   "The update period can never be extended beyond one week",
+   "Management habits never limit the availability of cash"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Slide 28 lists the first three statements; the update period can be extended to 3 to 4 weeks, and management 'habits' often limit cash availability.",
+  "reference": "Module 2 – slide 28 (Forecast and monitor your cash needs)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-061",
+  "module": 2,
+  "type": "single",
+  "question": "Why should a manager 'beware' of cash that appears in spreadsheets?",
+  "choices": [
+   "Because spreadsheets are never accurate",
+   "Because legal or contractual rules on bank credit lines may prevent it from being used",
+   "Because it is always owned by the shareholder",
+   "Because it is automatically taxed at 90%"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 28: 'all cash that appears in spreadsheets is not cash that you can use (legal or contractual rules on bank credit lines)'.",
+  "reference": "Module 2 – slide 28 (Forecast and monitor your cash needs)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-062",
+  "module": 2,
+  "type": "single",
+  "question": "According to the course, what often limits the availability of cash within a company in difficulty?",
+  "choices": [
+   "The decisions of the credit rating agencies",
+   "Management 'habits'",
+   "The seasonality of Christmas sales",
+   "The absence of external auditors"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 28: 'All available cash should be identified and mobilized (often management \"habits\" limit cash availability)'.",
+  "reference": "Module 2 – slide 28 (Forecast and monitor your cash needs)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-063",
+  "module": 2,
+  "type": "single",
+  "question": "Why is it worth doing, in crisis mode, the operational actions that can be done quickly and without much cash consumption?",
+  "choices": [
+   "Because they fully replace the turnaround of key processes",
+   "Because they send a signal to all stakeholders about the company's willingness to do whatever is necessary to turn itself around",
+   "Because they are required by banking regulation",
+   "Because they eliminate the need for a cash forecast"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 29: such actions 'send a signal to all stakeholders about the willingness of the company to do whatever is necessary to get back on its feet'.",
+  "reference": "Module 2 – slide 29 (Major sources of operational deficiencies)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-064",
+  "module": 2,
+  "type": "multiple",
+  "question": "Which statements about underperforming key processes are consistent with the course? Select ALL that apply.",
+  "choices": [
+   "They can be the source of a company's difficulties and of its demise on markets",
+   "Turning around a key operational process always takes time and money",
+   "It is often outside the scope of crisis management",
+   "They should never be addressed until the financial restructuring is completed",
+   "They can always be fixed within a few days at no cost"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Slide 29: underperforming processes can cause demise; turning them around always takes time and money and is often outside crisis management; yet quick, cash-light actions are worth doing.",
+  "reference": "Module 2 – slide 29 (Major sources of operational deficiencies)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-066",
+  "module": 2,
+  "type": "single",
+  "question": "What message should the first phase send to all audiences of the company?",
+  "choices": [
+   "'Wait and see: the market will recover'",
+   "'Something key has changed, the company is going to do what is necessary!'",
+   "'The shareholders will cover all losses'",
+   "'The previous strategy was right and will be accelerated'"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 30: « Something key has changed, the company is going to do what is necessary ! »",
+  "reference": "Module 2 – slide 30 (Break away from the past)",
+  "difficulty": 1
+ },
+ {
+  "id": "m2-068",
+  "module": 2,
+  "type": "single",
+  "question": "Why can the audiences of the turnaround plan not be expected to give management 'the benefit of the doubt' again?",
+  "choices": [
+   "Because they have either already lost a lot or are in a position to lose a lot",
+   "Because they are all competitors",
+   "Because they have no financial interest in the company",
+   "Because the law forbids them to approve plans"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 32: audiences have already lost a lot or are in a position to lose a lot; the presentation must clear any doubt and create certainty.",
+  "reference": "Module 2 – slides 31-32 (The turnaround plan: audience and qualities)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-069",
+  "module": 2,
+  "type": "multiple",
+  "question": "Which of the following qualities must the turnaround plan have, according to the course? Select ALL that apply.",
+  "choices": [
+   "Presented by the management team",
+   "Demonstrating full understanding of the situation: no complacency, no sentimentality",
+   "Showing some visible rupture",
+   "Measurable objectives with regular milestones",
+   "Presented exclusively by outside advisors",
+   "Based on optimistic assumptions of a quick market recovery"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Slide 32 lists these qualities (management team, full understanding, visible rupture, measurable objectives, regular milestones, already in motion).",
+  "reference": "Module 2 – slides 31-32 (The turnaround plan: audience and qualities)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-070",
+  "module": 2,
+  "type": "single",
+  "question": "Why must the turnaround plan show 'some visible rupture'?",
+  "choices": [
+   "Otherwise the same causes will create the same results",
+   "Because the banks require a change of logo",
+   "Because it reduces the legal costs",
+   "Because the employees must be replaced"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 32: 'Showing some visible rupture (otherwise, same cause will create same results!)'.",
+  "reference": "Module 2 – slides 31-32 (The turnaround plan: audience and qualities)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-071",
+  "module": 2,
+  "type": "single",
+  "question": "On which areas must the turnaround plan include actions, according to the course?",
+  "choices": [
+   "Legal structure and brand name only",
+   "Commercial, cost structure and cash flow generation, short to medium term",
+   "Long-term R&D only",
+   "Dividend policy and share buybacks"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 32: 'Actions on commercial (products, markets, R&D, etc), cost structure and cash flow generation (working capital, capex), short to medium term'.",
+  "reference": "Module 2 – slides 31-32 (The turnaround plan: audience and qualities)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-074",
+  "module": 2,
+  "type": "multiple",
+  "question": "Why is existing management often not capable of executing the turnaround alone? Select ALL that apply.",
+  "choices": [
+   "It might not have been very good in the first place, since the company is where it is",
+   "It could have been and remain blind to some key factors (e.g. silos, changes in client needs)",
+   "It is difficult for any person to undo one day what was done the day before",
+   "There is a temptation to justify past decisions at the expense of different decisions to be taken today",
+   "Management is always dishonest"
+  ],
+  "answer": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "explanation": "Slide 35 lists these four reasons.",
+  "reference": "Module 2 – slide 35 (Existing management)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-075",
+  "module": 2,
+  "type": "multiple",
+  "question": "Why is it not easy to simply replace existing management? Select ALL that apply.",
+  "choices": [
+   "Good managers are not easy to identify",
+   "Ailing companies are not attractive to would-be managers, even less so when small or mid size",
+   "Managers with 'distress management' experience are not many",
+   "Managers with distress experience are plentiful but too expensive",
+   "Ailing companies attract the best managers"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Slide 35: good managers are hard to identify, ailing companies are unattractive, and distress management experience is rare.",
+  "reference": "Module 2 – slide 35 (Existing management)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-076",
+  "module": 2,
+  "type": "single",
+  "question": "According to the course, what might be even more important than knowing the industry inside out for a manager taking over?",
+  "choices": [
+   "Knowledge of distressed situations",
+   "Personal wealth",
+   "Seniority in the shareholder's family",
+   "A large network of competitors"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 35: the manager 'should know the industry inside out, but the knowledge of that kind of distressed situation might be even more important!'",
+  "reference": "Module 2 – slide 35 (Existing management)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-077",
+  "module": 2,
+  "type": "multiple",
+  "question": "Which of the following are among the 10 cardinal rules for the manager? Select ALL that apply.",
+  "choices": [
+   "Control the cash",
+   "Communicate, communicate, communicate",
+   "Spend the necessary time on the social issues",
+   "Reward the previous management team",
+   "Keep the previous business plan"
+  ],
+  "answer": [
+   0,
+   1,
+   2
+  ],
+  "explanation": "Slide 36 includes #5 Control the cash, #7 Communicate x3, #8 Spend the necessary time on the social issues; #6 is 'Bin the previous business plan'.",
+  "reference": "Module 2 – slide 36 (10 cardinal rules)",
+  "difficulty": 1
+ },
+ {
+  "id": "m2-079",
+  "module": 2,
+  "type": "single",
+  "question": "Which cardinal rule warns the manager against 'disconnects'?",
+  "choices": [
+   "#3 - Spend your energy on what will save your life",
+   "#10 - Beware of disconnects between beliefs and facts",
+   "#9 - Restore performance in what you have to do right",
+   "#7 - Communicate, communicate, communicate"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 36: '#10 - And ... beware of \"disconnects\" between beliefs and facts'.",
+  "reference": "Module 2 – slide 36 (10 cardinal rules)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-080",
+  "module": 2,
+  "type": "single",
+  "question": "Which cardinal rule says to focus on what is going to save the company rather than on what is nice to have?",
+  "choices": [
+   "#3",
+   "#4",
+   "#8",
+   "#9"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 36: '#3 - Spend your energy on what is going to save your life... not on what is nice to have!'",
+  "reference": "Module 2 – slide 36 (10 cardinal rules)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-101",
+  "module": 2,
+  "type": "single",
+  "question": "Lumis Cosmetics has net sales of €250m and a cost of goods sold of €185m. What is its gross margin rate (% of sales)?",
+  "choices": [
+   "26%",
+   "74%",
+   "35%",
+   "30%"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Gross margin = 250 − 185 = €65m. Rate = 65 / 250 = 26%. 74% is the cost of goods sold as a share of sales.",
+  "reference": "Module 2 – Cash and margin management (applied calculation)",
+  "difficulty": 1
+ },
+ {
+  "id": "m2-102",
+  "module": 2,
+  "type": "single",
+  "question": "Kalmar Distribution makes 40% of its sales with a large retailer at a margin of 8%, and the other 60% with smaller clients at a margin of 20%. What is the average margin on total sales?",
+  "choices": [
+   "15.2%",
+   "14.0%",
+   "28.0%",
+   "12.8%"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Weighted average = 40% × 8% + 60% × 20% = 3.2% + 12% = 15.2%. A large low-margin client dilutes the overall margin.",
+  "reference": "Module 2 – Cash and margin management (applied calculation)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-103",
+  "module": 2,
+  "type": "single",
+  "question": "A company wins a new large client generating €10m of sales at a 6% margin. Serving this client requires extra logistics and payment-delay costs of €0.9m per year. What is the yearly impact on profit?",
+  "choices": [
+   "A loss of €0.3m",
+   "A gain of €0.6m",
+   "A gain of €0.3m",
+   "A loss of €0.9m"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Margin on the new sales = 10 × 6% = €0.6m. Extra costs = €0.9m. Net impact = 0.6 − 0.9 = −€0.3m: this is 'unprofitable growth'.",
+  "reference": "Module 2 – Cash and margin management (applied calculation)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-104",
+  "module": 2,
+  "type": "single",
+  "question": "Tarin Hardware has a yearly cost of goods sold of €36.5m (i.e. €0.1m per day) and holds 60 days of inventory. A turnaround action reduces inventory to 45 days. How much cash is released?",
+  "choices": [
+   "€1.5m",
+   "€0.15m",
+   "€4.5m",
+   "€6.0m"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Days reduced = 60 − 45 = 15. Cash released = 15 × €0.1m = €1.5m (a one-off improvement of working capital).",
+  "reference": "Module 2 – Cash and margin management (applied calculation)",
+  "difficulty": 1
+ },
+ {
+  "id": "m2-105",
+  "module": 2,
+  "type": "single",
+  "question": "Bexley Services has yearly sales of €73m (€0.2m per day) and collects its clients after 75 days on average. Stronger collection brings this to 60 days. How much cash is released?",
+  "choices": [
+   "€3.0m",
+   "€15.0m",
+   "€1.5m",
+   "€0.3m"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Days reduced = 75 − 60 = 15. Cash released = 15 × €0.2m = €3.0m.",
+  "reference": "Module 2 – Cash and margin management (applied calculation)",
+  "difficulty": 1
+ },
+ {
+  "id": "m2-106",
+  "module": 2,
+  "type": "single",
+  "question": "In a 13-week cash flow forecast, a company starts with €2.0m of cash. Receipts / payments (€m) are: week 1: 1.5 / 2.2; week 2: 1.8 / 2.4; week 3: 2.0 / 2.1. What is the cash balance at the end of week 3?",
+  "choices": [
+   "€0.6m",
+   "−€1.4m",
+   "€1.3m",
+   "€2.0m"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Net flows: −0.7, −0.6, −0.1 = −1.4. Closing cash = 2.0 − 1.4 = €0.6m. The company is close to running out of cash.",
+  "reference": "Module 2 – Cash and margin management (applied calculation)",
+  "difficulty": 2
+ },
+ {
+  "id": "m2-107",
+  "module": 2,
+  "type": "single",
+  "question": "A company has €3.0m of cash and an undrawn credit line of €1.0m. Its monthly cash burn is €0.8m. How many months can it survive without any change?",
+  "choices": [
+   "5 months",
+   "3.75 months",
+   "3 months",
+   "4 months"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Available liquidity = 3.0 + 1.0 = €4.0m. Runway = 4.0 / 0.8 = 5 months. Ignoring the credit line gives 3.75 months.",
+  "reference": "Module 2 – Cash and margin management (applied calculation)",
+  "difficulty": 1
+ },
+ {
+  "id": "m2-108",
+  "module": 2,
+  "type": "single",
+  "question": "A company has sales of €100m and an EBITDA of €4m. A cost-saving programme brings €5m of yearly savings, with no change in sales. What is the new EBITDA margin?",
+  "choices": [
+   "9%",
+   "5%",
+   "4%",
+   "14%"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "New EBITDA = 4 + 5 = €9m. Margin = 9 / 100 = 9% (versus 4% before).",
+  "reference": "Module 2 – Cash and margin management (applied calculation)",
+  "difficulty": 1
+ },
+ {
+  "id": "m2-109",
+  "module": 2,
+  "type": "single",
+  "question": "A turnaround plan lays off 20 employees with an average yearly cost of €50k each. The one-off severance cost is €0.6m. After how long do the savings repay the severance cost?",
+  "choices": [
+   "About 7 months",
+   "About 12 months",
+   "About 20 months",
+   "About 3 months"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Yearly savings = 20 × 50k = €1.0m. Payback = 0.6 / 1.0 = 0.6 year ≈ 7 months.",
+  "reference": "Module 2 – Cash and margin management (applied calculation)",
+  "difficulty": 2
+ }
 ]

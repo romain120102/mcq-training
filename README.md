@@ -13,7 +13,7 @@ Site 100 % statique (HTML + CSS + JS, aucune base de données). Les questions so
 2. Lance `python validate.py` : il détecte les erreurs (doublons, indices faux…).
 3. Mets en ligne : `git add -A && git commit -m "questions" && git push`.
 
-## Ajouter le module 5
+## Ajouter le module 5 (ou un autre)
 Crée `data/module5.json`, puis dans `js/app.js` décommente la ligne `{ n: 5, … }` de `MODULES` (et donne-lui son titre).
 
 ## Tester en local
